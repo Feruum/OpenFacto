@@ -1,0 +1,16 @@
+[project]
+name = "openfacto-pdf-worker"
+version = "0.1.0"
+description = "Local PDF worker lifecycle scaffold; parsing is added in stage 4"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

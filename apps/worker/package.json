@@ -1,0 +1,23 @@
+{
+  "name": "@openfacto/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/dev-node.mjs",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --env-file-if-exists=../../.env dist/main.js",
+    "lint": "oxlint src test",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:integration": "node --env-file-if-exists=../../.env --test test/worker.integration.mjs"
+  },
+  "dependencies": {
+    "@openfacto/config": "workspace:*",
+    "@openfacto/logger": "workspace:*",
+    "bullmq": "5.61.2"
+  },
+  "devDependencies": {
+    "@openfacto/typescript-config": "workspace:*"
+  }
+}

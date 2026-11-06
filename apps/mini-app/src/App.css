@@ -1,0 +1,4 @@
+main { width: min(42rem, 100%); padding: 2rem; box-sizing: border-box; }
+button { font: inherit; padding: .6rem 1rem; cursor: pointer; }
+button:disabled { cursor: wait; }
+button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }

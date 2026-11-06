@@ -1,0 +1,66 @@
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "globalDependencies": [
+    ".env",
+    "tsconfig.json"
+  ],
+  "globalEnv": [
+    "NODE_ENV",
+    "DATABASE_URL",
+    "REDIS_URL",
+    "API_PORT",
+    "API_HOST",
+    "MINI_APP_ORIGIN",
+    "LOG_LEVEL",
+    "DEPENDENCY_TIMEOUT_MS",
+    "WORKER_CONCURRENCY",
+    "VITE_API_BASE_URL"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "dev": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "coverage/**"
+      ]
+    },
+    "test:integration": {
+      "dependsOn": [
+        "build"
+      ],
+      "cache": false
+    },
+    "test:e2e": {
+      "dependsOn": [
+        "build"
+      ],
+      "cache": false
+    }
+  }
+}

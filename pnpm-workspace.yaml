@@ -1,0 +1,8 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Drizzle Kit uses esbuild. BullMQ works with msgpackr's JavaScript fallback.
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: false

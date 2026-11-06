@@ -1,0 +1,65 @@
+name: Foundation CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    env:
+      TURBO_TELEMETRY_DISABLED: '1'
+      DO_NOT_TRACK: '1'
+      DATABASE_URL: postgresql://openfacto:test-only-password@127.0.0.1:5432/openfacto
+      REDIS_URL: redis://127.0.0.1:6379/0
+      NODE_ENV: test
+    services:
+      postgres:
+        image: postgres:18.6-alpine
+        env:
+          POSTGRES_USER: openfacto
+          POSTGRES_PASSWORD: test-only-password
+          POSTGRES_DB: openfacto
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U openfacto -d openfacto"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+      redis:
+        image: redis:7.4.2-alpine
+        ports: ['6379:6379']
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.17.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+      - run: pnpm check:spa
+      - run: pnpm db:migrate
+      - run: pnpm db:migrate
+      - run: pnpm --filter @openfacto/database exec drizzle-kit check
+      - run: pnpm test:integration
+      - run: pnpm test:e2e
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.9.8'
+          python-version: '3.12'
+      - run: uv sync --locked --project apps/pdf-worker
+      - run: uvx ruff==0.14.3 check apps/pdf-worker
+      - run: uv run --locked --directory apps/pdf-worker python -m unittest discover -s tests
+      - run: uv run --locked --directory apps/pdf-worker python -m openfacto_pdf --check
+      - run: uv run --locked --directory apps/pdf-worker python -m unittest discover -s integration

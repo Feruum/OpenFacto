@@ -1,0 +1,4 @@
+/* Neutral technical scaffold; product layout and branding await separate approval. */
+:root { font-family: system-ui, sans-serif; line-height: 1.6; color-scheme: light dark; }
+body { margin: 0; }
+h1 { font-size: 2rem; }

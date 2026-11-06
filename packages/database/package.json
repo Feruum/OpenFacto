@@ -1,0 +1,29 @@
+{
+  "name": "@openfacto/database",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "oxlint src test",
+    "test": "vitest run --passWithNoTests",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "node --env-file-if-exists=../../.env dist/migrate.js",
+    "test:integration": "node --env-file-if-exists=../../.env --test test/schema.integration.mjs"
+  },
+  "devDependencies": {
+    "@openfacto/typescript-config": "workspace:*",
+    "drizzle-kit": "0.31.5"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.44.7",
+    "postgres": "3.4.7"
+  }
+}

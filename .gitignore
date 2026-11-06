@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.turbo/
+.void/
+.env
+.env.*
+!.env.example
+coverage/
+*.log
+*.tsbuildinfo
+.venv/
+__pycache__/
+.ruff_cache/
+.pytest_cache/
