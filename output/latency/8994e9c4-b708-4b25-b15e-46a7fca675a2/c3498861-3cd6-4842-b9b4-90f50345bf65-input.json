@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "c3498861-3cd6-4842-b9b4-90f50345bf65",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "Сможет ли победитель общего зачёта получить ещё и специальную награду?",
+  "conversation": []
+}

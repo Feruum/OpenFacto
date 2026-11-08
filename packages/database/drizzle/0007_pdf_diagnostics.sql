@@ -1,0 +1,1 @@
+ALTER TABLE "source_versions" ADD COLUMN "page_diagnostics" jsonb DEFAULT '[]'::jsonb NOT NULL;

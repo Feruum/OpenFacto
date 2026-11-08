@@ -1,0 +1,146 @@
+{
+  "decision": {
+    "durationMs": 7170,
+    "outcome": "approved_faq",
+    "reasonCode": "semantic_faq",
+    "answer": "Можно подать заявку одному и найти команду в зоне Team Match 20 ноября с 10:30 до 11:00. К 11:30 команда должна состоять из 2-5 человек и выбрать капитана и трек.",
+    "language": "ru",
+    "traceId": "e24cf613-a835-4cc5-ba39-7f64deee5deb",
+    "sources": [
+      {
+        "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+        "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+        "kind": "faq",
+        "title": "Можно прийти без команды?",
+        "section": null
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 190,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+            "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+            "kind": "faq",
+            "title": "Можно прийти без команды?",
+            "section": null
+          },
+          {
+            "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+            "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+            "kind": "faq",
+            "title": "Сколько человек должно быть в команде?",
+            "section": null
+          },
+          {
+            "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+            "versionId": "019d9878-0661-409b-a504-9da635be5c4f",
+            "kind": "faq",
+            "title": "Какой минимальный возраст?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 1
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "22ff97f6-01ab-4625-9667-3ba6716b23ec",
+            "versionId": "3758a901-86a4-4640-9dd4-53c74bf17e84",
+            "kind": "faq",
+            "title": "Жалғыз қатысуға бола ма?",
+            "section": null
+          },
+          {
+            "sourceId": "65a95977-bc5b-449b-b47e-79cd8026d807",
+            "versionId": "dbf7066e-8ce2-4747-8fe1-230b52a8aec3",
+            "kind": "faq",
+            "title": "Командада қанша адам болуы керек?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3552,
+        "costMicros": 20
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "faq",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3404,
+        "costMicros": 16
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 36
+    }
+  }
+}

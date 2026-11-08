@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "50e524af-96fc-46d1-a91a-8bd7a3144b4a",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "В правилах указано время завтрака, а где точное меню с калориями?",
+  "conversation": []
+}

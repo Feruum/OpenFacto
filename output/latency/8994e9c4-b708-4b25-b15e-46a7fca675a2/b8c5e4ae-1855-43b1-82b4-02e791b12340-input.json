@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "b8c5e4ae-1855-43b1-82b4-02e791b12340",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "Сколько команд выйдет в финал и сколько минут дадут на демо и вопросы?",
+  "conversation": []
+}

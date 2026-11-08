@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "f82b975b-bf9b-45ec-b7c6-7e208292b691",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "Апелляцияны кашанга дейин бере аламыз, кандай себептер керек?",
+  "conversation": []
+}

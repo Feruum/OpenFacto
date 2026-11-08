@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "78126ddd-b424-433e-9e2d-49d6813813d5",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "Команда жок болса кайда барып табам, во сколько?",
+  "conversation": []
+}

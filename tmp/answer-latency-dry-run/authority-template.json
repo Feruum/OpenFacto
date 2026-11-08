@@ -1,0 +1,193 @@
+{
+  "reviewed": false,
+  "reviewer": "",
+  "reviewedAt": "",
+  "note": "Review source authority and every expected fact independently of model verification.",
+  "cases": {
+    "case-01": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-02": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-03": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-04": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-05": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-06": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-07": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-08": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-09": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-10": {
+      "rationale": "QADAM rules (rubric / appeal / final / prizes / submission)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-11": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-12": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-13": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-14": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-15": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-16": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-17": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-18": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-19": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-20": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-21": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-22": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-23": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-24": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-25": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-26": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-27": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-28": {
+      "rationale": "Ambiguous without history; ask clarification",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-29": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-30": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-31": {
+      "rationale": "QADAM rules (rubric / appeal / final)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-32": {
+      "rationale": "QADAM rules (rubric / appeal / final)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-33": {
+      "rationale": "QADAM rules (rubric / appeal / final)",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-34": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-35": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-36": {
+      "rationale": "QADAM agenda / participant guide / published FAQ; review exact relevant section",
+      "requiredPatterns": [],
+      "references": []
+    },
+    "case-37": {
+      "rationale": "Ambiguous without history; ask clarification",
+      "requiredPatterns": [],
+      "references": []
+    }
+  }
+}

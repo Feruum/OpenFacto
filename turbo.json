@@ -7,7 +7,7 @@
   "globalEnv": [
     "NODE_ENV",
     "DATABASE_URL",
-    "REDIS_URL",
+    "RABBITMQ_URL",
     "API_PORT",
     "API_HOST",
     "MINI_APP_ORIGIN",

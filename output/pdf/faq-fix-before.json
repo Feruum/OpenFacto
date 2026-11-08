@@ -1,0 +1,1041 @@
+[
+  {
+    "index": 0,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4630,
+      "outcome": "approved_faq",
+      "reasonCode": "semantic_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "4eb6a2db-b619-418a-b2fc-a2eb5455515c",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 672,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+              "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+              "kind": "faq",
+              "title": "Где находится площадка?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 1
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+              "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+              "kind": "faq",
+              "title": "Как записаться к ментору?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "263f6b79-fddb-4d69-b5e3-25cdb1da9fb7",
+              "versionId": "45d8b4bc-cc40-4315-af79-e9c36b1b796d",
+              "kind": "faq",
+              "title": "Какие есть треки?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 2145,
+          "costMicros": 1412
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1794,
+          "costMicros": 1191
+        }
+      ],
+      "usage": {
+        "paidOperations": 2,
+        "costMicros": 2603
+      }
+    }
+  },
+  {
+    "index": 1,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4554,
+      "outcome": "approved_faq",
+      "reasonCode": "semantic_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "82801237-5ef3-4699-94a7-8f81a77af0fb",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 201,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+              "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+              "kind": "faq",
+              "title": "Где находится площадка?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 1
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+              "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+              "kind": "faq",
+              "title": "Как записаться к ментору?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "263f6b79-fddb-4d69-b5e3-25cdb1da9fb7",
+              "versionId": "45d8b4bc-cc40-4315-af79-e9c36b1b796d",
+              "kind": "faq",
+              "title": "Какие есть треки?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 2362,
+          "costMicros": 1412
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1974,
+          "costMicros": 1191
+        }
+      ],
+      "usage": {
+        "paidOperations": 2,
+        "costMicros": 2603
+      }
+    }
+  },
+  {
+    "index": 2,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3677,
+      "outcome": "approved_faq",
+      "reasonCode": "semantic_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "5bc6a262-fe8d-4552-8668-55eee68ac26b",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 139,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+              "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+              "kind": "faq",
+              "title": "Где находится площадка?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 1
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+              "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+              "kind": "faq",
+              "title": "Как записаться к ментору?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "263f6b79-fddb-4d69-b5e3-25cdb1da9fb7",
+              "versionId": "45d8b4bc-cc40-4315-af79-e9c36b1b796d",
+              "kind": "faq",
+              "title": "Какие есть треки?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1671,
+          "costMicros": 1412
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1855,
+          "costMicros": 1191
+        }
+      ],
+      "usage": {
+        "paidOperations": 2,
+        "costMicros": 2603
+      }
+    }
+  },
+  {
+    "index": 3,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "6769eaae-4eb6-48b3-86d6-1a1900326f63",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 4,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "ae87813e-6d2d-4327-8c05-89a90e5514f6",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 5,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 0,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "611f99d3-cd1a-483d-895c-56f8ec73b7ef",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 6,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": false,
+      "sources": false,
+      "registration": false
+    },
+    "passed": false,
+    "decision": {
+      "durationMs": 2061,
+      "outcome": "handoff",
+      "reasonCode": "unsupported_claim",
+      "answer": "Вопрос требует ответа модератора.",
+      "language": "ru",
+      "traceId": "71ab5d33-9e4c-468e-ae26-ac7159ac13d9",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 110,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+              "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null
+            },
+            {
+              "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+              "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+              "kind": "faq",
+              "title": "Когда сдавать проект?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+              "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+              "kind": "faq",
+              "title": "Сколько человек должно быть в команде?",
+              "section": null
+            },
+            {
+              "sourceId": "bd400bd8-ce8f-4bcf-9033-bd0b359a3442",
+              "versionId": "ec562b5d-8b85-4b85-a3a0-59fc6fd3be00",
+              "kind": "faq",
+              "title": "Какой пароль Wi-Fi?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1944,
+          "costMicros": 1497
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "document",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 1,
+        "costMicros": 1497
+      }
+    }
+  },
+  {
+    "index": 7,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": false,
+      "sources": false,
+      "registration": false
+    },
+    "passed": false,
+    "decision": {
+      "durationMs": 2471,
+      "outcome": "handoff",
+      "reasonCode": "unsupported_claim",
+      "answer": "Вопрос требует ответа модератора.",
+      "language": "ru",
+      "traceId": "9c3553c1-cc6c-4642-bf90-20cbc9812cd7",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 116,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+              "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null
+            },
+            {
+              "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+              "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+              "kind": "faq",
+              "title": "Когда сдавать проект?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+              "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+              "kind": "faq",
+              "title": "Сколько человек должно быть в команде?",
+              "section": null
+            },
+            {
+              "sourceId": "bd400bd8-ce8f-4bcf-9033-bd0b359a3442",
+              "versionId": "ec562b5d-8b85-4b85-a3a0-59fc6fd3be00",
+              "kind": "faq",
+              "title": "Какой пароль Wi-Fi?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 2349,
+          "costMicros": 1587
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "document",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 1,
+        "costMicros": 1587
+      }
+    }
+  },
+  {
+    "index": 8,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": false,
+      "sources": false,
+      "registration": false
+    },
+    "passed": false,
+    "decision": {
+      "durationMs": 4175,
+      "outcome": "handoff",
+      "reasonCode": "unsupported_claim",
+      "answer": "Вопрос требует ответа модератора.",
+      "language": "ru",
+      "traceId": "fa484a68-eb57-42ca-bcb0-726cc700546f",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 159,
+          "costMicros": 0
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+              "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null
+            },
+            {
+              "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+              "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+              "kind": "faq",
+              "title": "Когда сдавать проект?",
+              "section": null
+            },
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 3
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 1
+            },
+            {
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "page": 3
+            },
+            {
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+              "kind": "document",
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "page": 2
+            },
+            {
+              "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+              "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+              "kind": "faq",
+              "title": "Сколько человек должно быть в команде?",
+              "section": null
+            },
+            {
+              "sourceId": "bd400bd8-ce8f-4bcf-9033-bd0b359a3442",
+              "versionId": "ec562b5d-8b85-4b85-a3a0-59fc6fd3be00",
+              "kind": "faq",
+              "title": "Какой пароль Wi-Fi?",
+              "section": null
+            },
+            {
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null
+            },
+            {
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null
+            },
+            {
+              "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+              "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 2382,
+          "costMicros": 1437
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "durationMs": 1627,
+          "costMicros": 1211
+        }
+      ],
+      "usage": {
+        "paidOperations": 2,
+        "costMicros": 2648
+      }
+    }
+  }
+]

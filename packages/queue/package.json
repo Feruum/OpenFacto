@@ -1,0 +1,16 @@
+{
+  "name": "@openfacto/queue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "oxlint src test",
+    "test": "vitest run",
+    "test:integration": "node --env-file-if-exists=../../.env --test test/broker.integration.mjs"
+  },
+  "dependencies": { "amqplib": "0.10.9" },
+  "devDependencies": { "@types/amqplib": "0.10.8", "@openfacto/typescript-config": "workspace:*" }
+}

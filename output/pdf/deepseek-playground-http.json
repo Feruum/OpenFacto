@@ -1,0 +1,230 @@
+{
+  "passed": false,
+  "org": "8806405f-c924-45b7-a4bd-8e6780ff177f",
+  "event": "1da74768-d9e6-4b75-9478-00413c727ebd",
+  "ru": {
+    "question": "Где регестрация, бля?",
+    "wallMs": 4126,
+    "requestId": "53328b04-334a-4353-b890-dfdb8525d7ff",
+    "status": "completed",
+    "decision": {
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 0,
+          "durationMs": 150
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "ee42ee64-fc0c-4cb1-8bce-182b23efda17",
+              "versionId": "adc605c5-e834-40b0-baa5-8f8e4ba4a5ab"
+            },
+            {
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null,
+              "sourceId": "4b8d1044-0fbc-4c60-8140-d3d7cf28376f",
+              "versionId": "81c15666-faf8-446f-99b2-287a6986ce16"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null,
+              "sourceId": "fbbe97a8-d486-4bf1-9d22-dc2d193f340b",
+              "versionId": "7c264dfb-8bc3-4bcc-96c8-dbfed43668d7"
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 434,
+          "durationMs": 1493
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 211,
+          "durationMs": 2187
+        }
+      ],
+      "usage": {
+        "costMicros": 645,
+        "paidOperations": 2
+      },
+      "answer": "Регистрация проходит с 09:00 до 10:00 в фойе главного зала.",
+      "outcome": "approved_faq",
+      "sources": [
+        {
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null,
+          "sourceId": "ee42ee64-fc0c-4cb1-8bce-182b23efda17",
+          "versionId": "adc605c5-e834-40b0-baa5-8f8e4ba4a5ab"
+        }
+      ],
+      "traceId": "231941e1-4b7e-4013-af96-01b1689367a8",
+      "delivery": {
+        "queuedAt": "2026-11-08T17:15:57.070Z",
+        "requestId": "53328b04-334a-4353-b890-dfdb8525d7ff",
+        "startedAt": "2026-11-08T17:15:57.143Z",
+        "queueWaitMs": 73,
+        "answerReadyAt": "2026-11-08T17:16:01.048Z",
+        "workerDurationMs": 3898
+      },
+      "language": "ru",
+      "durationMs": 3850,
+      "reasonCode": "semantic_faq"
+    }
+  },
+  "kk": {
+    "question": "tirkelu qaida bolady blya?",
+    "wallMs": 2091,
+    "requestId": "eb5193cb-1532-4ff1-8ebf-f573ad169eee",
+    "status": "completed",
+    "decision": {
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 0,
+          "durationMs": 47
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Как получить бейдж?",
+              "section": null,
+              "sourceId": "4b8d1044-0fbc-4c60-8140-d3d7cf28376f",
+              "versionId": "81c15666-faf8-446f-99b2-287a6986ce16"
+            },
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "ee42ee64-fc0c-4cb1-8bce-182b23efda17",
+              "versionId": "adc605c5-e834-40b0-baa5-8f8e4ba4a5ab"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null,
+              "sourceId": "fbbe97a8-d486-4bf1-9d22-dc2d193f340b",
+              "versionId": "7c264dfb-8bc3-4bcc-96c8-dbfed43668d7"
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 435,
+          "durationMs": 1938
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "faq",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "costMicros": 435,
+        "paidOperations": 1
+      },
+      "answer": "Бұл сұраққа модератордың жауабы қажет.",
+      "outcome": "handoff",
+      "sources": [],
+      "traceId": "301aaec9-96dd-44b5-ab02-9922bc0ee685",
+      "delivery": {
+        "queuedAt": "2026-11-08T17:16:01.185Z",
+        "requestId": "eb5193cb-1532-4ff1-8ebf-f573ad169eee",
+        "startedAt": "2026-11-08T17:16:01.221Z",
+        "queueWaitMs": 36,
+        "answerReadyAt": "2026-11-08T17:16:03.230Z",
+        "workerDurationMs": 2003
+      },
+      "language": "kk",
+      "durationMs": 1988,
+      "reasonCode": "unsupported_claim"
+    }
+  },
+  "warm": {
+    "question": "Где регестрация, бля?",
+    "wallMs": 243,
+    "requestId": "36042fac-dff8-45fd-b056-9a342e7b7f7e",
+    "status": "completed",
+    "decision": {
+      "steps": [
+        {
+          "stage": "answer_cache",
+          "reason": "hit",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "ee42ee64-fc0c-4cb1-8bce-182b23efda17",
+              "versionId": "adc605c5-e834-40b0-baa5-8f8e4ba4a5ab"
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "costMicros": 0,
+        "paidOperations": 0
+      },
+      "answer": "Регистрация проходит с 09:00 до 10:00 в фойе главного зала.",
+      "outcome": "approved_faq",
+      "sources": [
+        {
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null,
+          "sourceId": "ee42ee64-fc0c-4cb1-8bce-182b23efda17",
+          "versionId": "adc605c5-e834-40b0-baa5-8f8e4ba4a5ab"
+        }
+      ],
+      "traceId": "3f32eca8-b2f1-4440-9468-70d942fbb4e0",
+      "delivery": {
+        "queuedAt": "2026-11-08T17:16:03.286Z",
+        "requestId": "36042fac-dff8-45fd-b056-9a342e7b7f7e",
+        "startedAt": "2026-11-08T17:16:03.321Z",
+        "queueWaitMs": 35,
+        "answerReadyAt": "2026-11-08T17:16:03.338Z",
+        "workerDurationMs": 13
+      },
+      "language": "ru",
+      "durationMs": 4,
+      "reasonCode": "semantic_faq"
+    }
+  }
+}

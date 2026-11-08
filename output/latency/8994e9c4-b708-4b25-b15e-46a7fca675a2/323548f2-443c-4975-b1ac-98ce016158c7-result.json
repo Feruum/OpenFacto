@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 7909,
+    "outcome": "grounded_answer",
+    "reasonCode": "document_evidence",
+    "answer": "Eight teams reach the final. Each finalist has 5 minutes for the demo and 3 minutes for questions.",
+    "language": "en",
+    "traceId": "323548f2-443c-4975-b1ac-98ce016158c7",
+    "sources": [
+      {
+        "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+        "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+        "kind": "document",
+        "title": "QADAM AI HACK 2026 - Программа и расписание",
+        "page": 4,
+        "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 178,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "65a95977-bc5b-449b-b47e-79cd8026d807",
+            "versionId": "dbf7066e-8ce2-4747-8fe1-230b52a8aec3",
+            "kind": "faq",
+            "title": "Командада қанша адам болуы керек?",
+            "section": null
+          },
+          {
+            "sourceId": "444f6dcd-35ab-48a5-9b46-a1ca2fba5cd9",
+            "versionId": "c435cd96-f23c-4ee5-96fc-f57769698400",
+            "kind": "faq",
+            "title": "Жобаны қашан тапсыру керек?",
+            "section": null
+          },
+          {
+            "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+            "versionId": "b6682832-0546-4240-91c1-83d14960b50e",
+            "kind": "faq",
+            "title": "До какого числа подать заявку?",
+            "section": null
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 2
+          },
+          {
+            "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+            "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+            "kind": "faq",
+            "title": "Тіркелу қайда өтеді?",
+            "section": null
+          },
+          {
+            "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+            "versionId": "55d64363-deef-4512-8c65-2d0316a86f90",
+            "kind": "faq",
+            "title": "Какой призовой фонд?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 5086,
+        "costMicros": 23
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 2622,
+        "costMicros": 17
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 40
+    }
+  }
+}

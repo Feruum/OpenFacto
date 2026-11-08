@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 5288,
+    "outcome": "grounded_answer",
+    "reasonCode": "document_evidence",
+    "answer": "The registration desk closes after 10:00 on 20 November.",
+    "language": "en",
+    "traceId": "137d2054-a83a-4bd4-a023-9dbd74c3c762",
+    "sources": [
+      {
+        "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+        "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+        "kind": "document",
+        "title": "QADAM AI HACK 2026 - Программа и расписание",
+        "page": 2,
+        "quote": "После 10:00 регистрационная стойка закрыта."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 201,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "444f6dcd-35ab-48a5-9b46-a1ca2fba5cd9",
+            "versionId": "c435cd96-f23c-4ee5-96fc-f57769698400",
+            "kind": "faq",
+            "title": "Жобаны қашан тапсыру керек?",
+            "section": null
+          },
+          {
+            "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+            "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+            "kind": "faq",
+            "title": "Тіркелу қайда өтеді?",
+            "section": null
+          },
+          {
+            "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+            "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+            "kind": "faq",
+            "title": "Бейджді қайдан аламын?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 1
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+            "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+            "kind": "faq",
+            "title": "Когда начинается мероприятие?",
+            "section": null
+          },
+          {
+            "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+            "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8",
+            "kind": "faq",
+            "title": "Қатысу ақылы ма?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3168,
+        "costMicros": 24
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 1897,
+        "costMicros": 18
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 42
+    }
+  }
+}

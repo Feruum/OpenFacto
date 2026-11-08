@@ -1,0 +1,138 @@
+{
+  "decision": {
+    "durationMs": 10706,
+    "outcome": "handoff",
+    "reasonCode": "unsupported_claim",
+    "answer": "Вопрос требует ответа модератора.",
+    "language": "ru",
+    "traceId": "0ca25516-07fa-4b2f-8a03-6e097554a787",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 222,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+            "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+            "kind": "faq",
+            "title": "Когда сдавать проект?",
+            "section": null
+          },
+          {
+            "sourceId": "e999536d-2b3c-43e0-a5fa-85c3e03fbe86",
+            "versionId": "2e3e78e0-1329-4b93-a504-a5a06e97471c",
+            "kind": "faq",
+            "title": "Можно ли опоздать на регистрацию?",
+            "section": null
+          },
+          {
+            "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+            "versionId": "019d9878-0661-409b-a504-9da635be5c4f",
+            "kind": "faq",
+            "title": "Какой минимальный возраст?",
+            "section": null
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+            "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+            "kind": "faq",
+            "title": "Сколько человек должно быть в команде?",
+            "section": null
+          },
+          {
+            "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+            "versionId": "b6682832-0546-4240-91c1-83d14960b50e",
+            "kind": "faq",
+            "title": "До какого числа подать заявку?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 7051,
+        "costMicros": 24
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "faq",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3415,
+        "costMicros": 16
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 40
+    }
+  }
+}

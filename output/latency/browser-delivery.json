@@ -1,0 +1,54 @@
+{
+  "measurement": "Controlled browser delivery only; intercepted HTTP and identical simulated server readiness, not live AI latency",
+  "measuredAt": "2026-11-07T22:35:10.315Z",
+  "results": [
+    {
+      "variant": "old",
+      "serverReadyMs": 2100,
+      "getCount": 2,
+      "maxActive": 1,
+      "sendToRenderMs": 3078,
+      "deliveryDelayMs": 965
+    },
+    {
+      "variant": "new",
+      "serverReadyMs": 2100,
+      "getCount": 7,
+      "maxActive": 1,
+      "sendToRenderMs": 2255,
+      "deliveryDelayMs": 138
+    },
+    {
+      "variant": "old",
+      "serverReadyMs": 4700,
+      "getCount": 4,
+      "maxActive": 1,
+      "sendToRenderMs": 6090,
+      "deliveryDelayMs": 1373
+    },
+    {
+      "variant": "new",
+      "serverReadyMs": 4700,
+      "getCount": 16,
+      "maxActive": 1,
+      "sendToRenderMs": 5007,
+      "deliveryDelayMs": 293
+    },
+    {
+      "variant": "old",
+      "serverReadyMs": 15100,
+      "getCount": 10,
+      "maxActive": 1,
+      "sendToRenderMs": 15172,
+      "deliveryDelayMs": 56
+    },
+    {
+      "variant": "new",
+      "serverReadyMs": 15100,
+      "getCount": 49,
+      "maxActive": 1,
+      "sendToRenderMs": 15325,
+      "deliveryDelayMs": 211
+    }
+  ]
+}

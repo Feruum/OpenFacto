@@ -1,0 +1,131 @@
+{
+  "decision": {
+    "durationMs": 3543,
+    "outcome": "handoff",
+    "reasonCode": "unsupported_claim",
+    "answer": "Бұл сұраққа модератордың жауабы қажет.",
+    "language": "kk",
+    "traceId": "ffe412b2-e793-4a9a-829a-8ce3f74ea032",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 182,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "b5c48c9d-1691-4de6-9623-8c412ffb2fbb",
+            "versionId": "1abe2bcc-15bd-4b4b-bc6f-a63111c36ca6",
+            "kind": "faq",
+            "title": "Где поесть и включено ли питание?",
+            "section": null
+          },
+          {
+            "sourceId": "e0301f27-dfa0-4f23-8c54-0afd3aadce09",
+            "versionId": "36fb767f-71e4-4cfa-b497-963e2d92a10a",
+            "kind": "faq",
+            "title": "Будут ли API-кредиты и GPU?",
+            "section": null
+          },
+          {
+            "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+            "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8",
+            "kind": "faq",
+            "title": "Қатысу ақылы ма?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 1
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 2
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "22ff97f6-01ab-4625-9667-3ba6716b23ec",
+            "versionId": "3758a901-86a4-4640-9dd4-53c74bf17e84",
+            "kind": "faq",
+            "title": "Жалғыз қатысуға бола ма?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          },
+          {
+            "sourceId": "263f6b79-fddb-4d69-b5e3-25cdb1da9fb7",
+            "versionId": "45d8b4bc-cc40-4315-af79-e9c36b1b796d",
+            "kind": "faq",
+            "title": "Какие есть треки?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3349,
+        "costMicros": 22
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      }
+    ],
+    "usage": {
+      "paidOperations": 1,
+      "costMicros": 22
+    }
+  }
+}

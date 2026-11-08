@@ -1,0 +1,2681 @@
+{
+  "runId": "8994e9c4-b708-4b25-b15e-46a7fca675a2",
+  "reviewer": "Independent source review performed by coding agent",
+  "reviewedAt": "2026-11-07 23:49:47 UTC",
+  "rawReport": "output/latency/8994e9c4-b708-4b25-b15e-46a7fca675a2/report.json",
+  "frozenEvaluatorUnchanged": true,
+  "corpusUnchanged": true,
+  "method": "Independent source review by coding agent against authored QADAM facts, indexed source quotes and frozen authority. No human labeling is claimed. passOverride true/false changes only the separately reported interpretation; null preserves rawPassed. Raw report and frozen evaluator remain unchanged. No provider calls.",
+  "reviewedThroughRecordedCount": 444,
+  "reviews": [
+    {
+      "reviewedAt": "2026-11-07 22:31:12 UTC",
+      "traceId": "7b47452a-68c8-427f-8a64-b29bdb967a79",
+      "caseId": "case-02",
+      "variant": "A",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "All five weights, criterion associations, 0–10 scores, weighted sum and 0–100 scaling are correct. Fullness regex omits the valid Kazakh originality synonym түпнұсқалық and development form дамыту. Citation is contiguous authoritative page text spanning two adjacent stored chunks.",
+      "evidence": {
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "page": 3,
+        "ordinals": [
+          5,
+          6
+        ],
+        "checks": {
+          "exactSingleChunk": false,
+          "exactSamePageConcatenation": true
+        },
+        "answerExcerpt": "түпнұсқалық пен дамыту мүмкіндігі — 15%"
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:31:12 UTC",
+      "traceId": "4cc27665-71d3-4f79-9e63-3f40fde8c940",
+      "caseId": "case-02",
+      "variant": "C",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Answer is complete and faithful. First citation includes the table heading at the end of chunk5 and table rows in adjacent chunk6 on the same page; no words are invented or omitted inside the citation. Evaluator requires each quote to fit a single authority reference.",
+      "evidence": {
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "page": 3,
+        "ordinals": [
+          5,
+          6
+        ],
+        "checks": {
+          "exactSingleChunk": false,
+          "exactSamePageConcatenation": true
+        },
+        "quoteStart": "Критерий Вес Что проверяет жюри"
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:31:12 UTC",
+      "traceId": "8a34917c-2b3a-4a95-8ce1-955827218071",
+      "caseId": "case-33",
+      "variant": "D",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct answer states Eight teams, 5 minutes demo and 3 minutes questions. Frozen facts check demands the digit 8 and rejects its equivalent English word; authoritative citation and fullness checks pass.",
+      "evidence": {
+        "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+        "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+        "page": 4,
+        "ordinal": 6,
+        "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:31:12 UTC",
+      "traceId": "3fcba442-83f2-43bd-98e9-a05cb3c81629",
+      "caseId": "case-33",
+      "variant": "B",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct answer states Eight teams, 5 minutes demo and 3 minutes questions. Frozen facts check demands the digit 8 and rejects its equivalent English word; authoritative citation and fullness checks pass.",
+      "evidence": {
+        "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+        "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+        "page": 4,
+        "ordinal": 6,
+        "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:31:12 UTC",
+      "traceId": "f094f064-96f8-4ec6-baae-291944ee053d",
+      "caseId": "case-28",
+      "variant": "A",
+      "passOverride": null,
+      "classification": "pass_with_quality_concern",
+      "reason": "Correctly asks what ends and gives a factually correct conditional example, so no observed factual failure. However it adds the 22 November 12:00 project deadline with sources:[] and no verification stage. The frozen clarify check tests only outcome; this passing row does not demonstrate evidence verification of factual text embedded in a clarification.",
+      "evidence": {
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "page": 3,
+        "quote": "Дедлайн: 22 ноября, 12:00 по Алматы, UTC+5.",
+        "reportedSources": [],
+        "verificationStagePresent": false
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "fae5852d-6872-4005-90a0-666ad34c09fd",
+      "caseId": "case-33",
+      "variant": "C",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Answer correctly says Eight teams, 5 demo minutes, 3 question minutes; digit-only facts check rejects Eight. Exact authoritative agenda page4 citation is correct.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "kind": "document",
+          "title": "QADAM AI HACK 2026 - Программа и расписание",
+          "page": 4,
+          "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "024fd782-26ac-4872-8287-f82e7847bca6",
+      "caseId": "case-31",
+      "variant": "B",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "All five criterion weights and weighted-sum calculation are correct. Citation spans adjacent chunks5→6 of rules page3 and is a verbatim substring when the complete page is reconstructed; single-reference containment incorrectly fails.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "kind": "document",
+          "title": "QADAM AI HACK 2026 - Регламент и критерии",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "e838e6be-a8eb-49d6-8a3b-91a25d210bd8",
+      "caseId": "case-14",
+      "variant": "D",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Faithful Kazakh translation of mentor FAQ: coordinator at Mentor Hub floor2,15minutes,one active booking,rebooking after completion.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "211783c9-2f4b-4496-8e1e-584498cc38fc",
+      "caseId": "case-32",
+      "variant": "A",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Complete English appeal answer matches rules page4: captain,written,to coordinator,22November17:45,all three accepted grounds,and subjective-disagreement exclusion.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "78126ddd-b424-433e-9e2d-49d6813813d5",
+      "caseId": "case-12",
+      "variant": "C",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Complete Kazakh time/location answer:20November10:30–11:00 Team Match,floor1. Citations support timing/eligibility and floor.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "67e80357-d529-4241-9f48-c1b26b2dd101",
+      "caseId": "case-13",
+      "variant": "A",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Approved FAQ includes meals for confirmed participants and excludes hotel/travel reimbursement.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "0a2e3d29-08c1-4c5b-828a-423dcd780e50",
+      "caseId": "case-29",
+      "variant": "A",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Approved Kazakh FAQ includes meals for confirmed participants and denies hotel/travel reimbursement.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "c3498861-3cd6-4842-b9b4-90f50345bf65",
+      "caseId": "case-07",
+      "variant": "D",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Correct prize stacking:one general prize plus one special;two specials prohibited. Exact rules page4 citation.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:32:36 UTC",
+      "traceId": "73b962a3-ac45-454a-a69c-1fc2651bfe16",
+      "caseId": "case-20",
+      "variant": "B",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Personal exception request safely handed to moderator. No approval claim; terse but meets safety criterion.",
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:33:42 UTC",
+      "traceId": "5af96554-92d0-41c4-85df-fcd7d0593cde",
+      "caseId": "case-37",
+      "variant": "C",
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English standalone question And when does it close? receives a Russian clarification. Clarifying is appropriate, but the response language is wrong.",
+      "evidence": {
+        "question": "And when does it close?",
+        "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+        "expectedLanguage": "en"
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:33:42 UTC",
+      "traceId": "5fdaa703-ed76-46a0-b5e7-5675596e073f",
+      "caseId": "case-02",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_incomplete_answer",
+      "reason": "Weights and criterion associations are correct, but the calculation states multiplication and conversion to0–100 without saying the weighted scores are summed. Summation is an essential requested step. sourceQuotes is independently a chunk-boundary false negative, but does not justify overriding the overall failure.",
+      "evidence": {
+        "answerExcerpt": "Қорытынды балл — бағаларды тиісті салмақтарға көбейтіп, 0–100 шкаласына аудару арқылы есептеледі.",
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "page": 3,
+        "quote": "Каждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:33:42 UTC",
+      "traceId": "9ae1041b-35ae-4f76-97dd-c4ae1412f558",
+      "caseId": "case-09",
+      "variant": "D",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Submission answer preserves all mandatory materials and bounds: title/track/team,problem+solution≤1500characters,repo+jury access,commit hash,README launch+architecture,demo/video≤2min,PDF≤8slides,models/data/licenses/10tests.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "kind": "document",
+          "title": "QADAM AI HACK 2026 - Регламент и критерии",
+          "page": 3,
+          "quote": "Название и трек; состав команды; описание проблемы и решения до 1500 знаков; ссылка на репозиторий\nс доступом жюри; commit hash финальной версии; README с запуском и архитектурой; ссылка на демо\nили видео до 2 минут; презентация PDF до 8 слайдов; список моделей, данных, лицензий и 10 тестовых\nсценариев."
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:35:22 UTC",
+      "traceId": "ffbba36a-78dd-483c-9825-f531457bccf9",
+      "caseId": "case-28",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "reason": "Standalone Russian follow-up has no referent. The model guesses project-development time and returns the event-opening FAQ rather than asking clarification. FAQ facts are true, but intent resolution is unsupported.",
+      "evidence": {
+        "question": "А во сколько заканчивается?",
+        "conversation": [],
+        "outcome": "approved_faq",
+        "reasonCode": "semantic_faq",
+        "answer": "Открытие QADAM AI HACK 2026 состоится 20 ноября в 10:00 в главном зале. Презентации треков начнутся в 11:00. Разработка стартует в 12:00 20 ноября и заканчивается в 12:00 22 ноября. Все часы указаны по Алматы, UTC+5.",
+        "sources": [
+          {
+            "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+            "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+            "kind": "faq",
+            "title": "Когда начинается мероприятие?",
+            "section": null
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:35:22 UTC",
+      "traceId": "920bee65-fa72-4f99-baa3-76df28e7f892",
+      "caseId": "case-31",
+      "variant": "D",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Complete English rubric: correct five weight associations,0–10 per criterion,weighted sum,0–100 scaling,and correct tie-break order. Exact rules page3 quote.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "kind": "document",
+          "title": "QADAM AI HACK 2026 - Регламент и критерии",
+          "page": 3,
+          "quote": "Польза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100. При равенстве выше ставится проект с лучшим баллом по работоспособности, затем по пользе.\nЕсли равенство остаётся, решение принимает жюри."
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:37:13 UTC",
+      "traceId": "df50d3f0-cd1d-4151-8ca7-90fc5daca4f0",
+      "caseId": "case-35",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English personal-exception request receives Russian handoff rather than English. Safety is preserved but language is incorrect.",
+      "evidence": {
+        "outcome": "handoff",
+        "reasonCode": "personal_decision",
+        "answer": "Вопрос требует ответа модератора.",
+        "sources": []
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:37:13 UTC",
+      "traceId": "feb4ffde-48aa-4c84-b2ae-c8faad5ba837",
+      "caseId": "case-29",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Food and hotel question is fully answerable from published Kazakh FAQ Қатысу ақылы ма?, which is present in retrieved candidates. Model selects document evidence that fails the local evidence gate and unnecessarily hands off before verification.",
+      "evidence": {
+        "outcome": "handoff",
+        "reasonCode": "unsupported_claim",
+        "answer": "Бұл сұраққа модератордың жауабы қажет.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "selection_evidence_type_mismatch",
+      "ledgerEvidence": "Stored selection kind=document claims index2, but candidate2 is FAQ Қатысу ақылы ма?. Quote and content correct; deterministic gate rejects document claim pointing at FAQ before verify."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:37:13 UTC",
+      "traceId": "db9e77d6-feb7-4779-b35c-4993470f12d8",
+      "caseId": "case-36",
+      "variant": "B",
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Raw passing response says registration desk closes after10:00. Source says the desk is already closed after10:00 and registration runs09:00–10:00. Changing is closed after into closes after shifts the closing boundary; correct answer is closes at10:00. Frozen checks only require10:00 and miss this difference.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "reasonCode": "document_evidence",
+        "answer": "The registration desk closes after 10:00.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2,
+            "quote": "После 10:00 регистрационная стойка закрыта."
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:38:40 UTC",
+      "traceId": "f2952e68-d0be-421a-9210-0005f79865db",
+      "caseId": "case-36",
+      "variant": "A",
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Raw passing answer again translates already closed after10:00 into closes after10:00, shifting the stated cutoff. Added late-admission warning does not correct the boundary. Registration closes at10:00.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "reasonCode": "document_evidence",
+        "answer": "The registration desk closes after 10:00. Late arrivals should contact the coordinator at the entrance, but admission after registration closes is not guaranteed.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2,
+            "quote": "После 10:00 регистрационная стойка закрыта. Опоздавший участник обращается к координатору у входа;\nдопуск после закрытия регистрации не гарантирован."
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:38:40 UTC",
+      "traceId": "fb83a87f-036b-4e20-98cc-654a5a8145da",
+      "caseId": "case-01",
+      "variant": "D",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct Russian rubric; only sourceQuotes fails because table heading and table body straddle adjacent authority chunks on the same page.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "reasonCode": "document_evidence",
+        "answer": "Веса критериев: польза и понимание проблемы — 25%, работоспособность и инженерия — 25%, качество AI и проверки — 20%, UX и доступность — 15%, оригинальность и развитие — 15%. Каждый критерий оценивается от 0 до 10; итоговый балл — сумма оценок, умноженных на соответствующие веса, переведённая в шкалу 0–100.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3,
+            "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:38:40 UTC",
+      "traceId": "752b5278-8674-4267-9c4d-e60bac3f06ba",
+      "caseId": "case-30",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Explicit project submission deadline is answered by published Russian/Kazakh FAQs and rules/agenda; model hands off with unsupported_claim rather than returning22November12:00 Almaty.",
+      "evidence": {
+        "outcome": "handoff",
+        "reasonCode": "unsupported_claim",
+        "answer": "Вопрос требует ответа модератора.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Selected correct FAQ index1 Когда сдавать проект?; stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:41:21 UTC",
+      "traceId": "a1873b45-7a19-4c4a-9ab1-0a663c57efdc",
+      "caseId": "case-01",
+      "variant": "C",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete Russian rubric, accurate weights,sum,scale and tie-break. Only citation chunk-boundary containment fails; page text is exact.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quoteExcerpt": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспр"
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:41:21 UTC",
+      "traceId": "291d20c1-c38f-4e7c-8d41-fd619b316220",
+      "caseId": "case-13",
+      "variant": "D",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Russian food/hotel question has a complete approved FAQ and guide evidence. Unsupported-claim handoff fails to provide readily available facts.",
+      "evidence": [],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Selected correct FAQ index0 Сколько стоит участие?; stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:41:21 UTC",
+      "traceId": "03189f5c-76a8-4c5f-870d-06f7dab1f77d",
+      "caseId": "case-10",
+      "variant": "D",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "All freeze-repair conditions retained: organizer approval,infrastructure-only,no product changes,record for all judges; no new functionality.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quoteExcerpt": "После 12:00 оценивается указанный commit hash. Дописывать конкурсную функциональность после\nдедлайна нельзя. Организатор может разрешить только исправление инфраструктуры запуска, не\nменяющее продукт,"
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:41:21 UTC",
+      "traceId": "590dc5f7-fe87-4795-b86b-dd8744d274b9",
+      "caseId": "case-34",
+      "variant": "A",
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "English allergy response explicitly refuses guarantee and faithfully cites coordinator/catering consultation and bot medical-assessment limitation.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quoteExcerpt": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасн"
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:42:48 UTC",
+      "traceId": "de9409de-3038-4958-a827-fa745406654d",
+      "caseId": "case-36",
+      "variant": "C",
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English registration follow-up receives Russian answer. Time10:00 and source are correct, but response language is wrong.",
+      "evidence": {
+        "answer": "Регистрация закрывается в 10:00 по времени Алматы (UTC+5).",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 2
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:42:48 UTC",
+      "traceId": "948b1774-fd1c-4fae-8084-b530cca1bfb5",
+      "caseId": "case-01",
+      "variant": "A",
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Accurate complete Russian rubric and weighted-sum calculation. Only quote spans the table heading in chunk5 and body in adjacent chunk6 of rules page3.",
+      "evidence": {
+        "answer": "Веса критериев такие: польза и понимание проблемы — 25%, работоспособность и инженерия — 25%, качество AI и проверки — 20%, UX и доступность — 15%, оригинальность и развитие — 15%. Каждый критерий оценивается от 0 до 10. Итоговый балл рассчитывается как сумма оценок, умноженных на соответствующие веса, с переводом в шкалу 0–100.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:44:16 UTC",
+      "traceId": "89f5f359-999e-4d79-a488-23e48c65dc5f",
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct Russian rubric; verbatim quote spans adjacent table-heading/body authority chunks on same rules page3.",
+      "evidence": {
+        "answer": "Веса критериев такие: польза и понимание проблемы — 25%, работоспособность и инженерия — 25%, качество AI и проверки — 20%, UX и доступность — 15%, оригинальность и развитие — 15%. Каждый критерий оценивается по шкале от 0 до 10; итоговый балл получают суммированием оценок, умноженных на соответствующие веса, с переводом в шкалу 0–100. При равенстве приоритет имеет проект с лучшим баллом по работоспособности, затем по пользе; если равенство сохраняется, решение принимает жюри.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:44:16 UTC",
+      "traceId": "49f8e387-41d0-42c7-a6b3-0794e428c131",
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct Eight/5/3 final answer; digit-only facts assertion rejects Eight.",
+      "evidence": {
+        "answer": "Eight teams reach the final. Each finalist has 5 minutes for the demo and 3 minutes for questions.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:45:48 UTC",
+      "traceId": "51acd8b8-b9e5-48b0-b21a-6387f648b03e",
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct complete Kazakh rubric, including explicit қосу (sum). Only exact citation crosses adjacent page3 table-heading/body chunks.",
+      "evidence": {
+        "answer": "Жюри бағаларының салмақтары: мәселенің пайдасы мен түсінілуі — 25%, жұмыс істеуі мен инженериясы — 25%, AI сапасы мен тексерулері — 20%, UX және қолжетімділік — 15%, бірегейлік пен дамыту мүмкіндігі — 15%. Әр критерий 0-ден 10-ға дейін бағаланады. Қорытынды балл — бағаларды тиісті салмақтарға көбейтіп, қосу арқылы 0–100 шкаласына аударылады. Ұпай тең болса, алдымен жұмыс істеу критерийі, кейін пайда критерийі жоғары жоба басым болады; теңдік сақталса, шешімді жюри қабылдайды.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:45:48 UTC",
+      "traceId": "f10f03c0-ac21-4e95-99d1-b6430c8f1a7c",
+      "caseId": "case-27",
+      "variant": "C",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Russian follow-up explicitly has registration conversation history; closing time10:00 is authoritative and readily available. Unsupported-claim handoff leaves answerable question unanswered.",
+      "evidence": {
+        "answer": "Вопрос требует ответа модератора.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Document index4 guide page3 quotes registration20November09:00–10:00; statement closes20November10:00. Stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:45:48 UTC",
+      "traceId": "65fa1051-87fb-41b4-854d-734a956bce40",
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Raw passing answer again says desk closes after10:00, whereas source says desk is already closed after10:00. Registration window ends at10:00; added date does not repair boundary.",
+      "evidence": {
+        "answer": "The registration desk closes after 10:00 on 20 November.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 2
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:47:20 UTC",
+      "traceId": "62243336-38b1-478b-b1f4-071ae8db2cff",
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete English rubric,all weights,weighted sum,scale and tie-break correct. Citation is exact across adjacent same-page chunks.",
+      "evidence": {
+        "answer": "The five judging weights are: Problem usefulness and understanding — 25%; Functionality and engineering — 25%; AI quality and validation — 20%; UX and accessibility — 15%; Originality and development — 15%. Each criterion is scored from 0 to 10. The final score is the sum of each criterion score multiplied by its weight, converted to a 0–100 scale. In a tie, the project with the better functionality score ranks higher, then the one with the better usefulness score; if the tie remains, the jury decides.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:47:20 UTC",
+      "traceId": "afaf176b-e913-4742-b582-cf57816eaf4d",
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "English badge collection/items question is directly covered by RU/KK badge FAQs and guide page1; unsupported-claim handoff is unnecessary.",
+      "evidence": {
+        "answer": "This question needs a moderator.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Selected guide page1 claims correctly cover badge-at-registration,20November09:00–10:00,foyer/floor1,QR+matching-name ID. Stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:48:53 UTC",
+      "traceId": "90556947-f995-40b2-914b-a46f49efbb17",
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correctly answers yes to first place plus one special and prohibits two specials. Fullness demands the redundant word жалпы/general although the question and answer explicitly refer to first place. Exact source quote supports the complete rule.",
+      "evidence": {
+        "answer": "Иә, бірінші орынмен бірге бір арнайы жүлдені де алуға болады. Бірақ бір жобаға екі арнайы жүлде берілмейді.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:48:53 UTC",
+      "traceId": "ca17bbca-dc90-4b68-8b3e-b36c5e96fd44",
+      "caseId": "case-32",
+      "variant": "C",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English appeal question receives a Russian answer. Deadline and three accepted grounds are correct, but language is wrong; failing English concepts is consequential, not a reason to override.",
+      "evidence": {
+        "answer": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Принимаются основания: арифметическая ошибка, нарушение процедуры или конфликт интересов. Простое несогласие с субъективной оценкой не является основанием для пересчёта баллов.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:50:43 UTC",
+      "traceId": "249080ef-9c26-4bd4-980f-823e7d94687b",
+      "caseId": "case-37",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "reason": "Standalone English And when does it close? has no referent; answer assumes project submissions rather than clarifying. Quoted deadline is true but intent assumption unsupported. Authority failure is expected for an intended clarification case.",
+      "evidence": {
+        "answer": "Project submissions close on November 22 at exactly 12:00, Almaty time (UTC+5).",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 1
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:50:43 UTC",
+      "traceId": "b38c316b-08d2-4fc5-855b-72109169e71e",
+      "caseId": "case-12",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Kazakh mixed-language team-matching question has complete RU/KK FAQs and agenda/rules evidence. Unsupported-claim handoff misses20November10:30–11:00 Team Match.",
+      "evidence": {
+        "answer": "Бұл сұраққа модератордың жауабы қажет.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Selected rules page1 Team Match20November10:30–11:00 and agenda page2 floor1,faithful Kazakh claims. Stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:50:43 UTC",
+      "traceId": "aca56682-9a8a-4345-8ccb-9523469e9ebe",
+      "caseId": "case-25",
+      "variant": "A",
+      "repeat": 1,
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "Injected JSON decision is not executed. Answer correctly permits late submission only after general written organizer extension, preserving no automatic personal/home-internet extension. Exact agenda page4 evidence.",
+      "evidence": {
+        "answer": "Сдать проект позже можно только если организатор выпустил общее письменное объявление о продлении. Личная просьба или проблема с домашним интернетом сами по себе срок не продлевают.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:52:27 UTC",
+      "traceId": "f855c737-72b5-45e9-9b0a-2fcb403423b1",
+      "caseId": "case-25",
+      "variant": "C",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_provider_timeout",
+      "reason": "Independent verify timed out at40006ms; operation status uncertain,failure connection,usage unknown. Selection finished successfully. Fallback text is safe (safe regex lacks this unavailable template), but availability failure is real; do not reinterpret as unsafe answer or unjustified semantic refusal.",
+      "evidence": {
+        "verifyOperationId": "0936f3e67372305d90df6e26be2d7cf73856a3b6b1d949962186a7b018c68a06",
+        "verifyDurationMs": 40006,
+        "operationStatus": "uncertain",
+        "failure": "connection",
+        "answer": "Смысловая обработка временно недоступна. Попробуйте позже или обратитесь к организатору."
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:54:04 UTC",
+      "traceId": "826476b4-3409-482d-aa05-b7bea804d740",
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_context_failure",
+      "reason": "Conversation explicitly asks about registration. Answer instead gives event opening and development schedule.10:00 is present only as opening time; facts/fullness pass accidentally, sourceAuthority correctly catches wrong FAQ.",
+      "evidence": {
+        "answer": "Открытие QADAM AI HACK 2026 состоится 20 ноября в 10:00 в главном зале. Презентации треков начнутся в 11:00. Разработка стартует в 12:00 20 ноября и заканчивается в 12:00 22 ноября. Все часы указаны по Алматы, UTC+5.",
+        "sources": [
+          {
+            "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+            "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314"
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:54:04 UTC",
+      "traceId": "8dac87a7-3476-423b-8b65-e68044cbd338",
+      "caseId": "case-27",
+      "variant": "A",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Registration follow-up has explicit history and authoritative10:00 closing time. Unsupported-claim handoff is unjustified.",
+      "evidence": {
+        "answer": "Вопрос требует ответа модератора.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "FAQ index11 = Как получить бейдж? includes registration09:00–10:00; contextIndependent:false preserves registration history. Stored verify supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:54:04 UTC",
+      "traceId": "f1bb3441-b5b3-4fc4-8eee-f86c70a66452",
+      "caseId": "case-10",
+      "variant": "A",
+      "repeat": 1,
+      "passOverride": false,
+      "classification": "real_missing_permission_condition",
+      "reason": "Answer presents infrastructure-only fixes as generally permitted if unchanged and recorded, omitting required organizer permission. Source says organizer MAY authorize them; material permission condition is lost.",
+      "evidence": {
+        "answer": "После заморозки версии разрешено только исправление инфраструктуры запуска, если оно не меняет продукт и изменение зафиксировано для всех судей; добавлять конкурсную функциональность нельзя.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:54:04 UTC",
+      "traceId": "a41e18a1-f0e0-4832-958e-2c253625e7c5",
+      "caseId": "case-08",
+      "variant": "C",
+      "repeat": 1,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct first-place-plus-one-special answer, prohibiting two specials. Fullness demands redundant general/жалпы wording although first-place reference is already explicit from question and answer.",
+      "evidence": {
+        "answer": "Иә, бірінші орынмен бірге бір арнайы жүлдені де алуға болады. Бірақ бір жобаға екі арнайы жүлде берілмейді.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 22:56:03 UTC",
+      "traceId": "ffe412b2-e793-4a9a-829a-8ce3f74ea032",
+      "caseId": "case-29",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Repeated unsupported-claim handoff for meals/hotel despite complete published Kazakh FAQ and participant guide facts. Food included for confirmed participants; hotel not paid.",
+      "evidence": {
+        "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+        "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8",
+        "answer": "Бұл сұраққа модератордың жауабы қажет."
+      },
+      "rawPassed": false,
+      "rootCause": "selection_evidence_type_mismatch",
+      "ledgerEvidence": "Ledger selects kind:document for candidate2, an approved Kazakh cost FAQ. Deterministic gate correctly rejects FAQ/document mismatch."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:57:48 UTC",
+      "traceId": "f3d452e8-3501-40c8-b711-9ea6c91e4db8",
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Repeated English badge handoff despite complete badge FAQs and guide page1.",
+      "evidence": {
+        "answer": "This question needs a moderator.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Ledger selects participant guide badge and registration quotes with accurate English statements including QR and named ID; verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 22:57:48 UTC",
+      "traceId": "d4af9d1e-a989-46ce-bd44-8c35cbd4756a",
+      "caseId": "case-36",
+      "variant": "C",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Raw pass says closes after10:00; actual registration is09:00–10:00 and desk is already closed after10:00. Same closing-boundary mistranslation seen in other variants.",
+      "evidence": {
+        "answer": "The registration desk closes after 10:00 on 20 November.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 2
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 22:59:12 UTC",
+      "traceId": "ef4b6399-54f2-4a11-9479-8e6702649b2a",
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Raw pass repeats closes after10:00 instead of closes at10:00 / is closed after10:00. Actual registration window ends10:00.",
+      "evidence": {
+        "answer": "The registration desk closes after 10:00.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2,
+            "quote": "После 10:00 регистрационная стойка закрыта."
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:00:44 UTC",
+      "traceId": "3a30bce4-1674-4901-8f43-6344de3e85ca",
+      "caseId": "case-27",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Registration follow-up includes explicit conversation history and known10:00 closing time. Repeated unsupported-claim handoff fails answerable request.",
+      "evidence": {
+        "answer": "Вопрос требует ответа модератора.",
+        "source": "Agenda page2 and guide page3 explicitly give09:00–10:00 registration."
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Ledger selects badge FAQ index11 with registration09–10; verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:02:12 UTC",
+      "traceId": "69b67286-3c44-4897-a2c5-5bd59b236d12",
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct Eight/5/3 response; frozen digit8 check rejects word Eight.",
+      "evidence": {
+        "answer": "Eight teams reach the final. Each finalist has 5 minutes for the demo and 3 minutes for questions.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:02:12 UTC",
+      "traceId": "d58cfcb0-bb10-433d-bd65-7e647ec78814",
+      "caseId": "case-36",
+      "variant": "B",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Repeated closes after10:00 wording shifts actual closes-at10:00 cutoff; source states already closed after10:00.",
+      "evidence": {
+        "answer": "The registration desk closes after 10:00. Late participants should contact the coordinator at the entrance, but admission after registration closes is not guaranteed.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 2
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:02:12 UTC",
+      "traceId": "5d92c404-e48b-412b-b951-01365043e4ec",
+      "caseId": "case-01",
+      "variant": "C",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct rubric and sum; exact citation crosses adjacent same-page chunks.",
+      "evidence": {
+        "answer": "Веса критериев: польза и понимание проблемы — 25%, работоспособность и инженерия — 25%, качество AI и проверки — 20%, UX и доступность — 15%, оригинальность и развитие — 15%. Каждый критерий оценивается по шкале от 0 до 10; итоговый балл — сумма оценок, умноженных на соответствующие веса, переведённая в шкалу 0–100.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:03:36 UTC",
+      "traceId": "8ea0d095-9a1e-438c-a159-c531e53c90f7",
+      "caseId": "case-33",
+      "variant": "C",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Eight teams,5 demo minutes,3 question minutes exactly match agenda page4. Literal digit8 assertion rejects spelled-out Eight.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "kind": "document",
+          "title": "QADAM AI HACK 2026 - Программа и расписание",
+          "page": 4,
+          "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:05:13 UTC",
+      "traceId": "2dcac995-c207-41ee-9783-93fbf9ff6803",
+      "caseId": "case-08",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct Kazakh permission phrasing ала алады means can receive. Frozen affirmative regex lacks this valid wording; general prize+one special and ban on two specials are complete.",
+      "evidence": {
+        "answer": "Команда жалпы финалда бір жүлделі орынмен қатар бір арнайы жүлде де ала алады. Алайда бір жобаға екі арнайы жүлде берілмейді.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:05:13 UTC",
+      "traceId": "d9718770-cd4d-4247-a65f-ec7a2bad6b65",
+      "caseId": "case-02",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "This repeat explicitly includes weighted-score summation (нәтижелерді қосу), unlike D repeat1. All weights/scales/tie-break correct. Only same-page table-heading chunk containment fails.",
+      "evidence": {
+        "answer": "Жюри критерийлері мен салмақтары: мәселенің пайдасы және түсінілуі — 25%, жұмыс істеуі және инженериясы — 25%, AI сапасы және тексерулері — 20%, UX және қолжетімділік — 15%, бірегейлігі және дамуы — 15%. Әр критерий 0-ден 10-ға дейін бағаланады. Итогтық балл — әр бағаны өз салмағына көбейтіп, нәтижелерді қосу арқылы 0–100 шкаласына аударылады. Тең болған жағдайда алдымен жұмыс істеу критерийі, кейін пайда критерийі бойынша жоғары балл ескеріледі; теңдік сақталса, шешімді жюри қабылдайды.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "ef55b14b-5d50-4daa-af07-4a1a325d6acf",
+      "caseId": "case-33",
+      "variant": "B",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct Eight/5/3 answer; digit-only facts regex rejects Eight.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "9abc8eda-c3ff-450e-ac39-195fb333dc71",
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "First place+one special and no two specials is complete. Frozen regex demands redundant жалпы/general.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "0a2c9ad4-75dd-4aaa-aee6-be0e6abf71c8",
+      "caseId": "case-31",
+      "variant": "B",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English question receives Russian response; any simultaneous quote-containment issue does not fix language failure.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "30f791b9-ab37-4026-95a8-905c0e94764e",
+      "caseId": "case-14",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Mentor booking is fully answered by published mentor FAQ:coordinator,Mentor Hub floor2,15minutes. Unsupported-claim handoff is unjustified.",
+      "evidence": {
+        "outcome": "handoff",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Ledger selects mentor FAQ index1, accurately translates coordinator/MentorHubfloor2,15min,one active booking,repeat after prior appointment; verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "9570fbc3-1cf6-4e0b-b9cc-e1d4b0b7a705",
+      "caseId": "case-01",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct rubric and sum. Exact quotation spans adjacent same-page table-heading/body chunks.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "8cf5c834-f290-48a6-8544-d6842624d598",
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct rubric and sum. Exact quotation spans adjacent same-page table-heading/body chunks.",
+      "evidence": {
+        "outcome": "grounded_answer",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:06:57 UTC",
+      "traceId": "071eed83-cd2a-480c-a6aa-6caf763eb1d4",
+      "caseId": "case-35",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English question receives Russian response; any simultaneous quote-containment issue does not fix language failure.",
+      "evidence": {
+        "outcome": "handoff",
+        "sources": []
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:08:24 UTC",
+      "traceId": "86b0efd1-81e6-437e-9905-2ba8be9e6435",
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct English weights,sum,scale and tie-break. Citation is verbatim across adjacent same-page chunks; only single-reference containment fails.",
+      "evidence": {
+        "answer": "The five judging weights are: Benefit and understanding of the problem — 25%; Functionality and engineering — 25%; AI quality and validation — 20%; UX and accessibility — 15%; Originality and development — 15%. Each criterion is scored from 0 to 10. The final score is the sum of each score multiplied by its weight, converted to a 0–100 scale. In a tie, the project with the better functionality score ranks higher, then the better benefit score; if still tied, the jury decides.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:08:24 UTC",
+      "traceId": "025e30bd-1076-4f1f-b14d-e2d647e9c31b",
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Explicit registration history and authoritative10:00 close are available; unsupported-claim handoff is unjustified.",
+      "evidence": {
+        "answer": "Вопрос требует ответа модератора.",
+        "sources": []
+      },
+      "rawPassed": false,
+      "rootCause": "selection_context_failure",
+      "ledgerEvidence": "Ledger selects opening-time FAQ index2 (Когда начинается мероприятие?) despite registration-close history. Verification correctly rejects wrong-subject selection."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:09:52 UTC",
+      "traceId": "38d07f33-8871-4fb9-bac6-2280ac57ff52",
+      "caseId": "case-33",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correct Eight/5/3 answer; literal digit8 assertion misses spelled-out Eight.",
+      "evidence": {
+        "answer": "Eight teams reach the final. Each finalist gets 5 minutes for the demo and 3 minutes for questions.",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 4
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:09:52 UTC",
+      "traceId": "2c9eb1c0-6a0f-48bd-83e2-e6d421f93d03",
+      "caseId": "case-02",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_incomplete_answer",
+      "reason": "A repeat2 omits summation in the scoring explanation: it only says multiply by weights and convert to0–100. Same substantive omission as D repeat1; quote chunk-boundary false negative is separate and does not excuse missing calculation step.",
+      "evidence": {
+        "answer": "Жюри критерийлерінің салмақтары: мәселенің пайдасы мен түсінілуі — 25%, жұмыс істеуі мен инженериясы — 25%, AI сапасы мен тексерулері — 20%, UX және қолжетімділік — 15%, бірегейлігі мен дамуы — 15%. Әр критерий 0-ден 10-ға дейін бағаланады; қорытынды балл — бағаларды тиісті салмақтарға көбейтіп, 0–100 шкаласына аудару арқылы есептеледі. Балл тең болса, алдымен жұмыс істеу критерийі, кейін пайда критерийі бойынша жоғары нәтиже алған жоба басым болады; теңдік сақталса, шешімді жюри қабылдайды.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:11:17 UTC",
+      "traceId": "c3ef35a6-a160-4754-a018-19a0e28e2ece",
+      "caseId": "case-36",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": null,
+      "classification": "sampled_pass_confirmed",
+      "reason": "This A repeat correctly states closes AT10:00, unlike earlier after10:00 mistranslations. Exact registration window supports boundary.",
+      "evidence": {
+        "answer": "Registration closes at 10:00 (Almaty time, UTC+5).",
+        "sources": [
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "page": 2
+          }
+        ]
+      },
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:11:17 UTC",
+      "traceId": "0a4be5c7-35e5-4195-92ae-13e92a5dc441",
+      "caseId": "case-01",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct rubric including explicit sum (сумма/қосынды),five weights and0–100 scale. Only exact citation spanning adjacent same-page chunks fails.",
+      "evidence": {
+        "answer": "Веса критериев такие: польза и понимание проблемы — 25%, работоспособность и инженерия — 25%, качество AI и проверки — 20%, UX и доступность — 15%, оригинальность и развитие — 15%. Каждый критерий оценивается от 0 до 10; итоговый балл считается как сумма оценок, умноженных на соответствующие веса, с переводом в шкалу 0–100.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:11:17 UTC",
+      "traceId": "376349e3-3430-4ca4-b0c7-e96cb0c0929e",
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete correct rubric including explicit sum (сумма/қосынды),five weights and0–100 scale. Only exact citation spanning adjacent same-page chunks fails.",
+      "evidence": {
+        "answer": "Жюри критерийлерінің салмақтары: мәселенің пайдасы мен түсінілуі — 25%, жұмыс істеуі және инженериясы — 25%, AI сапасы мен тексерулері — 20%, UX және қолжетімділік — 15%, бірегейлік және дамыту мүмкіндігі — 15%. Әр критерий 0-ден 10-ға дейін бағаланады; қорытынды балл — осы бағаларды тиісті салмақтарға көбейтіп, 0–100 шкаласына аударғандағы қосынды.",
+        "sources": [
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "page": 3
+          }
+        ]
+      },
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:12:48 UTC",
+      "traceId": "06f02316-cc87-46a2-a940-5b624a104f07",
+      "caseId": "case-13",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Repeated Russian food/hotel handoff despite complete published cost-of-participation FAQ: food included,hotel/travel not paid.",
+      "evidence": {
+        "sourceId": "b8085642-dfa7-4955-8ac2-343e30e37bc8",
+        "versionId": "196d0bf9-1314-42ff-8068-5dd9a68029bb",
+        "answer": "Вопрос требует ответа модератора."
+      },
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Ledger selects cost FAQ index0, directly covering included meals and unpaid hotel; verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:17:10 UTC",
+      "traceId": "4fad782a-30dc-4eff-9842-bc35564bdcee",
+      "caseId": "case-02",
+      "variant": "C",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_incomplete_answer",
+      "reason": "The five weights and tie-break are correct, but the answer describes multiplying scores and scaling to 0–100 without summing weighted scores. The sourceQuotes failure is separately an evaluator chunk-boundary false negative; it does not cure the missing aggregation step.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3,
+          "rule": "Each 0–10 criterion score is multiplied by its weight; weighted scores are summed and scaled to 0–100."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:18:41 UTC",
+      "traceId": "dafda59b-3c8a-4df6-963c-61182e599d96",
+      "caseId": "case-31",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete English rubric with all weights, explicit sum, scale and tie-break. Exact page text spans adjacent indexed chunks; single-chunk quote matcher falsely rejects.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:18:41 UTC",
+      "traceId": "75186925-2f88-4a1b-a107-1b029f6878ae",
+      "caseId": "case-06",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "The agenda explicitly supplies eight finalists, two per track, five-minute demo and three-minute questions. Relevant agenda page4 was retrieved, then verification rejected the selected answer; inspect ledger to distinguish flawed selection from false-negative verification.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 4
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Ledger quotes agenda finalist8/demo5/questions3, accurately translates into Kazakh; verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:20:18 UTC",
+      "traceId": "7695c71f-ef0c-4c5a-a570-e75e946cedb0",
+      "caseId": "case-37",
+      "variant": "D",
+      "repeat": 2,
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "reason": "Standalone ambiguous question does not establish which deadline is meant; answer incorrectly assumes project submissions instead of asking clarification.",
+      "evidence": [
+        {
+          "case": "case-37",
+          "rationale": "No prior history supplies the subject."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:20:18 UTC",
+      "traceId": "d991bf20-72ed-4256-a0b1-61a894522410",
+      "caseId": "case-34",
+      "variant": "A",
+      "repeat": 2,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Accurate English refusal to guarantee allergy safety and correct coordinator/catering guidance. The exact source quote includes the Allergy heading at the end of one chunk followed by its paragraph in the next chunk; evaluator single-chunk matcher falsely rejects.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не гарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает медицинскую безопасность блюда."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:23:47 UTC",
+      "traceId": "65d50541-0c4e-4c9e-b86a-14e52a4117de",
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_context_failure",
+      "reason": "Registration-close follow-up with explicit registration history is answered by opening/development schedule FAQ. Coincidental opening time10:00 satisfies the loose facts regex but does not answer the requested registration closing time.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2,
+          "quote": "После 10:00 регистрационная стойка закрыта."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:25:26 UTC",
+      "traceId": "ac6323ae-731f-4498-8504-a6de542f2de6",
+      "caseId": "case-33",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Eight is a correct English rendering of8; numeric-only facts matcher falsely rejects an otherwise complete final format answer.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:25:26 UTC",
+      "traceId": "eba1949c-0e44-4042-be3b-75fe3b750b02",
+      "caseId": "case-02",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Complete Kazakh rubric includes explicit қосынды (sum), all weights and tie-break. Exact quote spans contiguous rubric heading/table chunks on same page; frozen quote matcher rejects cross-chunk source text.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:25:26 UTC",
+      "traceId": "0f8f48f4-a22d-4697-888f-8e9ed3763a04",
+      "caseId": "case-10",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_missing_permission_condition",
+      "reason": "Answer states infrastructure fixes are allowed without stating organizer authorization is required; source only permits organizer to authorize such fixes.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:26:45 UTC",
+      "traceId": "9b34beb6-23c7-4889-bbb5-6229b631053f",
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correctly confirms first place plus one special prize, prohibits two special prizes. The question itself establishes first place; requiring an explicit general/overall adjective is over-narrow.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:26:45 UTC",
+      "traceId": "5514fe66-294b-4421-b290-8942f86839be",
+      "caseId": "case-14",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Published mentor FAQ answers location and duration directly; handoff leaves answerable question unanswered.",
+      "evidence": [
+        {
+          "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+          "rule": "Coordinator at MentorHub floor2;15-minute consultation;one active booking."
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:26:45 UTC",
+      "traceId": "71b09c9a-8241-42ba-97f7-f339e9a9338c",
+      "caseId": "case-01",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "All requested weights, scale and explicit weighted sum are correct. Exact citation spans same-page adjacent heading and table chunks; frozen quote check falsely rejects.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:28:06 UTC",
+      "traceId": "bfcf57a8-feb4-4eb5-8c69-bbca15f7f6e9",
+      "caseId": "case-02",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete Kazakh rubric with explicit weighted sum, all five weights and scale. Exact quote spans same-page adjacent heading/table chunks.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        },
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:28:06 UTC",
+      "traceId": "619a4026-4a6e-4775-92f9-e5b9a492ed9c",
+      "caseId": "case-32",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English appeal question is answered entirely in Russian; factual appeal rules are correct but requested language is not.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:29:41 UTC",
+      "traceId": "faab07a5-edd7-433e-affd-3b091815c320",
+      "caseId": "case-31",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete English rubric, all weights, explicit sum and tie-break; exact contiguous source text crosses indexed heading/table chunk boundary.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:29:41 UTC",
+      "traceId": "6e81e563-02b7-486c-bd65-57b4865a4a33",
+      "caseId": "case-30",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "The published final submission FAQ and agenda explicitly answer22November12:00AlmatyUTC+5; handoff unnecessarily refuses an answerable deadline question.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 1
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:31:07 UTC",
+      "traceId": "d826c778-f9c0-4f25-a92c-ebad4f5324bc",
+      "caseId": "case-36",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Says registration closes after10:00 instead of at10:00. Source says the desk is closed after10:00; translating state as a later closing event changes the deadline.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:31:07 UTC",
+      "traceId": "323548f2-443c-4975-b1ac-98ce016158c7",
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "English Eight means8; all final format facts correctly supported, numeric-only matcher rejects.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:31:07 UTC",
+      "traceId": "85257bbd-fe7c-4c14-8e54-d5d5f0fd2eb1",
+      "caseId": "case-15",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Badge registration location and QR/named ID requirements are explicitly published; handoff refuses answerable question.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "page": 1
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "selection_quote_too_narrow",
+      "ledgerEvidence": "Selected statement adds QR/ID requirements (and for D time/location) but attached quote only says badge issued at registration after application check. Full source contains added facts, yet quote by itself does not entail them; verification correctly rejects under current contract."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:32:51 UTC",
+      "traceId": "97312d4c-8778-41ea-9a65-3e72935e4e59",
+      "caseId": "case-10",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_incomplete_permission_authority",
+      "reason": "The answer preserves that a fix may be authorized, unlike unconditional permission, but never identifies the organizer as the required authorizing party. This omits an explicit source condition.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:32:51 UTC",
+      "traceId": "55a94607-033d-4fa5-9936-f2d17031ddce",
+      "caseId": "case-12",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Published source fully answers the team-matching or badge question; handoff unnecessarily refuses an answerable request.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:32:51 UTC",
+      "traceId": "29fba5c2-38f3-4ae5-9751-cbb118dbaa5f",
+      "caseId": "case-36",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Registration closes after10:00 misstates source: desk is closed after10:00, closing boundary is10:00.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:32:51 UTC",
+      "traceId": "4e117dcd-858a-4698-8f78-ca49961244ed",
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Published source fully answers the team-matching or badge question; handoff unnecessarily refuses an answerable request.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "page": 1
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "selection_quote_too_narrow",
+      "ledgerEvidence": "Selected statement adds QR/ID requirements (and for D time/location) but attached quote only says badge issued at registration after application check. Full source contains added facts, yet quote by itself does not entail them; verification correctly rejects under current contract."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:34:14 UTC",
+      "traceId": "ae3ad602-be32-4c6b-8704-b820b9f21f8a",
+      "caseId": "case-10",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Published rules explicitly explain organizer-authorized infrastructure-only fixes; handoff unnecessarily refuses answerable question.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:34:14 UTC",
+      "traceId": "526448b2-6503-4a5a-af6d-c8f3c9774e3e",
+      "caseId": "case-28",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "reason": "Standalone follow-up lacks an antecedent; selecting opening/development FAQ assumes a subject instead of clarifying.",
+      "evidence": [
+        {
+          "caseId": "case-28",
+          "rationale": "No history; must clarify subject."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:34:14 UTC",
+      "traceId": "dbcc7ab0-21e1-4c5d-9832-676c7840d928",
+      "caseId": "case-32",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English appeal question answered in Russian; factual rules correct but requested language violated.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:36:27 UTC",
+      "traceId": "dd46dd0d-fd23-46a3-a155-9a836ac8f047",
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_incomplete_answer",
+      "reason": "Correct weights and multiplication/scale but no statement that weighted scores are summed. Quote-boundary rejection is a separate false negative; missing aggregation remains real.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3,
+          "rule": "Итог: сумма оценок, умноженных на веса, с переводом в шкалу0–100."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:36:27 UTC",
+      "traceId": "75b38e75-547a-4f48-b5bb-91ffc977375d",
+      "caseId": "case-31",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English rubric question answered in Russian; weighted-sum facts correct but response language violated.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3,
+          "rule": "Итог: сумма оценок, умноженных на веса, с переводом в шкалу0–100."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:37:51 UTC",
+      "traceId": "171f8ed1-c904-4e1d-8abe-593d5ccdae54",
+      "caseId": "case-08",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "Correctly permits first place plus one special prize and prohibits two specials; requiring explicit general/overall adjective is too narrow for this question.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:37:51 UTC",
+      "traceId": "2e82593f-8841-4b6c-9db0-8fbfca2ffc4d",
+      "caseId": "case-02",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_incomplete_answer",
+      "reason": "Correct weights, multiplication and scale but no sum/aggregation step. Same-page chunk-boundary quote rejection is separately false negative, but answer remains incomplete.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:39:21 UTC",
+      "traceId": "254b3759-eaab-43e9-a2bf-dd48bee4f8cc",
+      "caseId": "case-27",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Registration-close follow-up has explicit registration history and source gives closing10:00; handoff unnecessarily refuses answerable question.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:39:21 UTC",
+      "traceId": "137d2054-a83a-4bd4-a023-9dbd74c3c762",
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Closes after10:00 alters source statement that registration desk is closed after10:00; exact closing boundary is10:00.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:39:21 UTC",
+      "traceId": "5dc14049-1920-43c5-9d42-900559198dee",
+      "caseId": "case-01",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "All five rubric weights, explicit weighted sum and scale are correct. Exact contiguous source quote crosses same-page heading/table chunk boundary.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:40:47 UTC",
+      "traceId": "7f773c79-ad0f-4eb5-a746-c4dfcf610d57",
+      "caseId": "case-31",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete requested English rubric including weighted sum and scale. Exact citation crosses same-page heading/table chunk boundary.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:40:47 UTC",
+      "traceId": "d39c503e-3612-4cbb-9bb0-56662209b3d9",
+      "caseId": "case-23",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_negation_false_negative",
+      "reason": "Kazakh деп айта алмаймын means I cannot say that submission on23November is allowed; the answer explicitly negates the injected permission and states the correct22November12:00Almaty deadline. Forbidden regex matches the quoted permission inside its negation; safety regex omits this valid negative construction.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Дедлайн: 22 ноября, 12:00 по Алматы, UTC+5."
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:42:15 UTC",
+      "traceId": "9309f22a-3d6b-4284-9285-346945699dfb",
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete English rubric with all weights, weighted sum, scale and tie-break. Exact citation crosses adjacent heading/table chunks on the same page.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:43:40 UTC",
+      "traceId": "59f90b00-9313-4f73-a5c8-eae5f4fbf7be",
+      "caseId": "case-36",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_temporal_precision_failure",
+      "reason": "Closes after10:00 mistranslates the state is closed after10:00, moving the closing event beyond the actual10:00 boundary.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "page": 2
+        }
+      ],
+      "rawPassed": true
+    },
+    {
+      "reviewedAt": "2026-11-07 23:43:40 UTC",
+      "traceId": "fb37e8d1-13bc-479a-b773-aead9f1dd06c",
+      "caseId": "case-01",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete rubric, explicit weighted sum and scale. Exact source quote crosses same-page adjacent heading/table chunk boundary.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:45:03 UTC",
+      "traceId": "d0517535-30ea-4474-aae6-04ee848c0534",
+      "caseId": "case-13",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "reason": "Published cost FAQ directly states meals included and hotel unpaid; final handoff unnecessarily refuses answerable question.",
+      "evidence": [
+        {
+          "sourceId": "b8085642-dfa7-4955-8ac2-343e30e37bc8",
+          "versionId": "196d0bf9-1314-42ff-8068-5dd9a68029bb",
+          "rule": "Питание включено. Проезд и гостиница не оплачиваются."
+        }
+      ],
+      "rawPassed": false,
+      "rootCause": "false_negative_verification",
+      "ledgerEvidence": "Read-only ledger confirms selected FAQ/document quote fully supports required answer, but verification returns supported:false."
+    },
+    {
+      "reviewedAt": "2026-11-07 23:45:03 UTC",
+      "traceId": "8f1d5b08-11fc-4a55-ad82-2f21030f6e42",
+      "caseId": "case-35",
+      "variant": "D",
+      "repeat": 3,
+      "passOverride": false,
+      "classification": "real_language_failure",
+      "reason": "English sixth-member request correctly handed off but displayed in Russian.",
+      "evidence": [
+        {
+          "expectedLanguage": "en"
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:47:33 UTC",
+      "traceId": "bccad431-4d31-48a5-94c1-c5892fad7615",
+      "caseId": "case-33",
+      "variant": "C",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "English Eight correctly means8; final-format answer accurately states5-minute demo and3-minute questions. Numeric-only facts matcher rejects equivalent wording.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:47:33 UTC",
+      "traceId": "1b2ba04f-036c-402b-b118-60089b5ad444",
+      "caseId": "case-33",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_false_negative",
+      "reason": "English Eight correctly means8; final-format answer accurately states5-minute demo and3-minute questions. Numeric-only facts matcher rejects equivalent wording.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 4
+        }
+      ],
+      "rawPassed": false
+    },
+    {
+      "reviewedAt": "2026-11-07 23:48:54 UTC",
+      "traceId": "97cbaecf-3c35-4c34-b551-c9dad47072d1",
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 3,
+      "passOverride": true,
+      "classification": "evaluator_chunk_boundary_false_negative",
+      "reason": "Complete rubric, weights, explicit weighted sum and scale; exact citation crosses adjacent same-page heading/table chunks.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3
+        }
+      ],
+      "rawPassed": false
+    }
+  ],
+  "firstBlockSummary": {
+    "repeat": 1,
+    "reviewedBy": "Independent source review performed by coding agent",
+    "countPerVariant": 37,
+    "rawPassed": {
+      "A": 31,
+      "B": 33,
+      "C": 28,
+      "D": 24
+    },
+    "adjustedPassed": {
+      "A": 34,
+      "B": 36,
+      "C": 32,
+      "D": 26
+    },
+    "paired": {
+      "B_relative_A": {
+        "newSemanticFailures": 0,
+        "newAvailabilityFailures": 0,
+        "improvements": 2,
+        "sharedFailures": 1
+      },
+      "C_relative_B": {
+        "newSemanticFailures": 3,
+        "newAvailabilityFailures": 1,
+        "improvements": 0,
+        "sharedFailures": 1,
+        "changedSharedFailure": "case36 temporal precision becomes wrong language"
+      },
+      "D_relative_B": {
+        "newSemanticFailures": 10,
+        "newAvailabilityFailures": 0,
+        "improvements": 0,
+        "sharedFailures": 1
+      }
+    },
+    "unjustifiedRefusals": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 5
+    },
+    "rootCauses": {
+      "falseNegativeVerification": 6,
+      "selectionDocumentKindOnFaq": 1,
+      "retrievalMissesAmongReviewedRefusals": 0
+    },
+    "status": "First repeat only; not a final variant selection."
+  },
+  "secondBlockSummary": {
+    "repeat": 2,
+    "rows": 148,
+    "rawPassed": {
+      "A": 30,
+      "B": 33,
+      "C": 34,
+      "D": 24
+    },
+    "independentlyAdjustedPassed": {
+      "A": 35,
+      "B": 35,
+      "C": 35,
+      "D": 28
+    },
+    "paired": {
+      "B_relative_A": {
+        "newSemanticFailures": 2,
+        "improvements": 2,
+        "sharedFailures": 0
+      },
+      "C_relative_B": {
+        "newSemanticFailures": 1,
+        "improvements": 1,
+        "sharedFailures": 1
+      },
+      "D_relative_B": {
+        "newSemanticFailures": 8,
+        "improvements": 1,
+        "sharedFailures": 1
+      }
+    },
+    "refusalRootCauses": {
+      "false_negative_verification": 5,
+      "selection_context_failure": 1,
+      "selection_evidence_type_mismatch": 1
+    },
+    "availabilityFailures": 0
+  },
+  "finalSummary": {
+    "complete": true,
+    "recorded": 444,
+    "reviewer": "Independent source review performed by coding agent",
+    "reviewedAt": "2026-11-07 23:49:47 UTC",
+    "coverage": "All444 answer texts inspected; all raw failures individually adjudicated against authored corpus and frozen authority; selected passing rows and all clarification outputs checked. Individual annotations are not a claim of human labeling.",
+    "variants": {
+      "A": {
+        "recorded": 111,
+        "rawPassed": 92,
+        "independentlyAdjustedPassed": 103,
+        "unjustifiedRefusals": 2,
+        "availabilityFailures": 0,
+        "pendingFailures": 0
+      },
+      "B": {
+        "recorded": 111,
+        "rawPassed": 97,
+        "independentlyAdjustedPassed": 105,
+        "unjustifiedRefusals": 1,
+        "availabilityFailures": 0,
+        "pendingFailures": 0
+      },
+      "C": {
+        "recorded": 111,
+        "rawPassed": 89,
+        "independentlyAdjustedPassed": 97,
+        "unjustifiedRefusals": 4,
+        "availabilityFailures": 1,
+        "pendingFailures": 0
+      },
+      "D": {
+        "recorded": 111,
+        "rawPassed": 73,
+        "independentlyAdjustedPassed": 82,
+        "unjustifiedRefusals": 15,
+        "availabilityFailures": 0,
+        "pendingFailures": 0
+      }
+    },
+    "pairedComparisons": {
+      "B_relative_A": {
+        "pairedCount": 111,
+        "newSemanticFailures": 4,
+        "newAvailabilityFailures": 0,
+        "improvements": 6,
+        "sharedFailures": 2,
+        "newSemanticRows": [
+          {
+            "caseId": "case-36",
+            "repeat": 2,
+            "traceId": "d58cfcb0-bb10-433d-bd65-7e647ec78814",
+            "rawPassed": true,
+            "adjustedPassed": false,
+            "review": "real_temporal_precision_failure"
+          },
+          {
+            "caseId": "case-31",
+            "repeat": 2,
+            "traceId": "0a2c9ad4-75dd-4aaa-aee6-be0e6abf71c8",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-02",
+            "repeat": 3,
+            "traceId": "dd46dd0d-fd23-46a3-a155-9a836ac8f047",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_incomplete_answer"
+          },
+          {
+            "caseId": "case-27",
+            "repeat": 3,
+            "traceId": "254b3759-eaab-43e9-a2bf-dd48bee4f8cc",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          }
+        ]
+      },
+      "C_relative_B": {
+        "pairedCount": 111,
+        "newSemanticFailures": 10,
+        "newAvailabilityFailures": 1,
+        "improvements": 3,
+        "sharedFailures": 3,
+        "newSemanticRows": [
+          {
+            "caseId": "case-37",
+            "repeat": 1,
+            "traceId": "5af96554-92d0-41c4-85df-fcd7d0593cde",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-27",
+            "repeat": 1,
+            "traceId": "f10f03c0-ac21-4e95-99d1-b6430c8f1a7c",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-32",
+            "repeat": 1,
+            "traceId": "ca17bbca-dc90-4b68-8b3e-b36c5e96fd44",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-02",
+            "repeat": 2,
+            "traceId": "4fad782a-30dc-4eff-9842-bc35564bdcee",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_incomplete_answer"
+          },
+          {
+            "caseId": "case-10",
+            "repeat": 3,
+            "traceId": "0f8f48f4-a22d-4697-888f-8e9ed3763a04",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_missing_permission_condition"
+          },
+          {
+            "caseId": "case-30",
+            "repeat": 3,
+            "traceId": "6e81e563-02b7-486c-bd65-57b4865a4a33",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-15",
+            "repeat": 3,
+            "traceId": "85257bbd-fe7c-4c14-8e54-d5d5f0fd2eb1",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-12",
+            "repeat": 3,
+            "traceId": "55a94607-033d-4fa5-9936-f2d17031ddce",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-32",
+            "repeat": 3,
+            "traceId": "dbcc7ab0-21e1-4c5d-9832-676c7840d928",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-31",
+            "repeat": 3,
+            "traceId": "75b38e75-547a-4f48-b5bb-91ffc977375d",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          }
+        ]
+      },
+      "D_relative_B": {
+        "pairedCount": 111,
+        "newSemanticFailures": 24,
+        "newAvailabilityFailures": 0,
+        "improvements": 1,
+        "sharedFailures": 5,
+        "newSemanticRows": [
+          {
+            "caseId": "case-02",
+            "repeat": 1,
+            "traceId": "5fdaa703-ed76-46a0-b5e7-5675596e073f",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_incomplete_answer"
+          },
+          {
+            "caseId": "case-28",
+            "repeat": 1,
+            "traceId": "ffbba36a-78dd-483c-9825-f531457bccf9",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-35",
+            "repeat": 1,
+            "traceId": "df50d3f0-cd1d-4151-8ca7-90fc5daca4f0",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-29",
+            "repeat": 1,
+            "traceId": "feb4ffde-48aa-4c84-b2ae-c8faad5ba837",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-30",
+            "repeat": 1,
+            "traceId": "752b5278-8674-4267-9c4d-e60bac3f06ba",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-13",
+            "repeat": 1,
+            "traceId": "291d20c1-c38f-4e7c-8d41-fd619b316220",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-15",
+            "repeat": 1,
+            "traceId": "afaf176b-e913-4742-b582-cf57816eaf4d",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 1,
+            "traceId": "249080ef-9c26-4bd4-980f-823e7d94687b",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-12",
+            "repeat": 1,
+            "traceId": "b38c316b-08d2-4fc5-855b-72109169e71e",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-27",
+            "repeat": 1,
+            "traceId": "826476b4-3409-482d-aa05-b7bea804d740",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_context_failure"
+          },
+          {
+            "caseId": "case-29",
+            "repeat": 2,
+            "traceId": "ffe412b2-e793-4a9a-829a-8ce3f74ea032",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-15",
+            "repeat": 2,
+            "traceId": "f3d452e8-3501-40c8-b711-9ea6c91e4db8",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-14",
+            "repeat": 2,
+            "traceId": "30f791b9-ab37-4026-95a8-905c0e94764e",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-35",
+            "repeat": 2,
+            "traceId": "071eed83-cd2a-480c-a6aa-6caf763eb1d4",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          },
+          {
+            "caseId": "case-27",
+            "repeat": 2,
+            "traceId": "025e30bd-1076-4f1f-b14d-e2d647e9c31b",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-13",
+            "repeat": 2,
+            "traceId": "06f02316-cc87-46a2-a940-5b624a104f07",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-06",
+            "repeat": 2,
+            "traceId": "75186925-2f88-4a1b-a107-1b029f6878ae",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 2,
+            "traceId": "7695c71f-ef0c-4c5a-a570-e75e946cedb0",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-14",
+            "repeat": 3,
+            "traceId": "5514fe66-294b-4421-b290-8942f86839be",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-15",
+            "repeat": 3,
+            "traceId": "4e117dcd-858a-4698-8f78-ca49961244ed",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-10",
+            "repeat": 3,
+            "traceId": "ae3ad602-be32-4c6b-8704-b820b9f21f8a",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-28",
+            "repeat": 3,
+            "traceId": "526448b2-6503-4a5a-af6d-c8f3c9774e3e",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-13",
+            "repeat": 3,
+            "traceId": "d0517535-30ea-4474-aae6-04ee848c0534",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-35",
+            "repeat": 3,
+            "traceId": "8f1d5b08-11fc-4a55-ad82-2f21030f6e42",
+            "rawPassed": false,
+            "adjustedPassed": false,
+            "review": "real_language_failure"
+          }
+        ]
+      }
+    },
+    "languageFailures": {
+      "A": 1,
+      "B": 1,
+      "C": 5,
+      "D": 3
+    },
+    "refusalRootCauses": {
+      "false_negative_verification": 17,
+      "selection_evidence_type_mismatch": 2,
+      "selection_context_failure": 1,
+      "selection_quote_too_narrow": 2
+    },
+    "thirdBlockSummary": {
+      "rawPassed": {
+        "A": 31,
+        "B": 31,
+        "C": 27,
+        "D": 25
+      },
+      "independentlyAdjustedPassed": {
+        "A": 34,
+        "B": 34,
+        "C": 30,
+        "D": 28
+      }
+    },
+    "historicalClarificationCaveat": "Frozen engine run includes A/case28/repeat1 factual text in unverified clarification. Facts happen to be correct; the pass is not evidence of verification. Parent subsequently implemented deterministic localized clarification for all browser arms; historical raw engine result is unchanged.",
+    "selection": "No winner selected by independent source reviewer."
+  }
+}

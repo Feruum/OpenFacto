@@ -1,0 +1,597 @@
+{
+  "capturedAt": "2026-11-08T00:13:31.555Z",
+  "label": "final",
+  "measurement": "Server path from persisted Telegram webhook to successful sendMessage acknowledgement. Sent outbox available_at is assigned now() after Telegram success. Excludes Telegram-to-webhook transit and client display; overhead is not pure queue time.",
+  "samples": [
+    {
+      "traceId": "c9829d54-b0a1-4cd3-b8fb-85eaeb40dab2",
+      "receivedAt": "2026-11-08T00:12:49.757Z",
+      "answerStoredAt": "2026-11-08T00:13:00.074Z",
+      "telegramAcceptedAt": "2026-11-08T00:13:00.850Z",
+      "webhookToTelegramAcceptedMs": 11093,
+      "engineMs": 10176,
+      "overheadOutsideEngineMs": 917,
+      "outcome": "grounded_answer",
+      "reason": "document_evidence",
+      "language": "kk",
+      "answer": "Капитан жазбаша апелляцияны 22 қараша сағат 17:45-ке дейін координаторға бере алады. Қабылданатын негіздер: арифметикалық қате, рәсімнің бұзылуы немесе мүдделер қақтығысы. Субъективті бағамен келіспеу өздігінен ұпайларды қайта есептеуге негіз болмайды.",
+      "usage": {
+        "costMicros": 43,
+        "paidOperations": 2
+      },
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 0,
+          "durationMs": 242
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null,
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f"
+            },
+            {
+              "kind": "faq",
+              "title": "До какого числа подать заявку?",
+              "section": null,
+              "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+              "versionId": "b6682832-0546-4240-91c1-83d14960b50e"
+            },
+            {
+              "kind": "faq",
+              "title": "Жобаны қашан тапсыру керек?",
+              "section": null,
+              "sourceId": "444f6dcd-35ab-48a5-9b46-a1ca2fba5cd9",
+              "versionId": "c435cd96-f23c-4ee5-96fc-f57769698400"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "document",
+              "page": 4,
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521"
+            },
+            {
+              "kind": "document",
+              "page": 2,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "faq",
+              "title": "Можно ли опоздать на регистрацию?",
+              "section": null,
+              "sourceId": "e999536d-2b3c-43e0-a5fa-85c3e03fbe86",
+              "versionId": "2e3e78e0-1329-4b93-a504-a5a06e97471c"
+            },
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af"
+            },
+            {
+              "kind": "faq",
+              "title": "Қатысу ақылы ма?",
+              "section": null,
+              "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+              "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8"
+            },
+            {
+              "kind": "faq",
+              "title": "Жалғыз қатысуға бола ма?",
+              "section": null,
+              "sourceId": "22ff97f6-01ab-4625-9667-3ba6716b23ec",
+              "versionId": "3758a901-86a4-4640-9dd4-53c74bf17e84"
+            },
+            {
+              "kind": "faq",
+              "title": "Бейджді қайдан аламын?",
+              "section": null,
+              "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+              "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5"
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 25,
+          "durationMs": 6507
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "document",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 18,
+          "durationMs": 3401
+        }
+      ],
+      "operations": [
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "select",
+            "durationMs": 6432,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 4780,
+            "compactOutput": false,
+            "reasoningEffort": null,
+            "reasoningTokens": 64,
+            "combinedPlanning": true,
+            "completionTokens": 245
+          }
+        },
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "verify",
+            "durationMs": 3348,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 3702,
+            "compactOutput": false,
+            "reasoningEffort": null,
+            "reasoningTokens": 100,
+            "combinedPlanning": true,
+            "completionTokens": 114
+          }
+        }
+      ]
+    },
+    {
+      "traceId": "edc613a1-aa82-449e-bc99-b276501b180e",
+      "receivedAt": "2026-11-08T00:11:02.015Z",
+      "answerStoredAt": "2026-11-08T00:11:09.556Z",
+      "telegramAcceptedAt": "2026-11-08T00:11:10.265Z",
+      "webhookToTelegramAcceptedMs": 8250,
+      "engineMs": 7445,
+      "overheadOutsideEngineMs": 805,
+      "outcome": "grounded_answer",
+      "reason": "document_evidence",
+      "language": "ru",
+      "answer": "В финал выходят 8 команд — по две от каждого из четырёх треков. На финал каждой команде даётся 5 минут на демонстрацию и 3 минуты на вопросы.",
+      "usage": {
+        "costMicros": 40,
+        "paidOperations": 2
+      },
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 0,
+          "durationMs": 200
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Какой призовой фонд?",
+              "section": null,
+              "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+              "versionId": "55d64363-deef-4512-8c65-2d0316a86f90"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда сдавать проект?",
+              "section": null,
+              "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+              "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null,
+              "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+              "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314"
+            },
+            {
+              "kind": "faq",
+              "title": "Сколько человек должно быть в команде?",
+              "section": null,
+              "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+              "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "document",
+              "page": 4,
+              "title": "QADAM AI HACK 2026 - Программа и расписание",
+              "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+              "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae"
+            },
+            {
+              "kind": "document",
+              "page": 2,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521"
+            },
+            {
+              "kind": "faq",
+              "title": "Какой минимальный возраст?",
+              "section": null,
+              "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+              "versionId": "019d9878-0661-409b-a504-9da635be5c4f"
+            },
+            {
+              "kind": "faq",
+              "title": "Сколько стоит участие?",
+              "section": null,
+              "sourceId": "b8085642-dfa7-4955-8ac2-343e30e37bc8",
+              "versionId": "196d0bf9-1314-42ff-8068-5dd9a68029bb"
+            },
+            {
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null,
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30"
+            },
+            {
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null,
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f"
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 24,
+          "durationMs": 5293
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "document",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 16,
+          "durationMs": 1934
+        }
+      ],
+      "operations": [
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "select",
+            "durationMs": 5239,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 4980,
+            "compactOutput": true,
+            "reasoningEffort": "low",
+            "reasoningTokens": 35,
+            "combinedPlanning": true,
+            "completionTokens": 165
+          }
+        },
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "verify",
+            "durationMs": 1902,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 3801,
+            "compactOutput": true,
+            "reasoningEffort": "low",
+            "reasoningTokens": null,
+            "combinedPlanning": true,
+            "completionTokens": 12
+          }
+        }
+      ]
+    },
+    {
+      "traceId": "c23f023b-0ef6-43de-9739-f56b9f277a1f",
+      "receivedAt": "2026-11-08T00:10:30.880Z",
+      "answerStoredAt": "2026-11-08T00:10:31.026Z",
+      "telegramAcceptedAt": "2026-11-08T00:10:31.794Z",
+      "webhookToTelegramAcceptedMs": 914,
+      "engineMs": 8,
+      "overheadOutsideEngineMs": 906,
+      "outcome": "approved_faq",
+      "reason": "exact_faq",
+      "language": "ru",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "usage": {
+        "costMicros": 0,
+        "paidOperations": 0
+      },
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af"
+            }
+          ]
+        }
+      ],
+      "operations": []
+    },
+    {
+      "traceId": "86748261-a985-4bac-9aaa-c629bde02512",
+      "receivedAt": "2026-11-07T22:21:27.998Z",
+      "answerStoredAt": "2026-11-07T22:21:36.085Z",
+      "telegramAcceptedAt": "2026-11-07T22:21:38.558Z",
+      "webhookToTelegramAcceptedMs": 10560,
+      "engineMs": 6161,
+      "overheadOutsideEngineMs": 4399,
+      "outcome": "grounded_answer",
+      "reason": "document_evidence",
+      "language": "ru",
+      "answer": "В финал выходят 8 команд — по две от каждого трека. На финал каждой команде даётся 5 минут на демо и 3 минуты на вопросы.",
+      "usage": {
+        "costMicros": 41,
+        "paidOperations": 2
+      },
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "retrieval",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 0,
+          "durationMs": 228
+        },
+        {
+          "stage": "retrieval",
+          "reason": "ranked",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Какой призовой фонд?",
+              "section": null,
+              "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+              "versionId": "55d64363-deef-4512-8c65-2d0316a86f90"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда сдавать проект?",
+              "section": null,
+              "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+              "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3"
+            },
+            {
+              "kind": "faq",
+              "title": "Когда начинается мероприятие?",
+              "section": null,
+              "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+              "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314"
+            },
+            {
+              "kind": "faq",
+              "title": "Сколько человек должно быть в команде?",
+              "section": null,
+              "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+              "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "document",
+              "page": 4,
+              "title": "QADAM AI HACK 2026 - Программа и расписание",
+              "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+              "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae"
+            },
+            {
+              "kind": "document",
+              "page": 2,
+              "title": "QADAM AI HACK 2026 - Памятка участника",
+              "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+              "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35"
+            },
+            {
+              "kind": "document",
+              "page": 3,
+              "title": "QADAM AI HACK 2026 - Регламент и критерии",
+              "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+              "versionId": "bd13451a-5d55-437c-9656-4a3c20487521"
+            },
+            {
+              "kind": "faq",
+              "title": "Какой минимальный возраст?",
+              "section": null,
+              "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+              "versionId": "019d9878-0661-409b-a504-9da635be5c4f"
+            },
+            {
+              "kind": "faq",
+              "title": "Сколько стоит участие?",
+              "section": null,
+              "sourceId": "b8085642-dfa7-4955-8ac2-343e30e37bc8",
+              "versionId": "196d0bf9-1314-42ff-8068-5dd9a68029bb"
+            },
+            {
+              "kind": "faq",
+              "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+              "section": null,
+              "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+              "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30"
+            },
+            {
+              "kind": "faq",
+              "title": "Можно работать ночью?",
+              "section": null,
+              "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+              "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f"
+            }
+          ]
+        },
+        {
+          "stage": "selection",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 23,
+          "durationMs": 4172
+        },
+        {
+          "stage": "evidence_gate",
+          "reason": "document",
+          "candidates": []
+        },
+        {
+          "stage": "verification",
+          "reason": "completed",
+          "candidates": [],
+          "costMicros": 18,
+          "durationMs": 1736
+        }
+      ],
+      "operations": [
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "select",
+            "durationMs": 4116,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 4980,
+            "reasoningEffort": "low",
+            "reasoningTokens": null,
+            "completionTokens": 116
+          }
+        },
+        {
+          "status": "settled",
+          "diagnostics": {
+            "model": "gpt-6-luna",
+            "stage": "verify",
+            "durationMs": 1690,
+            "parseStatus": "ok",
+            "cachedTokens": null,
+            "finishReason": "stop",
+            "promptTokens": 4267,
+            "reasoningEffort": "low",
+            "reasoningTokens": null,
+            "completionTokens": 12
+          }
+        }
+      ]
+    },
+    {
+      "traceId": "f27f4b23-bc77-4391-8d76-a759815ef995",
+      "receivedAt": "2026-11-07T22:20:44.321Z",
+      "answerStoredAt": "2026-11-07T22:20:45.791Z",
+      "telegramAcceptedAt": "2026-11-07T22:20:48.478Z",
+      "webhookToTelegramAcceptedMs": 4157,
+      "engineMs": 9,
+      "overheadOutsideEngineMs": 4148,
+      "outcome": "approved_faq",
+      "reason": "exact_faq",
+      "language": "ru",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "usage": {
+        "costMicros": 0,
+        "paidOperations": 0
+      },
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af"
+            }
+          ]
+        }
+      ],
+      "operations": []
+    }
+  ]
+}

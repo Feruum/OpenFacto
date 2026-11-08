@@ -1,0 +1,138 @@
+{
+  "decision": {
+    "durationMs": 6248,
+    "outcome": "handoff",
+    "reasonCode": "unsupported_claim",
+    "answer": "This question needs a moderator.",
+    "language": "en",
+    "traceId": "1213d920-bd8e-495a-bbd0-5f8cd4adae2b",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 196,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+            "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+            "kind": "faq",
+            "title": "Бейджді қайдан аламын?",
+            "section": null
+          },
+          {
+            "sourceId": "444f6dcd-35ab-48a5-9b46-a1ca2fba5cd9",
+            "versionId": "c435cd96-f23c-4ee5-96fc-f57769698400",
+            "kind": "faq",
+            "title": "Жобаны қашан тапсыру керек?",
+            "section": null
+          },
+          {
+            "sourceId": "b5c48c9d-1691-4de6-9623-8c412ffb2fbb",
+            "versionId": "1abe2bcc-15bd-4b4b-bc6f-a63111c36ca6",
+            "kind": "faq",
+            "title": "Где поесть и включено ли питание?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 2
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "e0301f27-dfa0-4f23-8c54-0afd3aadce09",
+            "versionId": "36fb767f-71e4-4cfa-b497-963e2d92a10a",
+            "kind": "faq",
+            "title": "Будут ли API-кредиты и GPU?",
+            "section": null
+          },
+          {
+            "sourceId": "22ff97f6-01ab-4625-9667-3ba6716b23ec",
+            "versionId": "3758a901-86a4-4640-9dd4-53c74bf17e84",
+            "kind": "faq",
+            "title": "Жалғыз қатысуға бола ма?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 4300,
+        "costMicros": 26
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 1728,
+        "costMicros": 19
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 45
+    }
+  }
+}

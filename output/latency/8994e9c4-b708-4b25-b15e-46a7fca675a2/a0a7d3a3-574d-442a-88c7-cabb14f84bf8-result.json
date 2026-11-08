@@ -1,0 +1,138 @@
+{
+  "decision": {
+    "durationMs": 5217,
+    "outcome": "handoff",
+    "reasonCode": "unsupported_claim",
+    "answer": "Бұл сұраққа модератордың жауабы қажет.",
+    "language": "kk",
+    "traceId": "a0a7d3a3-574d-442a-88c7-cabb14f84bf8",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 181,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "444f6dcd-35ab-48a5-9b46-a1ca2fba5cd9",
+            "versionId": "c435cd96-f23c-4ee5-96fc-f57769698400",
+            "kind": "faq",
+            "title": "Жобаны қашан тапсыру керек?",
+            "section": null
+          },
+          {
+            "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+            "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+            "kind": "faq",
+            "title": "Тіркелу қайда өтеді?",
+            "section": null
+          },
+          {
+            "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+            "versionId": "b6682832-0546-4240-91c1-83d14960b50e",
+            "kind": "faq",
+            "title": "До какого числа подать заявку?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+            "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+            "kind": "faq",
+            "title": "Когда сдавать проект?",
+            "section": null
+          },
+          {
+            "sourceId": "b6f1eaa8-d853-48f9-b582-77e1b1154891",
+            "versionId": "70342cbe-324e-48b2-8b90-342fc4808c85",
+            "kind": "faq",
+            "title": "Можно ли использовать старый проект?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 2940,
+        "costMicros": 22
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "faq",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 2076,
+        "costMicros": 17
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 39
+    }
+  }
+}

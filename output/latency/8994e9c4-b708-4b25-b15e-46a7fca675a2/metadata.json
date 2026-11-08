@@ -1,0 +1,2263 @@
+{
+  "runId": "8994e9c4-b708-4b25-b15e-46a7fca675a2",
+  "model": "gpt-6-luna",
+  "seed": 20261108,
+  "variants": [
+    {
+      "id": "A",
+      "compact": "0",
+      "effort": null
+    },
+    {
+      "id": "B",
+      "compact": "1",
+      "effort": null
+    },
+    {
+      "id": "C",
+      "compact": "1",
+      "effort": "low"
+    },
+    {
+      "id": "D",
+      "compact": "1",
+      "effort": "none"
+    }
+  ],
+  "verifyUsage": true,
+  "snapshotSha256": "1d94e05df9a5bb652b2b587353bba8bb679082e99791450bb29e017bce4576be",
+  "tariff": {
+    "model": "gpt-6-luna",
+    "endpoint": "https://api.wikivibe.dev/v1/chat/completions",
+    "currency": "USD",
+    "verified": true,
+    "verifiedAt": "2026-11-07T22:24:03.626Z",
+    "source": "WikiVibe public model catalog, confirmed for current key by authenticated /v1/usage delta on2calls:7421input+206output, actualUSD0.0000338 vs predicted0.000033804; output/pdf/luna-probe-low.json",
+    "inputMicrosPer1K": 4,
+    "cachedInputMicrosPer1K": 0.4,
+    "outputMicrosPer1K": 20
+  },
+  "startedAt": "2026-11-07T22:25:53.003Z",
+  "schedule": [
+    {
+      "caseId": "case-24",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-37",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-28",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-13",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-02",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-14",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-30",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-02",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-20",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-12",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-06",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-22",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-23",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-06",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-07",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-12",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-29",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-34",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-33",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-32",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-05",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-35",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-04",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-22",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-15",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-33",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-26",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-35",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-33",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-31",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-17",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-21",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-09",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-02",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-11",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-09",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-04",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-18",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-37",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-04",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-06",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-22",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-05",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-19",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-13",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-28",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-26",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-32",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-24",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-31",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-21",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-29",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-37",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-36",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-35",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-18",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-29",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-30",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-14",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-17",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-26",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-08",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-36",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-15",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-16",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-01",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-07",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-30",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-05",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-14",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-20",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-24",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-34",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-10",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-14",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-07",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-01",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-04",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-09",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-13",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-28",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-25",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-34",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-24",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-23",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-36",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-16",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-22",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-15",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-28",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-10",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-01",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-20",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-34",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-26",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-11",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-23",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-27",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-19",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-17",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-32",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-17",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-09",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-05",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-31",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-21",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-21",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-03",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-11",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-11",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-27",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-20",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-35",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-19",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-30",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-32",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-29",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-16",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-12",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-13",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-37",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-25",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-12",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-16",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-25",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-07",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-18",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-19",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-23",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-03",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-06",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-25",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-27",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-08",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-10",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-08",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-10",
+      "variant": "B",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-03",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-03",
+      "variant": "A",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-18",
+      "variant": "C",
+      "repeat": 1
+    },
+    {
+      "caseId": "case-24",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-18",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-14",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-29",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-03",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-14",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-20",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-25",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-10",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-11",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-22",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-32",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-23",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-13",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-22",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-30",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-26",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-21",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-10",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-17",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-36",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-23",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-09",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-05",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-16",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-12",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-37",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-27",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-25",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-24",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-03",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-29",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-06",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-19",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-27",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-16",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-20",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-15",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-09",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-36",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-13",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-01",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-18",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-30",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-08",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-33",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-23",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-24",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-06",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-09",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-20",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-08",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-37",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-02",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-12",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-17",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-32",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-07",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-11",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-33",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-31",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-14",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-17",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-01",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-30",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-35",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-26",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-34",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-28",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-05",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-05",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-26",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-19",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-21",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-07",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-28",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-16",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-28",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-33",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-02",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-20",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-15",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-36",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-01",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-04",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-34",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-09",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-32",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-07",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-05",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-30",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-18",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-13",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-27",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-18",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-35",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-28",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-19",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-22",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-35",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-12",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-23",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-08",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-24",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-13",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-25",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-02",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-25",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-11",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-04",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-12",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-19",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-03",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-21",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-14",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-06",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-11",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-31",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-16",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-21",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-07",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-06",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-10",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-34",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-26",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-04",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-37",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-32",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-29",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-10",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-35",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-03",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-29",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-37",
+      "variant": "D",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-04",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-34",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-22",
+      "variant": "B",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-15",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-17",
+      "variant": "A",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-31",
+      "variant": "C",
+      "repeat": 2
+    },
+    {
+      "caseId": "case-14",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-05",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-22",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-32",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-04",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-07",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-11",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-22",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-03",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-16",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-27",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-03",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-09",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-30",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-34",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-03",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-33",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-37",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-17",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-02",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-18",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-30",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-10",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-37",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-04",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-37",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-21",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-20",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-08",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-14",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-05",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-01",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-24",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-14",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-19",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-02",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-22",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-32",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-28",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-28",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-06",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-30",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-31",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-04",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-06",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-11",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-23",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-30",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-36",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-19",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-33",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-15",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-35",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-26",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-34",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-10",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-10",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-26",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-28",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-12",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-29",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-36",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-15",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-16",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-10",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-28",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-15",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-32",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-17",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-25",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-11",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-25",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-17",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-24",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-02",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-13",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-18",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-12",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-31",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-08",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-25",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-06",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-07",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-08",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-16",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-34",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-02",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-20",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-16",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-35",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-27",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-09",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-36",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-01",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-35",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-18",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-31",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-05",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-29",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-23",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-37",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-20",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-05",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-23",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-29",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-27",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-11",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-22",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-20",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-26",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-31",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-15",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-21",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-36",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-04",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-07",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-01",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-09",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-24",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-19",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-13",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-14",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-34",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-35",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-09",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-24",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-12",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-07",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-03",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-23",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-27",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-17",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-33",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-33",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-29",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-06",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-08",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-19",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-13",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-26",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-01",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-21",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-32",
+      "variant": "D",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-21",
+      "variant": "C",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-25",
+      "variant": "A",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-12",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-13",
+      "variant": "B",
+      "repeat": 3
+    },
+    {
+      "caseId": "case-18",
+      "variant": "C",
+      "repeat": 3
+    }
+  ]
+}

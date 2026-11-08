@@ -15,11 +15,11 @@ class TestController { @Get('error') error() { throw new Error('SECRET'); } }
 describe('real Nest HTTP router with an in-memory transport', () => {
   let app: INestApplication;
   afterEach(async () => { await app?.close(); });
-  async function setup(failed?: 'postgres' | 'redis') {
+  async function setup(failed?: 'postgres' | 'rabbitmq') {
     const check = (name: string) => async () => { if (failed === name) throw new Error('SECRET'); };
     const module = await Test.createTestingModule({
       controllers: [HealthController, TestController],
-      providers: [HealthService, { provide: DEPENDENCY_CHECKS, useValue: { postgres: check('postgres'), redis: check('redis') } }],
+      providers: [HealthService, { provide: DEPENDENCY_CHECKS, useValue: { postgres: check('postgres'), rabbitmq: check('rabbitmq') } }],
     }).compile();
     app = module.createNestApplication({ logger: false });
     await configureHttp(app, 'http://localhost:5173', createLogger('test', 'error', () => {}));
@@ -27,10 +27,10 @@ describe('real Nest HTTP router with an in-memory transport', () => {
   it('keeps health paths outside /api/v1 and business errors inside its prefix', async () => {
     await setup();
     expect(await injectHttp(app, '/health/live')).toMatchObject({ status: 200, body: { status: 'ok' } });
-    expect(await injectHttp(app, '/health/ready')).toMatchObject({ status: 200, body: { status: 'ok', dependencies: { postgres: 'up', redis: 'up' } } });
+    expect(await injectHttp(app, '/health/ready')).toMatchObject({ status: 200, body: { status: 'ok', dependencies: { postgres: 'up', rabbitmq: 'up' } } });
     expect(await injectHttp(app, '/api/v1/health/live')).toMatchObject({ status: 404, body: { code: 'NOT_FOUND' } });
   });
-  it.each(['postgres', 'redis'] as const)('returns 503 for %s failure while liveness remains 200', async (failed) => {
+  it.each(['postgres', 'rabbitmq'] as const)('returns 503 for %s failure while liveness remains 200', async (failed) => {
     await setup(failed);
     expect((await injectHttp(app, '/health/live')).status).toBe(200);
     const response = await injectHttp(app, '/health/ready');

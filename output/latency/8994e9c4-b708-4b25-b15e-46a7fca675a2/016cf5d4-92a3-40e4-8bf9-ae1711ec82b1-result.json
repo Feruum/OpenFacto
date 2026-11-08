@@ -1,0 +1,240 @@
+{
+  "decision": {
+    "durationMs": 19473,
+    "outcome": "handoff",
+    "reasonCode": "insufficient_evidence",
+    "answer": "Вопрос требует ответа модератора.",
+    "language": "ru",
+    "traceId": "016cf5d4-92a3-40e4-8bf9-ae1711ec82b1",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 181,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          },
+          {
+            "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+            "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+            "kind": "faq",
+            "title": "Как записаться к ментору?",
+            "section": null
+          },
+          {
+            "sourceId": "771d37c8-b100-4deb-a5e1-837197e825d0",
+            "versionId": "ffc52e08-7f1e-4143-9f75-82e036105d15",
+            "kind": "faq",
+            "title": "Есть ли парковка?",
+            "section": null
+          },
+          {
+            "sourceId": "b5c48c9d-1691-4de6-9623-8c412ffb2fbb",
+            "versionId": "1abe2bcc-15bd-4b4b-bc6f-a63111c36ca6",
+            "kind": "faq",
+            "title": "Где поесть и включено ли питание?",
+            "section": null
+          },
+          {
+            "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+            "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+            "kind": "faq",
+            "title": "Где проходит регистрация?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 1
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 1
+          },
+          {
+            "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+            "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+            "kind": "faq",
+            "title": "Где находится площадка?",
+            "section": null
+          },
+          {
+            "sourceId": "a071e597-7d73-4bf9-9b6b-20b1419dc9ad",
+            "versionId": "18324008-be8d-42bc-80ce-efa92249c19e",
+            "kind": "faq",
+            "title": "Как получить помощь организатора?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 9210,
+        "costMicros": 30
+      },
+      {
+        "stage": "retrieval_expansion",
+        "reason": "missing_evidence",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 456,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "723a0ae2-16e3-4694-9a18-d77abfeadf47",
+            "versionId": "bd08cb45-af69-468a-bb99-dd046caa91e2",
+            "kind": "faq",
+            "title": "Что такое QADAM AI HACK 2026?",
+            "section": null
+          },
+          {
+            "sourceId": "771d37c8-b100-4deb-a5e1-837197e825d0",
+            "versionId": "ffc52e08-7f1e-4143-9f75-82e036105d15",
+            "kind": "faq",
+            "title": "Есть ли парковка?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          },
+          {
+            "sourceId": "b5c48c9d-1691-4de6-9623-8c412ffb2fbb",
+            "versionId": "1abe2bcc-15bd-4b4b-bc6f-a63111c36ca6",
+            "kind": "faq",
+            "title": "Где поесть и включено ли питание?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 1
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 1
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+            "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+            "kind": "faq",
+            "title": "Где находится площадка?",
+            "section": null
+          },
+          {
+            "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+            "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+            "kind": "faq",
+            "title": "Как записаться к ментору?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 9606,
+        "costMicros": 29
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "insufficient",
+        "candidates": []
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 59
+    }
+  }
+}

@@ -7,28 +7,33 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB:-openfacto}
     command: [postgres, -c, timezone=UTC]
-    ports: ["127.0.0.1:5432:5432"]
+    ports: ["127.0.0.1:${OPENFACTO_POSTGRES_PORT:-5432}:5432"]
     volumes: [postgres-data:/var/lib/postgresql]
     healthcheck:
       test: [CMD-SHELL, 'pg_isready -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"']
       interval: 5s
       timeout: 3s
       retries: 20
-  redis:
-    image: redis:7.4.2-alpine
-    command: [redis-server, --appendonly, 'yes', --maxmemory-policy, noeviction]
-    ports: ["127.0.0.1:6379:6379"]
-    volumes: [redis-data:/data]
+  rabbitmq:
+    image: rabbitmq:4.4.0-management
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER:?Set RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS:?Set RABBITMQ_DEFAULT_PASS}
+    ports:
+      - "127.0.0.1:${OPENFACTO_RABBITMQ_PORT:-5672}:5672"
+      - "127.0.0.1:${OPENFACTO_RABBITMQ_MANAGEMENT_PORT:-15672}:15672"
+    volumes: [rabbitmq-data:/var/lib/rabbitmq]
     healthcheck:
-      test: [CMD, redis-cli, ping]
+      test: [CMD, rabbitmq-diagnostics, -q, check_running]
       interval: 5s
-      timeout: 3s
+      timeout: 5s
       retries: 20
   qdrant:
     image: qdrant/qdrant:v1.15.5
     environment:
       QDRANT__TELEMETRY_DISABLED: 'true'
-    ports: ["127.0.0.1:6333:6333"]
+    ports: ["127.0.0.1:${OPENFACTO_QDRANT_PORT:-6333}:6333"]
     volumes: [qdrant-data:/qdrant/storage]
     healthcheck:
       test:
@@ -55,7 +60,7 @@ services:
       AWS_ACCESS_KEY_ID: ${S3_ACCESS_KEY_ID:?Set S3_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${S3_SECRET_ACCESS_KEY:?Set S3_SECRET_ACCESS_KEY}
       S3_BUCKET: ${S3_BUCKET:-openfacto-private}
-    ports: ["127.0.0.1:9000:9000"]
+    ports: ["127.0.0.1:${OPENFACTO_S3_PORT:-9000}:9000"]
     volumes: [s3-data:/data]
     healthcheck:
       test:
@@ -67,6 +72,6 @@ services:
 
 volumes:
   postgres-data:
-  redis-data:
+  rabbitmq-data:
   qdrant-data:
   s3-data:

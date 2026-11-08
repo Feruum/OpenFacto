@@ -11,7 +11,7 @@ jobs:
       TURBO_TELEMETRY_DISABLED: '1'
       DO_NOT_TRACK: '1'
       DATABASE_URL: postgresql://openfacto:test-only-password@127.0.0.1:5432/openfacto
-      REDIS_URL: redis://127.0.0.1:6379/0
+      RABBITMQ_URL: amqp://openfacto:test-only-password@127.0.0.1:5672/%2f
       NODE_ENV: test
     services:
       postgres:
@@ -24,12 +24,15 @@ jobs:
         options: >-
           --health-cmd "pg_isready -U openfacto -d openfacto"
           --health-interval 5s --health-timeout 3s --health-retries 20
-      redis:
-        image: redis:7.4.2-alpine
-        ports: ['6379:6379']
+      rabbitmq:
+        image: rabbitmq:4.4.0-management
+        env:
+          RABBITMQ_DEFAULT_USER: openfacto
+          RABBITMQ_DEFAULT_PASS: test-only-password
+        ports: ['5672:5672']
         options: >-
-          --health-cmd "redis-cli ping"
-          --health-interval 5s --health-timeout 3s --health-retries 20
+          --health-cmd "rabbitmq-diagnostics -q check_running"
+          --health-interval 5s --health-timeout 5s --health-retries 20
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4

@@ -24,12 +24,12 @@ export interface TelegramAuthDto { initData: string }
 export interface LiveResponse { status: 'ok' }
 export interface ReadyResponse {
   status: 'ok' | 'unavailable';
-  dependencies: { postgres: 'up' | 'down'; redis: 'up' | 'down' };
+  dependencies: { postgres: 'up' | 'down'; rabbitmq: 'up' | 'down' };
 }
 export function isReadyResponse(value: unknown): value is ReadyResponse {
   if (!value || typeof value !== 'object') return false;
   const candidate = value as Partial<ReadyResponse>;
   const dependencies = candidate.dependencies;
-  if (!dependencies || !['up', 'down'].includes(dependencies.postgres) || !['up', 'down'].includes(dependencies.redis)) return false;
-  return candidate.status === (dependencies.postgres === 'up' && dependencies.redis === 'up' ? 'ok' : 'unavailable');
+  if (!dependencies || !['up', 'down'].includes(dependencies.postgres) || !['up', 'down'].includes(dependencies.rabbitmq)) return false;
+  return candidate.status === (dependencies.postgres === 'up' && dependencies.rabbitmq === 'up' ? 'ok' : 'unavailable');
 }

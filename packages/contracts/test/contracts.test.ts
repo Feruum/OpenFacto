@@ -6,8 +6,11 @@ describe('public contract', () => {
     expect(locales).toEqual(['ru', 'kk', 'en']);
   });
   it('validates health bodies from an untrusted API', () => {
-    expect(isReadyResponse({ status: 'ok', dependencies: { postgres: 'up', redis: 'up' } })).toBe(true);
-    expect(isReadyResponse({ status: 'unavailable', dependencies: { postgres: 'down', redis: 'up' } })).toBe(true);
-    for (const value of [null, {}, { status: 'ok' }, { status: 'ok', dependencies: { postgres: 'down', redis: 'up' } }]) expect(isReadyResponse(value)).toBe(false);
+    expect(isReadyResponse({ status: 'ok', dependencies: { postgres: 'up', rabbitmq: 'up' } })).toBe(true);
+    expect(isReadyResponse({ status: 'unavailable', dependencies: { postgres: 'down', rabbitmq: 'up' } })).toBe(true);
+    expect(isReadyResponse({ status: 'unavailable', dependencies: { postgres: 'up', rabbitmq: 'down' } })).toBe(true);
+    for (const value of [null, {}, { status: 'ok' }, { status: 'ok', dependencies: { postgres: 'up', redis: 'up' } },
+      { status: 'ok', dependencies: { postgres: 'down', rabbitmq: 'up' } },
+      { status: 'unavailable', dependencies: { postgres: 'up', rabbitmq: 'up' } }]) expect(isReadyResponse(value)).toBe(false);
   });
 });

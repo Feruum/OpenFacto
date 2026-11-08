@@ -1,0 +1,516 @@
+{
+  "corpus": "ru-kk-event-v1",
+  "reviewStatus": "synthetic_seed_requires_human_review",
+  "models": {
+    "e5": {
+      "model": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "overall": {
+        "count": 120,
+        "recall@1": 0.7916666666666666,
+        "recall@3": 0.8833333333333333,
+        "mrr": 0.8524540043290043
+      },
+      "byCategory": {
+        "fragment": {
+          "count": 12,
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "mrr": 1.0
+        },
+        "kk": {
+          "count": 36,
+          "recall@1": 0.6944444444444444,
+          "recall@3": 0.8611111111111112,
+          "mrr": 0.7951178451178451
+        },
+        "mixed": {
+          "count": 24,
+          "recall@1": 0.9166666666666666,
+          "recall@3": 0.9583333333333334,
+          "mrr": 0.9357638888888888
+        },
+        "ru": {
+          "count": 36,
+          "recall@1": 0.8888888888888888,
+          "recall@3": 0.9444444444444444,
+          "mrr": 0.9246031746031745
+        },
+        "translit": {
+          "count": 12,
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.5,
+          "mrr": 0.49384920634920637
+        }
+      },
+      "durationSeconds": 1.2112094000003708,
+      "misses": [
+        {
+          "query": "Тіркелетін орынды айтшы",
+          "expected": "registration-place",
+          "actual": "opening"
+        },
+        {
+          "query": "Кіргенде қай жерге тіркелемін?",
+          "expected": "registration-place",
+          "actual": "late-entry"
+        },
+        {
+          "query": "tirkelu qaidа bolady?",
+          "expected": "registration-place",
+          "actual": "opening"
+        },
+        {
+          "query": "Во сколько начинается рега?",
+          "expected": "registration-time",
+          "actual": "opening"
+        },
+        {
+          "query": "Тіркеу орны қашан ашылады?",
+          "expected": "registration-time",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "рега нешеде начинается?",
+          "expected": "registration-time",
+          "actual": "opening"
+        },
+        {
+          "query": "regа sagat neshede?",
+          "expected": "registration-time",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "Как получить пропуск участника?",
+          "expected": "badge",
+          "actual": "minors"
+        },
+        {
+          "query": "beidjdi qalai alamyn?",
+          "expected": "badge",
+          "actual": "wifi"
+        },
+        {
+          "query": "До какого времени можно зарегистрироваться онлайн?",
+          "expected": "online-deadline",
+          "actual": "registration-time"
+        },
+        {
+          "query": "otinish songy merzim qashan?",
+          "expected": "online-deadline",
+          "actual": "late-entry"
+        },
+        {
+          "query": "keshigip kelsem kire alamyn ba?",
+          "expected": "late-entry",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "Қонақтарға арналған желі қалай аталады?",
+          "expected": "wifi",
+          "actual": "opening"
+        },
+        {
+          "query": "Түскі ас сағат нешеде?",
+          "expected": "lunch",
+          "actual": "registration-time"
+        },
+        {
+          "query": "tuski as neshede?",
+          "expected": "lunch",
+          "actual": "wifi"
+        },
+        {
+          "query": "Сағат он бірде қандай іс-шара болады?",
+          "expected": "opening",
+          "actual": "registration-time"
+        },
+        {
+          "query": "Общий билет даёт место на воркшопе?",
+          "expected": "workshop",
+          "actual": "refund"
+        },
+        {
+          "query": "Шеберлік сабағына жазылу мерзімі қандай?",
+          "expected": "workshop",
+          "actual": "opening"
+        },
+        {
+          "query": "Көлікті қайда қоюға болады?",
+          "expected": "parking",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "Тұрақ күні бойы тегін бе?",
+          "expected": "parking",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "Тұрақтағы орынды алдын ала брондауға бола ма?",
+          "expected": "parking",
+          "actual": "opening"
+        },
+        {
+          "query": "машинаны где оставить?",
+          "expected": "parking",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "kolikti qaida qoiamyn?",
+          "expected": "parking",
+          "actual": "opening"
+        },
+        {
+          "query": "Ата-ананың жазбаша келісімі керек пе?",
+          "expected": "minors",
+          "actual": "workshop"
+        },
+        {
+          "query": "ata ananyn kelisimi kerek pe?",
+          "expected": "minors",
+          "actual": "workshop"
+        }
+      ]
+    },
+    "minilm": {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "overall": {
+        "count": 120,
+        "recall@1": 0.65,
+        "recall@3": 0.85,
+        "mrr": 0.7688392857142857
+      },
+      "byCategory": {
+        "fragment": {
+          "count": 12,
+          "recall@1": 0.8333333333333334,
+          "recall@3": 0.9166666666666666,
+          "mrr": 0.8888888888888888
+        },
+        "kk": {
+          "count": 36,
+          "recall@1": 0.5277777777777778,
+          "recall@3": 0.8055555555555556,
+          "mrr": 0.6905092592592593
+        },
+        "mixed": {
+          "count": 24,
+          "recall@1": 0.75,
+          "recall@3": 0.9166666666666666,
+          "mrr": 0.8472222222222222
+        },
+        "ru": {
+          "count": 36,
+          "recall@1": 0.8055555555555556,
+          "recall@3": 0.9722222222222222,
+          "mrr": 0.8916666666666667
+        },
+        "translit": {
+          "count": 12,
+          "recall@1": 0.16666666666666666,
+          "recall@3": 0.4166666666666667,
+          "mrr": 0.35853174603174603
+        }
+      },
+      "durationSeconds": 1.0098338999996486,
+      "misses": [
+        {
+          "query": "Где зарегистрироваться на входе?",
+          "expected": "registration-place",
+          "actual": "late-entry"
+        },
+        {
+          "query": "чо где проходит рега?",
+          "expected": "registration-place",
+          "actual": "opening"
+        },
+        {
+          "query": "Тіркелетін орынды айтшы",
+          "expected": "registration-place",
+          "actual": "opening"
+        },
+        {
+          "query": "регистрация қай жерде?",
+          "expected": "registration-place",
+          "actual": "registration-time"
+        },
+        {
+          "query": "tirkelu qaidа bolady?",
+          "expected": "registration-place",
+          "actual": "lunch"
+        },
+        {
+          "query": "Тіркеу орны қашан ашылады?",
+          "expected": "registration-time",
+          "actual": "opening"
+        },
+        {
+          "query": "regа sagat neshede?",
+          "expected": "registration-time",
+          "actual": "opening"
+        },
+        {
+          "query": "Как получить пропуск участника?",
+          "expected": "badge",
+          "actual": "late-entry"
+        },
+        {
+          "query": "Бейджді қайдан аламын?",
+          "expected": "badge",
+          "actual": "opening"
+        },
+        {
+          "query": "Бейдж алу үшін не көрсету керек?",
+          "expected": "badge",
+          "actual": "opening"
+        },
+        {
+          "query": "бейджді где аламын?",
+          "expected": "badge",
+          "actual": "opening"
+        },
+        {
+          "query": "beidjdi qalai alamyn?",
+          "expected": "badge",
+          "actual": "opening"
+        },
+        {
+          "query": "бейдж получ",
+          "expected": "badge",
+          "actual": "opening"
+        },
+        {
+          "query": "До какого времени можно зарегистрироваться онлайн?",
+          "expected": "online-deadline",
+          "actual": "registration-time"
+        },
+        {
+          "query": "Онлайн өтінімді қашанға дейін жіберуге болады?",
+          "expected": "online-deadline",
+          "actual": "late-entry"
+        },
+        {
+          "query": "otinish songy merzim qashan?",
+          "expected": "online-deadline",
+          "actual": "badge"
+        },
+        {
+          "query": "Кешігіп келсем кіре аламын ба?",
+          "expected": "late-entry",
+          "actual": "lunch"
+        },
+        {
+          "query": "Тіркелмей кіруге бола ма?",
+          "expected": "late-entry",
+          "actual": "opening"
+        },
+        {
+          "query": "опоздал кіре аламын ба?",
+          "expected": "late-entry",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "без реги шақырумен можно?",
+          "expected": "late-entry",
+          "actual": "parking"
+        },
+        {
+          "query": "keshigip kelsem kire alamyn ba?",
+          "expected": "late-entry",
+          "actual": "opening"
+        },
+        {
+          "query": "Қонақтарға арналған желі қалай аталады?",
+          "expected": "wifi",
+          "actual": "opening"
+        },
+        {
+          "query": "вайфай пароль қайда?",
+          "expected": "wifi",
+          "actual": "registration-place"
+        },
+        {
+          "query": "пароль вайф",
+          "expected": "wifi",
+          "actual": "badge"
+        },
+        {
+          "query": "Түскі ас қайда болады?",
+          "expected": "lunch",
+          "actual": "opening"
+        },
+        {
+          "query": "Түскі ас сағат нешеде?",
+          "expected": "lunch",
+          "actual": "registration-time"
+        },
+        {
+          "query": "tuski as neshede?",
+          "expected": "lunch",
+          "actual": "opening"
+        },
+        {
+          "query": "В каком зале церемония открытия?",
+          "expected": "opening",
+          "actual": "registration-place"
+        },
+        {
+          "query": "Сағат он бірде қандай іс-шара болады?",
+          "expected": "opening",
+          "actual": "registration-time"
+        },
+        {
+          "query": "открытие нешеде?",
+          "expected": "opening",
+          "actual": "online-deadline"
+        },
+        {
+          "query": "Общий билет даёт место на воркшопе?",
+          "expected": "workshop",
+          "actual": "refund"
+        },
+        {
+          "query": "До какого числа записаться на мастер-класс?",
+          "expected": "workshop",
+          "actual": "registration-time"
+        },
+        {
+          "query": "Шеберлік сабағына бөлек тіркелу керек пе?",
+          "expected": "workshop",
+          "actual": "registration-place"
+        },
+        {
+          "query": "Шеберлік сабағына жазылу мерзімі қандай?",
+          "expected": "workshop",
+          "actual": "registration-time"
+        },
+        {
+          "query": "sheberlik sabagyna tirkelu kerek pe?",
+          "expected": "workshop",
+          "actual": "opening"
+        },
+        {
+          "query": "Билетті басқа адамға бере аламын ба?",
+          "expected": "refund",
+          "actual": "badge"
+        },
+        {
+          "query": "bilet aqshasyn qaitaru?",
+          "expected": "refund",
+          "actual": "badge"
+        },
+        {
+          "query": "Тұрақ күні бойы тегін бе?",
+          "expected": "parking",
+          "actual": "registration-time"
+        },
+        {
+          "query": "Тұрақтағы орынды алдын ала брондауға бола ма?",
+          "expected": "parking",
+          "actual": "registration-place"
+        },
+        {
+          "query": "kolikti qaida qoiamyn?",
+          "expected": "parking",
+          "actual": "badge"
+        },
+        {
+          "query": "Ата-ананың жазбаша келісімі керек пе?",
+          "expected": "minors",
+          "actual": "badge"
+        },
+        {
+          "query": "ata ananyn kelisimi kerek pe?",
+          "expected": "minors",
+          "actual": "opening"
+        }
+      ]
+    }
+  },
+  "reranker": {
+    "model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "overall": {
+      "count": 120,
+      "recall@1": 0.7416666666666667,
+      "recall@3": 0.8916666666666667,
+      "mrr": 0.825370670995671
+    },
+    "byCategory": {
+      "fragment": {
+        "count": 12,
+        "recall@1": 0.75,
+        "recall@3": 0.9166666666666666,
+        "mrr": 0.8541666666666666
+      },
+      "kk": {
+        "count": 36,
+        "recall@1": 0.6666666666666666,
+        "recall@3": 0.9166666666666666,
+        "mrr": 0.7918771043771043
+      },
+      "mixed": {
+        "count": 24,
+        "recall@1": 0.8333333333333334,
+        "recall@3": 0.9583333333333334,
+        "mrr": 0.8940972222222222
+      },
+      "ru": {
+        "count": 36,
+        "recall@1": 0.8611111111111112,
+        "recall@3": 0.9444444444444444,
+        "mrr": 0.9060846560846562
+      },
+      "translit": {
+        "count": 12,
+        "recall@1": 0.4166666666666667,
+        "recall@3": 0.5,
+        "mrr": 0.5174603174603175
+      }
+    },
+    "durationSeconds": 14.960424599999897
+  },
+  "selectedEmbedding": "e5",
+  "enableReranker": false,
+  "baseline": {
+    "overall": {
+      "count": 120,
+      "recall@1": 0.5833333333333334,
+      "recall@3": 0.6916666666666667,
+      "mrr": 0.6761856661856662
+    },
+    "byCategory": {
+      "fragment": {
+        "count": 12,
+        "recall@1": 0.9166666666666666,
+        "recall@3": 1.0,
+        "mrr": 0.9583333333333334
+      },
+      "kk": {
+        "count": 36,
+        "recall@1": 0.3611111111111111,
+        "recall@3": 0.4166666666666667,
+        "mrr": 0.4699525012025012
+      },
+      "mixed": {
+        "count": 24,
+        "recall@1": 0.7083333333333334,
+        "recall@3": 0.8333333333333334,
+        "mrr": 0.7980008417508418
+      },
+      "ru": {
+        "count": 36,
+        "recall@1": 0.7777777777777778,
+        "recall@3": 0.9166666666666666,
+        "mrr": 0.8543771043771043
+      },
+      "translit": {
+        "count": 12,
+        "recall@1": 0.08333333333333333,
+        "recall@3": 0.25,
+        "mrr": 0.2345328282828283
+      }
+    }
+  }
+}

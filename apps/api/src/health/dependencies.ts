@@ -2,7 +2,7 @@ import type { OnModuleDestroy } from '@nestjs/common';
 import type { ApiConfig } from '@openfacto/config';
 import { createDatabase } from '@openfacto/database';
 import type { DependencyChecks } from './health.service.js';
-import { pingRedis } from './redis-probe.js';
+import { probeRabbitMq } from '@openfacto/queue';
 export class HealthDependencies implements DependencyChecks, OnModuleDestroy {
   private readonly database;
   constructor(private readonly config: ApiConfig) {
@@ -17,6 +17,6 @@ export class HealthDependencies implements DependencyChecks, OnModuleDestroy {
       })]);
     } finally { clearTimeout(timer); }
   }
-  redis() { return pingRedis(this.config.redisUrl, this.config.dependencyTimeoutMs); }
+  rabbitmq() { return probeRabbitMq(this.config.rabbitmqUrl, this.config.dependencyTimeoutMs); }
   async onModuleDestroy() { await this.database.close(); }
 }

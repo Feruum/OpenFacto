@@ -1,7 +1,7 @@
 export interface ServiceConfig {
   nodeEnv: 'development' | 'test' | 'production';
   databaseUrl: string;
-  redisUrl: string;
+  rabbitmqUrl: string;
   logLevel: 'debug' | 'info' | 'warn' | 'error';
   dependencyTimeoutMs: number;
 }
@@ -36,13 +36,13 @@ function service(env: Env, errors: string[]): ServiceConfig {
   if (!['development', 'test', 'production'].includes(nodeEnv)) errors.push('NODE_ENV');
   if (!['debug', 'info', 'warn', 'error'].includes(logLevel)) errors.push('LOG_LEVEL');
   const databaseUrl = requiredUrl(env, 'DATABASE_URL', ['postgres:', 'postgresql:'], errors);
-  const redisUrl = requiredUrl(env, 'REDIS_URL', ['redis:', 'rediss:'], errors);
+  const rabbitmqUrl = requiredUrl(env, 'RABBITMQ_URL', ['amqp:', 'amqps:'], errors);
   try {
-    const url = new URL(redisUrl);
-    if (url.pathname !== '' && url.pathname !== '/' && !/^\/\d+$/.test(url.pathname)) errors.push('REDIS_URL');
-    if (url.search || (url.username && !url.password)) errors.push('REDIS_URL');
-  } catch { /* Already reported by requiredUrl. */ }
-  return { nodeEnv: nodeEnv as ServiceConfig['nodeEnv'], logLevel: logLevel as ServiceConfig['logLevel'], databaseUrl, redisUrl,
+    const url = new URL(rabbitmqUrl);
+    decodeURIComponent(url.pathname);
+    if (nodeEnv === 'production' && (!url.username || !url.password || decodeURIComponent(url.username) === 'guest')) errors.push('RABBITMQ_URL');
+  } catch { errors.push('RABBITMQ_URL'); }
+  return { nodeEnv: nodeEnv as ServiceConfig['nodeEnv'], logLevel: logLevel as ServiceConfig['logLevel'], databaseUrl, rabbitmqUrl,
     dependencyTimeoutMs: integer(env, 'DEPENDENCY_TIMEOUT_MS', 2000, 100, 10000, errors) };
 }
 export function parseApiEnv(env: Env): ApiConfig {
@@ -65,11 +65,4 @@ export function parseWorkerEnv(env: Env): WorkerConfig {
   const concurrency = integer(env, 'WORKER_CONCURRENCY', 2, 1, 32, errors);
   if (errors.length) throw new ConfigurationError([...new Set(errors)]);
   return { ...base, concurrency };
-}
-export function redisConnection(redisUrl: string) {
-  const url = new URL(redisUrl);
-  return { host: url.hostname.replace(/^\[|\]$/g, ''), port: Number(url.port || 6379),
-    username: url.username ? decodeURIComponent(url.username) : undefined,
-    password: url.password ? decodeURIComponent(url.password) : undefined,
-    db: Number(url.pathname.slice(1) || 0), ...(url.protocol === 'rediss:' ? { tls: {} } : {}) };
 }

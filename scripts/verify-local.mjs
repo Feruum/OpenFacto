@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { randomUUID } from 'node:crypto';
 import { S3Client, HeadBucketCommand, PutObjectCommand, GetObjectCommand, DeleteObjectCommand } from '@aws-sdk/client-s3';
 const cwd = new URL('../', import.meta.url);
-for (const key of ['DATABASE_URL', 'REDIS_URL', 'QDRANT_URL', 'S3_ENDPOINT']) {
+for (const key of ['DATABASE_URL', 'RABBITMQ_URL', 'QDRANT_URL', 'S3_ENDPOINT']) {
   assert.ok(process.env[key], `${key} is required in .env`);
   assert.ok(['127.0.0.1', 'localhost'].includes(new URL(process.env[key]).hostname), `${key} must point to local infrastructure`);
 }
@@ -36,6 +36,17 @@ async function qdrant(path, method = 'GET', body) {
   assert.ok(response.ok, `Qdrant ${method} failed with ${response.status}`);
   return response.json();
 }
+const rabbitUrl = new URL(process.env.RABBITMQ_URL);
+const rabbitVhost = encodeURIComponent(decodeURIComponent(rabbitUrl.pathname.slice(1) || '/'));
+async function rabbit(path, method = 'GET', body) {
+  const response = await fetch(`http://127.0.0.1:${process.env.OPENFACTO_RABBITMQ_MANAGEMENT_PORT ?? 15672}/api/${path}`, {
+    method, headers: { 'content-type': 'application/json', authorization: `Basic ${Buffer.from(`${decodeURIComponent(rabbitUrl.username)}:${decodeURIComponent(rabbitUrl.password)}`).toString('base64')}` },
+    body: body === undefined ? undefined : JSON.stringify(body), signal: AbortSignal.timeout(5000),
+  });
+  assert.ok(response.ok, `RabbitMQ ${method} failed with ${response.status}`);
+  const text = await response.text();
+  return text ? JSON.parse(text) : undefined;
+}
 function sql(statement) {
   return run('docker', ['compose', 'exec', '-T', 'postgres', 'sh', '-ec', 'psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "$1"', '--', statement]);
 }
@@ -60,7 +71,7 @@ const s3 = new S3Client({ endpoint: process.env.S3_ENDPOINT, region: 'us-east-1'
 const object = { Bucket: process.env.S3_BUCKET, Key: marker };
 try {
   await health(200);
-  for (const dependency of ['postgres', 'redis']) {
+  for (const dependency of ['postgres', 'rabbitmq']) {
     try {
       run('docker', ['compose', 'stop', dependency]);
       await health(503);
@@ -68,7 +79,11 @@ try {
     await health(200);
   }
   sql(`INSERT INTO organizations (name) VALUES ('${marker}');`);
-  run('docker', ['compose', 'exec', '-T', 'redis', 'redis-cli', 'SET', marker, marker]);
+  await rabbit(`queues/${rabbitVhost}/${marker}`, 'PUT', { durable: true, auto_delete: false, arguments: {} });
+  const published = await rabbit(`exchanges/${rabbitVhost}/amq.default/publish`, 'POST', {
+    properties: { delivery_mode: 2 }, routing_key: marker, payload: marker, payload_encoding: 'string',
+  });
+  assert.equal(published.routed, true, 'RabbitMQ must route the persistent fixture');
   await qdrant(`/collections/${collection}`, 'PUT', { vectors: { size: 1, distance: 'Cosine' } });
   await qdrant(`/collections/${collection}/points?wait=true`, 'PUT', { points: [{ id: 1, vector: [1], payload: { marker } }] });
   await s3.send(new HeadBucketCommand({ Bucket: object.Bucket }));
@@ -78,7 +93,10 @@ try {
   run('docker', ['compose', 'down']); // No -v: all four volumes must survive.
   infraUp();
   sql(`DO $$ BEGIN IF NOT EXISTS (SELECT 1 FROM organizations WHERE name = '${marker}') THEN RAISE EXCEPTION 'Data lost after restart'; END IF; END $$;`);
-  assert.equal(run('docker', ['compose', 'exec', '-T', 'redis', 'redis-cli', '--raw', 'GET', marker], true), marker);
+  const messages = await rabbit(`queues/${rabbitVhost}/${marker}/get`, 'POST', {
+    count: 1, ackmode: 'ack_requeue_false', encoding: 'auto', truncate: 500,
+  });
+  assert.equal(messages[0]?.payload, marker, 'Persistent RabbitMQ message must survive recreation');
   const point = await qdrant(`/collections/${collection}/points/1`);
   assert.equal(point.result.payload.marker, marker);
   assert.equal(await (await s3.send(new GetObjectCommand(object))).Body.transformToString(), marker);
@@ -90,7 +108,7 @@ try {
   // Best-effort cleanup of fixtures; preserve diagnostics when infrastructure is unavailable.
   for (const [name, cleanup] of [
     ['postgres', () => sql(`DELETE FROM organizations WHERE name = '${marker}';`)],
-    ['redis', () => run('docker', ['compose', 'exec', '-T', 'redis', 'redis-cli', 'DEL', marker])],
+    ['rabbitmq', () => rabbit(`queues/${rabbitVhost}/${marker}`, 'DELETE')],
     ['qdrant', () => qdrant(`/collections/${collection}`, 'DELETE')],
     ['s3', () => s3.send(new DeleteObjectCommand(object))],
   ]) {

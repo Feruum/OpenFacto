@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 13476,
+    "outcome": "grounded_answer",
+    "reasonCode": "document_evidence",
+    "answer": "The five judging weights are: usefulness and understanding of the problem — 25%; functionality and engineering — 25%; AI quality and validation — 20%; UX and accessibility — 15%; originality and development — 15%. Each criterion is scored from 0 to 10. The final score is the sum of each score multiplied by its weight, converted to a 0–100 scale.",
+    "language": "en",
+    "traceId": "024fd782-26ac-4872-8287-f82e7847bca6",
+    "sources": [
+      {
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "kind": "document",
+        "title": "QADAM AI HACK 2026 - Регламент и критерии",
+        "page": 3,
+        "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 252,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "65a95977-bc5b-449b-b47e-79cd8026d807",
+            "versionId": "dbf7066e-8ce2-4747-8fe1-230b52a8aec3",
+            "kind": "faq",
+            "title": "Командада қанша адам болуы керек?",
+            "section": null
+          },
+          {
+            "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+            "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+            "kind": "faq",
+            "title": "Тіркелу қайда өтеді?",
+            "section": null
+          },
+          {
+            "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+            "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+            "kind": "faq",
+            "title": "Бейджді қайдан аламын?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+            "versionId": "55d64363-deef-4512-8c65-2d0316a86f90",
+            "kind": "faq",
+            "title": "Какой призовой фонд?",
+            "section": null
+          },
+          {
+            "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+            "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8",
+            "kind": "faq",
+            "title": "Қатысу ақылы ма?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 8823,
+        "costMicros": 28
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 4377,
+        "costMicros": 19
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 47
+    }
+  }
+}

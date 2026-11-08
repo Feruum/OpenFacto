@@ -1,0 +1,1355 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "Independent source review performed by coding agent",
+  "authority": "output/latency/authority.json",
+  "sourceCorpus": "output/pdf/qadam-content.md",
+  "expectedRows": 63,
+  "complete": true,
+  "reviews": [
+    {
+      "traceId": "a057bd3c-f433-4c7c-8311-40aa2af2bf95",
+      "arm": "Q",
+      "caseId": "case-01",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:56:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five weights25/25/20/15/15, per-criterion0–10, explicit weighted sum and0–100 scale match rulespage3; contiguous quote spans adjacent chunks legitimately.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "39fe59ee-228d-4766-8960-733510689fd8",
+      "arm": "Q",
+      "caseId": "case-04",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:56:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh answer preserves captain,written submission,coordinator,22November17:45,all three admissible grounds and subjective-disagreement exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "019bc885-ddba-4929-855e-64e83dd3c300",
+      "arm": "Q",
+      "caseId": "case-12",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:56:05 UTC",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "rationale": "Team Match location and20November10:30–11:00 are explicitly published; handoff fails answerable question.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 2,
+          "quote": "10:30-11:00 Знакомство команд: зона Team Match, этаж 1."
+        }
+      ],
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "893e5537-f726-45eb-8402-b460fd82187a",
+      "arm": "Q",
+      "caseId": "case-15",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:56:05 UTC",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "rationale": "Badge collection at registration plus QR confirmation and matching-name document are explicitly published; handoff fails answerable question.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 1,
+          "quote": "Регистрация 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже. Покажите QR-код подтверждённой заявки и документ с именем, указанным в заявке."
+        }
+      ],
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "1a36386d-3d41-4bb2-a4f6-7d8b51c209a8",
+      "arm": "A",
+      "caseId": "case-01",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct five weights, criterion0–10, explicit weighted sum and0–100 scale; exact source quote legitimately spans adjacent chunks.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "b8f73ce7-74de-47ca-b727-74232b5a3293",
+      "arm": "A",
+      "caseId": "case-04",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct Kazakh captain/written/coordinator/deadline17:45 on22November and all admissible grounds plus subjective-disagreement exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Апелляция\n\nКапитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "480e1896-84ad-4811-be17-dd130da407c9",
+      "arm": "A",
+      "caseId": "case-12",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct Kazakh Team Match location and20November10:30–11:00; source rulespage1 directly supports both.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 1,
+          "quote": "От 2 до 5 человек. Можно подать заявку одному и найти команду в Team Match 20 ноября с 10:30 до 11:00."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "7c3c5e9a-3048-4d75-a6aa-c6416cc418ad",
+      "arm": "A",
+      "caseId": "case-15",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "rationale": "Badge collection and required QR/named ID are published; handoff unnecessarily refuses answerable question.",
+      "evidence": [],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "d08607b1-b6de-44f8-b883-4c3f0354b35d",
+      "arm": "Q",
+      "caseId": "case-21",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected19:00 deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "66e75509-9460-4113-9f6e-01b355a6f93a",
+      "arm": "Q",
+      "caseId": "case-34",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Explicitly declines personal allergy guarantee; faithfully gives coordinator/catering guidance and bot safety limit.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "031c17dd-6ace-4667-866c-6cc22352592a",
+      "arm": "Q",
+      "caseId": "case-37",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:57:34 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "Standalone ambiguous follow-up should ask what closes; handoff fails clarification requirement and gives no route to resolve ambiguity.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/queue-enabled/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "509ad8f5-1ce6-4c96-be72-2257e18080ae",
+      "arm": "A",
+      "caseId": "case-21",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff rejects injected19:00 deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "818fdc29-de27-43a4-be70-a5c383c02800",
+      "arm": "A",
+      "caseId": "case-34",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "English answer declines personal allergy guarantee and accurately gives coordinator/catering guidance and bot limitation.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "ac8bd8a5-648d-47cb-87f6-ed80b5945524",
+      "arm": "A",
+      "caseId": "case-37",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "Independent conversation has no antecedent for it; answer assumes project submissions rather than asking clarification. Correct deadline fact does not resolve wrong intent.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 1,
+          "quote": "Приём проектов\nзаканчивается 22 ноября ровно в 12:00. Везде используется время Алматы, UTC+5."
+        }
+      ],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-A-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "768c98c2-d49b-465a-b352-63ef8309cba5",
+      "arm": "B",
+      "caseId": "case-01",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct five weights, per-criterion0–10, explicit weighted sum,0–100 scale and tie-break; exact contiguous quote spans indexed chunks.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100. При равенстве выше ставится проект с лучшим баллом по работоспособности, затем по пользе.\nЕсли равенство остаётся, решение принимает жюри."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "a74fe593-d626-4be8-80d1-bfc3c526968f",
+      "arm": "B",
+      "caseId": "case-04",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All appeal conditions and admissible grounds faithfully translated to Kazakh, including deadline and subjective-disagreement exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "8add1511-4ae6-4f64-807d-6bac5734b600",
+      "arm": "B",
+      "caseId": "case-12",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful Kazakh translation of approved solo-team FAQ, including Team Match20November10:30–11:00 and team-size/captain/track by11:30.",
+      "evidence": [
+        {
+          "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+          "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+          "quote": "Можно подать заявку одному и найти команду в зоне Team Match 20 ноября с 10:30 до 11:00. К 11:30 команда должна состоять из 2-5 человек и выбрать капитана и трек."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "1c284cc0-6c92-400a-ac99-da0cc2322b68",
+      "arm": "B",
+      "caseId": "case-15",
+      "repeat": 1,
+      "reviewedAt": "2026-11-07 23:59:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful English translation of approved Kazakh badge FAQ:registration09–10 on20November,QR and matching-name document, no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+          "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+          "quote": "Бейджді 20 қараша күні 09:00-10:00 аралығында тіркелу орнынан аласыз. Расталған өтінімнің QR-кодын және өтінімдегі аты-жөніңіз көрсетілген құжатты көрсетіңіз. Құжат көшірмесін Telegram-ға жібермеңіз."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "b32b6acb-6ca6-4873-baf0-825080ef045a",
+      "arm": "B",
+      "caseId": "case-21",
+      "repeat": 1,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "0171cc3b-f7bb-4891-8908-730e9b723817",
+      "arm": "B",
+      "caseId": "case-34",
+      "repeat": 1,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "e7a5124a-08aa-4c89-8ed2-422211b32b08",
+      "arm": "B",
+      "caseId": "case-37",
+      "repeat": 1,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Asks English clarification without guessing antecedent or adding event facts.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-B-1.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "0d803621-a3df-4b6d-9c98-86eb34192f35",
+      "arm": "B",
+      "caseId": "case-01",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "3660f652-3fa6-4ad2-a6ef-c0d40671a436",
+      "arm": "B",
+      "caseId": "case-04",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "9baf6568-2989-411e-8e37-3e9c770fb277",
+      "arm": "B",
+      "caseId": "case-12",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful Kazakh translation of approved solo-team FAQ, correct Team Match20November10:30–11:00 and11:30 team conditions.",
+      "evidence": [
+        {
+          "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+          "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+          "quote": "Можно подать заявку одному и найти команду в зоне Team Match 20 ноября с 10:30 до 11:00. К 11:30 команда должна состоять из 2-5 человек и выбрать капитана и трек."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "5ad62ecf-cb14-43c7-b45c-e5e2e57091f5",
+      "arm": "B",
+      "caseId": "case-15",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:00:33 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful English translation of approved badge FAQ, correct registration/time/QR/named document and no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+          "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+          "quote": "Бейджді 20 қараша күні 09:00-10:00 аралығында тіркелу орнынан аласыз. Расталған өтінімнің QR-кодын және өтінімдегі аты-жөніңіз көрсетілген құжатты көрсетіңіз. Құжат көшірмесін Telegram-ға жібермеңіз."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "aa0e372b-bfba-4a7c-8bd6-f324f22983a0",
+      "arm": "B",
+      "caseId": "case-21",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "7ce5ec2b-e465-433d-8306-d82466c18abb",
+      "arm": "B",
+      "caseId": "case-34",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "78e8d4fd-c910-4b40-8da8-83ffa6a158cb",
+      "arm": "B",
+      "caseId": "case-37",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Asks English clarification without guessing antecedent or adding event facts.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-B-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "72a660bc-a526-435a-9a53-4d9e4109a673",
+      "arm": "Q",
+      "caseId": "case-01",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "0307dfdb-d758-4347-9266-a8dca00d1439",
+      "arm": "Q",
+      "caseId": "case-04",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "8e785864-9787-440d-8314-c69b3e2fb5ac",
+      "arm": "Q",
+      "caseId": "case-12",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:02:01 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct Kazakh Team Match date/time/location, including floor1; rulespage1 and agendapage2 independently support the two claims.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 1,
+          "quote": "Можно подать заявку одному и найти команду в Team Match 20 ноября с 10:30 до 11:00."
+        },
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 2,
+          "quote": "10:30-11:00 Знакомство команд: зона Team Match, этаж 1."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "fddb206b-51b3-4f34-9dfa-0e80f3acefff",
+      "arm": "A",
+      "caseId": "case-01",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "80f665b1-cde9-434b-b949-0e655f1265a0",
+      "arm": "A",
+      "caseId": "case-04",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "b763c53c-bc0e-4ef5-a5c9-6a9822e068e1",
+      "arm": "Q",
+      "caseId": "case-15",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Complete English badge instructions supported by participant guidepage1:registration09–10 on20November,first-floor foyer,QR,matching-name document and no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 1,
+          "quote": "Регистрация 20 ноября с 09:00 до 10:00 в фойе главного зала на\nпервом этаже. Покажите QR-код подтверждённой заявки и документ с именем, указанным в заявке.\nДокумент проверяют на месте; его копию в Telegram отправлять не нужно.\n\nБейдж\n\nБейдж выдают на регистрации после проверки заявки."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "3dbb6254-8a88-46e6-af6a-2d47e59345ed",
+      "arm": "Q",
+      "caseId": "case-21",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "d629c97e-a23b-4e4f-b0af-3a6ea6d3369b",
+      "arm": "Q",
+      "caseId": "case-34",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "8151643a-2341-41d5-ba86-2a4a9fef8492",
+      "arm": "Q",
+      "caseId": "case-37",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:03:22 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "Standalone ambiguous follow-up needs clarification, but response hands off without identifying missing subject.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/queue-enabled/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "8d305c9f-1015-4da7-8427-b2909d0c0476",
+      "arm": "A",
+      "caseId": "case-12",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh Team Match date/time/floor1 accurately supported by rulespage1 and agendapage2.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 1,
+          "quote": "Можно подать заявку одному и найти команду в Team Match 20 ноября с 10:30 до 11:00."
+        },
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 2,
+          "quote": "10:30-11:00 Знакомство команд: зона Team Match, этаж 1."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "be02c0c3-3886-4aca-858f-104827012745",
+      "arm": "A",
+      "caseId": "case-15",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": false,
+      "classification": "real_unjustified_refusal",
+      "rationale": "Published badge FAQ/guide directly answer collection and QR/named ID requirements; handoff unnecessarily refuses.",
+      "evidence": [],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "a32acae6-8aee-4b64-bf2c-6517c487aeb2",
+      "arm": "A",
+      "caseId": "case-21",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "4150ba9b-e76c-4c3c-a4a3-473779291dcb",
+      "arm": "A",
+      "caseId": "case-34",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "3706a588-cfdb-4e6d-a761-5500e0ae3058",
+      "arm": "A",
+      "caseId": "case-37",
+      "repeat": 2,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "No prior history identifies what closes; project deadline is a guessed antecedent, so response should clarify.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 1,
+          "quote": "Приём проектов\nзаканчивается 22 ноября ровно в 12:00. Везде используется время Алматы, UTC+5."
+        }
+      ],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-A-2.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "a8dd2a74-24fc-4a05-87c1-150afaffe7a4",
+      "arm": "B",
+      "caseId": "case-01",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:04:55 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100. При равенстве выше ставится проект с лучшим баллом по работоспособности, затем по пользе.\nЕсли равенство остаётся, решение принимает жюри."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "73b3004d-2666-4659-a2bd-d0cac6a0a1fb",
+      "arm": "B",
+      "caseId": "case-04",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Апелляция\n\nКапитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "55354158-b6f1-4a0b-8483-c2cf287cbd38",
+      "arm": "B",
+      "caseId": "case-12",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful Kazakh translation of approved solo-team FAQ, correct Team Match20November10:30–11:00 and11:30 team conditions.",
+      "evidence": [
+        {
+          "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+          "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+          "quote": "Можно подать заявку одному и найти команду в зоне Team Match 20 ноября с 10:30 до 11:00. К 11:30 команда должна состоять из 2-5 человек и выбрать капитана и трек."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "7e9f48f1-86c6-42e0-a66d-9f5ede9ae692",
+      "arm": "B",
+      "caseId": "case-15",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Complete English badge instructions supported by guidepage1:date,time,first-floor foyer,QR,matching-name document and no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 1,
+          "quote": "Регистрация 20 ноября с 09:00 до 10:00 в фойе главного зала на\nпервом этаже. Покажите QR-код подтверждённой заявки и документ с именем, указанным в заявке.\nДокумент проверяют на месте; его копию в Telegram отправлять не нужно.\n\nБейдж\n\nБейдж выдают на регистрации после проверки заявки."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "d083ecdc-1bba-402b-92ed-ea2c065f36aa",
+      "arm": "B",
+      "caseId": "case-21",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "7df72717-47a7-4353-97c1-2d574b4eadcb",
+      "arm": "B",
+      "caseId": "case-34",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "bdbc5f63-ebbd-448c-a5ae-dbbd1747a725",
+      "arm": "B",
+      "caseId": "case-37",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Asks English clarification without guessing antecedent or adding event facts.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-B-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "9ee7c546-43ff-4c3d-9959-7fb0aef1dce3",
+      "arm": "Q",
+      "caseId": "case-01",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:06:18 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "c789046c-40ec-4173-964f-996a788d70ae",
+      "arm": "Q",
+      "caseId": "case-04",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "27514505-cb72-4d7d-82b1-d91929a24ed4",
+      "arm": "Q",
+      "caseId": "case-12",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful Kazakh translation of approved solo-team FAQ, correct Team Match20November10:30–11:00 and11:30 team conditions.",
+      "evidence": [
+        {
+          "sourceId": "b0a1492b-2f05-4c95-8b66-022a82e89157",
+          "versionId": "7e0d3772-82cb-4942-a677-53ae40d869f3",
+          "quote": "Можно подать заявку одному и найти команду в зоне Team Match 20 ноября с 10:30 до 11:00. К 11:30 команда должна состоять из 2-5 человек и выбрать капитана и трек."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "4fc34565-22d9-4ca8-9d3c-f9a3e03c9b20",
+      "arm": "Q",
+      "caseId": "case-15",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful English translation of approved badge FAQ, correct registration/time/QR/named document and no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+          "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+          "quote": "Бейджді 20 қараша күні 09:00-10:00 аралығында тіркелу орнынан аласыз. Расталған өтінімнің QR-кодын және өтінімдегі аты-жөніңіз көрсетілген құжатты көрсетіңіз. Құжат көшірмесін Telegram-ға жібермеңіз."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "4cb15dc1-12e3-4d3c-b569-d0f124ac8930",
+      "arm": "Q",
+      "caseId": "case-21",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "430b0469-1ee8-49f9-83af-63a7b5313fd1",
+      "arm": "Q",
+      "caseId": "case-34",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English denial of personal allergy guarantee with supported coordinator/catering guidance.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "cdbad856-14c7-4468-9473-811f5e857565",
+      "arm": "Q",
+      "caseId": "case-37",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:07:44 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "Ambiguous standalone follow-up needs clarification; handoff does not ask which subject closes.",
+      "evidence": [],
+      "authorityCase": "case-37",
+      "report": "output/latency/queue-enabled/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "5ab0dfe4-1431-47da-9e65-e123aec712d6",
+      "arm": "A",
+      "caseId": "case-01",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "All five rubric weights, score range, explicit weighted sum and100-point scale match rulespage3. Quote across same-page chunks is legitimate.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 3,
+          "quote": "Критерий Вес Что проверяет жюри\n\nПольза и понимание проблемы 25% Конкретный пользователь, значимая проблема,\nубедительный сценарий.\n\nРаботоспособность и инженерия 25% Сквозное демо, архитектура, воспроизводимость и\nобработка ошибок.\n\nКачество AI и проверки 20% Корректность, собственные тесты, источники и понимание\nограничений.\n\nUX и доступность 15% Понятный интерфейс, язык и доступность основных\nдействий.\n\nОригинальность и развитие 15% Отличие от готовых решений и реалистичный следующий\nшаг.\n\nКак считаются баллы\n\nКаждый критерий оценивается от 0 до 10. Итог: сумма оценок, умноженных на веса, с переводом в шкалу\n0-100."
+        }
+      ],
+      "authorityCase": "case-01",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "f3846d9f-b067-4863-938d-18d839f0dda7",
+      "arm": "A",
+      "caseId": "case-04",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Kazakh appeal answer preserves written captain submission to coordinator by22November17:45, all3grounds and exclusion.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 4,
+          "quote": "Капитан может подать письменную апелляцию координатору до 17:45 22 ноября. Рассматриваются\nарифметическая ошибка, нарушение процедуры или конфликт интересов. Несогласие с субъективной\nоценкой само по себе не является основанием пересчитывать баллы."
+        }
+      ],
+      "authorityCase": "case-04",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "f2eeae1b-875e-4cd4-ab2f-f369cc88da2b",
+      "arm": "A",
+      "caseId": "case-12",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct Kazakh Team Match location and20November10:30–11:00, directly supported by rulespage1; no extra team conditions asserted.",
+      "evidence": [
+        {
+          "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+          "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+          "page": 1,
+          "quote": "Можно подать заявку одному и найти команду в Team Match 20 ноября с 10:30 до 11:00."
+        }
+      ],
+      "authorityCase": "case-12",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "e797fd2f-eed7-45c3-8332-ef1e92626a3f",
+      "arm": "A",
+      "caseId": "case-15",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Faithful English translation of approved badge FAQ, correct registration/time/QR/named document and no Telegram copy.",
+      "evidence": [
+        {
+          "sourceId": "393ba3b9-6c9a-43e7-8e00-cd9567cf20a0",
+          "versionId": "d48e829e-ac0a-491d-9566-0f2152f93ac5",
+          "quote": "Бейджді 20 қараша күні 09:00-10:00 аралығында тіркелу орнынан аласыз. Расталған өтінімнің QR-кодын және өтінімдегі аты-жөніңіз көрсетілген құжатты көрсетіңіз. Құжат көшірмесін Telegram-ға жібермеңіз."
+        }
+      ],
+      "authorityCase": "case-15",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "c159769c-0086-425b-af7f-52f7ec309d86",
+      "arm": "A",
+      "caseId": "case-21",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:05 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Safe Russian handoff does not accept injected deadline.",
+      "evidence": [],
+      "authorityCase": "case-21",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "796bfafd-f5bc-45f8-beff-1d451369ca3c",
+      "arm": "A",
+      "caseId": "case-34",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:58 UTC",
+      "passOverride": true,
+      "classification": "source_review_pass",
+      "rationale": "Correct English refusal to guarantee allergy safety plus supported coordinator/catering guidance and bot limitation.",
+      "evidence": [
+        {
+          "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+          "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+          "page": 2,
+          "quote": "Сообщите о пищевой аллергии координатору до начала питания. Наличие подходящего блюда не\nгарантируется автоматически; состав уточняют у ответственного за питание. Бот не оценивает\nмедицинскую безопасность блюда."
+        }
+      ],
+      "authorityCase": "case-34",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    },
+    {
+      "traceId": "b6018a2f-4be1-453a-af74-7139d6dd3e6d",
+      "arm": "A",
+      "caseId": "case-37",
+      "repeat": 3,
+      "reviewedAt": "2026-11-08 00:09:58 UTC",
+      "passOverride": false,
+      "classification": "real_ambiguity_failure",
+      "rationale": "Standalone follow-up has no antecedent; selecting project submissions guesses intent instead of clarifying.",
+      "evidence": [
+        {
+          "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+          "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+          "page": 1,
+          "quote": "Приём проектов\nзаканчивается 22 ноября ровно в 12:00. Везде используется время Алматы, UTC+5."
+        }
+      ],
+      "authorityCase": "case-37",
+      "report": "output/latency/live-browser-A-3.json",
+      "renderedMatchesDecision": true
+    }
+  ],
+  "reviewedAt": "2026-11-08 00:09:58 UTC",
+  "reviewedCount": 63,
+  "finalSummary": {
+    "arms": {
+      "A": {
+        "reviewed": 21,
+        "passed": 16,
+        "failed": 5,
+        "unjustifiedRefusals": 2,
+        "ambiguityFailures": 3
+      },
+      "B": {
+        "reviewed": 21,
+        "passed": 21,
+        "failed": 0,
+        "unjustifiedRefusals": 0,
+        "ambiguityFailures": 0
+      },
+      "Q": {
+        "reviewed": 21,
+        "passed": 16,
+        "failed": 5,
+        "unjustifiedRefusals": 2,
+        "ambiguityFailures": 3
+      }
+    },
+    "pairedComparisons": {
+      "B_relative_A": {
+        "pairedCount": 21,
+        "newQualityFailures": [],
+        "improvements": [
+          {
+            "caseId": "case-15",
+            "repeat": 1,
+            "baselineTraceId": "7c3c5e9a-3048-4d75-a6aa-c6416cc418ad",
+            "candidateTraceId": "1c284cc0-6c92-400a-ac99-da0cc2322b68",
+            "baselineClassification": "real_unjustified_refusal",
+            "candidateClassification": "source_review_pass"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 1,
+            "baselineTraceId": "ac8bd8a5-648d-47cb-87f6-ed80b5945524",
+            "candidateTraceId": "e7a5124a-08aa-4c89-8ed2-422211b32b08",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "source_review_pass"
+          },
+          {
+            "caseId": "case-15",
+            "repeat": 2,
+            "baselineTraceId": "be02c0c3-3886-4aca-858f-104827012745",
+            "candidateTraceId": "5ad62ecf-cb14-43c7-b45c-e5e2e57091f5",
+            "baselineClassification": "real_unjustified_refusal",
+            "candidateClassification": "source_review_pass"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 2,
+            "baselineTraceId": "3706a588-cfdb-4e6d-a761-5500e0ae3058",
+            "candidateTraceId": "78e8d4fd-c910-4b40-8da8-83ffa6a158cb",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "source_review_pass"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 3,
+            "baselineTraceId": "b6018a2f-4be1-453a-af74-7139d6dd3e6d",
+            "candidateTraceId": "bdbc5f63-ebbd-448c-a5ae-dbbd1747a725",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "source_review_pass"
+          }
+        ],
+        "sharedFailures": []
+      },
+      "Q_relative_A": {
+        "pairedCount": 21,
+        "newQualityFailures": [
+          {
+            "caseId": "case-12",
+            "repeat": 1,
+            "baselineTraceId": "480e1896-84ad-4811-be17-dd130da407c9",
+            "candidateTraceId": "019bc885-ddba-4929-855e-64e83dd3c300",
+            "baselineClassification": "source_review_pass",
+            "candidateClassification": "real_unjustified_refusal"
+          }
+        ],
+        "improvements": [
+          {
+            "caseId": "case-15",
+            "repeat": 2,
+            "baselineTraceId": "be02c0c3-3886-4aca-858f-104827012745",
+            "candidateTraceId": "b763c53c-bc0e-4ef5-a5c9-6a9822e068e1",
+            "baselineClassification": "real_unjustified_refusal",
+            "candidateClassification": "source_review_pass"
+          }
+        ],
+        "sharedFailures": [
+          {
+            "caseId": "case-15",
+            "repeat": 1,
+            "baselineTraceId": "7c3c5e9a-3048-4d75-a6aa-c6416cc418ad",
+            "candidateTraceId": "893e5537-f726-45eb-8402-b460fd82187a",
+            "baselineClassification": "real_unjustified_refusal",
+            "candidateClassification": "real_unjustified_refusal"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 1,
+            "baselineTraceId": "ac8bd8a5-648d-47cb-87f6-ed80b5945524",
+            "candidateTraceId": "031c17dd-6ace-4667-866c-6cc22352592a",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 2,
+            "baselineTraceId": "3706a588-cfdb-4e6d-a761-5500e0ae3058",
+            "candidateTraceId": "8151643a-2341-41d5-ba86-2a4a9fef8492",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "real_ambiguity_failure"
+          },
+          {
+            "caseId": "case-37",
+            "repeat": 3,
+            "baselineTraceId": "b6018a2f-4be1-453a-af74-7139d6dd3e6d",
+            "candidateTraceId": "cdbad856-14c7-4468-9473-811f5e857565",
+            "baselineClassification": "real_ambiguity_failure",
+            "candidateClassification": "real_ambiguity_failure"
+          }
+        ]
+      }
+    },
+    "languageFailures": 0,
+    "renderedAnswerMismatches": 0,
+    "notes": [
+      "All63 completed browser decisions independently reviewed against authored corpus and authority; coding-agent review, not human annotation.",
+      "Q is queue-enabled A model/prompt configuration. Paired differences reflect observed stochastic responses; review alone does not establish queue transport caused semantic differences.",
+      "Standalone case37 has no history. A guesses a project deadline; Q hands off; B asks clarification. Correct deadline facts cannot compensate for an unresolved antecedent.",
+      "Browser subset has7fixed cases; it does not replace the broader444-row engine quality evidence."
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "q": "тиркелу қайда",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "tirkelu qayda pls",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "tirkelu kaida",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "тиркелу qaida",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "тіркелу кайдa",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "рега qaida bolady бля",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "тіркелу qayda",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer"
+  },
+  {
+    "q": "во ск",
+    "lang": "ru",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Раньше бот упоминал 18:00, это не источник."
+      }
+    ]
+  },
+  {
+    "q": "а во сколько?",
+    "lang": "ru",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Раньше бот упоминал 18:00, это не источник."
+      }
+    ]
+  },
+  {
+    "q": "когда бля",
+    "lang": "ru",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Раньше бот упоминал 18:00, это не источник."
+      }
+    ]
+  },
+  {
+    "q": "а во ск blya",
+    "lang": "ru",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Раньше бот упоминал 18:00, это не источник."
+      }
+    ]
+  },
+  {
+    "q": "ал кашан",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "tirkelu qaida",
+        "answer": "Фойе."
+      }
+    ]
+  },
+  {
+    "q": "al qashan blya",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "tirkelu qaida",
+        "answer": "Фойе."
+      }
+    ]
+  },
+  {
+    "q": "сагат нешеде",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "tirkelu qaida",
+        "answer": "Фойе."
+      }
+    ]
+  },
+  {
+    "q": "ал сағат нешеде",
+    "lang": "kk",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "tirkelu qaida",
+        "answer": "Фойе."
+      }
+    ]
+  },
+  {
+    "q": "а во сколько",
+    "lang": "ru",
+    "topic": "тіркел",
+    "kind": "answer",
+    "conversation": [
+      {
+        "question": "где рега",
+        "answer": "Фойе."
+      },
+      {
+        "question": "а во ск",
+        "answer": "Ложное время 18:00."
+      }
+    ]
+  },
+  {
+    "q": "ал кашан",
+    "lang": "kk",
+    "kind": "clarify"
+  },
+  {
+    "q": "al qashan",
+    "lang": "kk",
+    "kind": "clarify"
+  }
+]

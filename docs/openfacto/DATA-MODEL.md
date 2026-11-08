@@ -52,24 +52,26 @@ Compose PostgreSQL и клиентская connection timezone — UTC, JSON д�
 Telegram user ID не приводится к JavaScript Number или SQL integer. Отрицательный Telegram
 chat ID будет отдельным полем будущей chats-таблицы с собственным signed decimal CHECK.
 
-`created_at` задаёт БД; `events.updated_at` пока имеет только insert default.
-Сервер обязан обновлять его при изменении события на этапе 1; общего UPDATE endpoint пока нет.
+`created_at` задаёт БД. Маршрут изменения мероприятия также обновляет `events.updated_at`.
 FK каскадируют связи при удалении организации/пользователя; политика destructive удаления,
 удержания данных и последнего owner реализуется в сервисах этапов 1/6, а не SQL foundation.
 
 Индексы: unique Telegram ID; unique organization/user membership; memberships user_id;
 events `(organization_id,id)`. Листинги, поиск и audit индексы добавляются по реальным запросам.
 
-**Tenant isolation пока не реализована.** UUID и FK не являются контролем доступа.
-Этап 1 добавит обязательный TenantContext из сессии и проверенной membership, запрет
-unscoped repository paths, negative integration tests для чужих organization/event.
+Доступ к бизнес-маршрутам проверяется через серверную сессию и membership.
+SQL-связи бизнес-таблиц включают организацию и мероприятие. Отложенные задания
+повторно сверяют принадлежность источников и версии перед использованием.
 Platform Owner — отдельное platform-level полномочие, не organization role.
 Event-scoped grants и ограничения moderator появятся с соответствующими сценариями;
 они не должны неявно расширять organization permissions.
 
-Будущие сущности: sessions, bots/credentials, chats, inbox/outbox (этапы 1/3), FAQ drafts,
-immutable FAQ versions/publications (3), documents/document versions/chunks/index jobs (4),
-answers/source references/handoff tickets/moderator replies (5), usage/budgets/audit/eval runs (6).
+Сессии находятся в `sessions`. `knowledge_sources` хранит редактируемые поля и ссылку на публикацию,
+`source_versions` — снимки, `source_chunks` — фрагменты страниц. Доставка использует
+`telegram_inbox` и `telegram_outbox`; `answer_runs` связывает решение с версией,
+режимом и источниками. Модерация использует `handoffs`, краткоживущие уточнения —
+`clarification_context`. Бюджеты и резервы хранятся в `event_ai_settings` и `ai_operations`.
+Порядок переключения версии, отзыва и проверки перед отправкой описан в [AI-PIPELINE](AI-PIPELINE.md).
 Во всех tenant-сущностях — organization_id, event_id где применимо, tenant-consistent
 FK/unique constraints. Worker payload содержит scope и версию; worker перепроверяет их в БД.
 Qdrant и S3 не заменяют SQL authorization.

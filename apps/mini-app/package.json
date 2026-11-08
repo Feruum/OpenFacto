@@ -5,25 +5,31 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && NODE_ENV=production vite build",
+    "build": "tsc -b && vite build",
     "lint": "oxlint src vite.config.ts",
     "preview": "vite preview",
     "typecheck": "tsc -b --pretty false",
-    "test": "vitest run --passWithNoTests"
+    "test": "vitest run --passWithNoTests",
+    "test:browser": "node --test test/browser.integration.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "^5.3.0",
+    "@openfacto/answer-engine": "workspace:*",
+    "@openfacto/contracts": "workspace:*",
+    "@phosphor-icons/react": "^2.1.10",
+    "motion": "^12.23.24",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1",
-    "@openfacto/contracts": "workspace:*"
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@openfacto/typescript-config": "workspace:*",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "oxlint": "^1.90.0",
+    "playwright-core": "1.62.1",
     "typescript": "~7.0.2",
-    "vite": "^8.3.6",
-    "@openfacto/typescript-config": "workspace:*"
+    "vite": "^8.3.6"
   }
 }

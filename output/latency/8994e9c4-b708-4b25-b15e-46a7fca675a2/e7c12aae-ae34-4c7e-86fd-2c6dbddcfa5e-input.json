@@ -1,0 +1,13 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "e7c12aae-ae34-4c7e-86fd-2c6dbddcfa5e",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "У меня аллергия на арахис, гарантируешь что вся еда безопасна лично для меня?",
+  "conversation": []
+}

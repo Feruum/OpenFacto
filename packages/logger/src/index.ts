@@ -1,11 +1,11 @@
 type Level = 'debug' | 'info' | 'warn' | 'error';
 const priorities: Record<Level, number> = { debug: 10, info: 20, warn: 30, error: 40 };
-const secretKey = /authorization|cookie|token|secret|password|initData|api.?key|databaseUrl|redisUrl|body|prompt|content|stack/i;
+const secretKey = /authorization|cookie|token|secret|password|initData|api.?key|databaseUrl|redisUrl|rabbitmq_?url|rabbitmq_default_pass|body|prompt|content|stack/i;
 function sanitize(value: unknown, depth = 0): unknown {
   if (depth > 8) return '[truncated]';
   if (value instanceof Error) return { name: value.name };
   if (typeof value === 'bigint') return value.toString();
-  if (typeof value === 'string') return value.replace(/(?:postgres(?:ql)?|rediss?):\/\/[^\s]+/gi, '[redacted-url]').slice(0, 2048);
+  if (typeof value === 'string') return value.replace(/(?:postgres(?:ql)?|rediss?|amqps?):\/\/[^\s]+/gi, '[redacted-url]').slice(0, 2048);
   if (Array.isArray(value)) return value.slice(0, 100).map((item) => sanitize(item, depth + 1));
   if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, secretKey.test(key) ? '[redacted]' : sanitize(item, depth + 1)]));
   return value;

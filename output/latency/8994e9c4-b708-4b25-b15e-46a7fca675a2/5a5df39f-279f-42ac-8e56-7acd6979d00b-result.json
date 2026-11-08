@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 9757,
+    "outcome": "grounded_answer",
+    "reasonCode": "document_evidence",
+    "answer": "Иә, команда жалпы финалдағы бір жүлделі орынмен бірге бір арнайы жүлдені де ала алады. Бір жобаға екі арнайы жүлде берілмейді.",
+    "language": "kk",
+    "traceId": "5a5df39f-279f-42ac-8e56-7acd6979d00b",
+    "sources": [
+      {
+        "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+        "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+        "kind": "document",
+        "title": "QADAM AI HACK 2026 - Регламент и критерии",
+        "page": 4,
+        "quote": "Команда может получить одно призовое место общего финала и одну специальную награду. Две\nспециальные награды одному проекту не присуждаются."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 167,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "22ff97f6-01ab-4625-9667-3ba6716b23ec",
+            "versionId": "3758a901-86a4-4640-9dd4-53c74bf17e84",
+            "kind": "faq",
+            "title": "Жалғыз қатысуға бола ма?",
+            "section": null
+          },
+          {
+            "sourceId": "090a5fe4-1306-4be0-8039-0a5721b9ae7b",
+            "versionId": "7c7cc220-122a-4252-8aaa-8963552a34f8",
+            "kind": "faq",
+            "title": "Қатысу ақылы ма?",
+            "section": null
+          },
+          {
+            "sourceId": "e999536d-2b3c-43e0-a5fa-85c3e03fbe86",
+            "versionId": "2e3e78e0-1329-4b93-a504-a5a06e97471c",
+            "kind": "faq",
+            "title": "Можно ли опоздать на регистрацию?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 4
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "b6f1eaa8-d853-48f9-b582-77e1b1154891",
+            "versionId": "70342cbe-324e-48b2-8b90-342fc4808c85",
+            "kind": "faq",
+            "title": "Можно ли использовать старый проект?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 5899,
+        "costMicros": 25
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3668,
+        "costMicros": 18
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 43
+    }
+  }
+}

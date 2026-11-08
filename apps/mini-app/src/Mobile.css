@@ -1,0 +1,66 @@
+/* Keep controls readable and reachable with touch, including on wide tablets. */
+@media (pointer: coarse) {
+  .shell { --control-height-sm: 44px; --control-height-md: 44px; }
+  .shell input:not([type=checkbox]):not([type=radio]), .shell textarea, .shell select,
+  dialog input:not([type=checkbox]):not([type=radio]), dialog textarea, dialog select { font-size: 16px; min-height: 44px; }
+  .shell :is(button, a, summary), dialog :is(button, a, summary) { touch-action: manipulation; }
+  .mobile-menu, .icon-button { min-width: 44px; min-height: 44px; }
+  .shell .examples button, .shell .text-button, .shell .check, dialog .check { min-height: 44px; }
+  .shell .check input, dialog .check input { flex: none; width: 20px; height: 20px; }
+  .shell summary, dialog summary { padding-block: 12px; }
+  .source-row:active .source-name strong { text-decoration: underline; text-underline-offset: 3px; }
+}
+
+@media (max-width: 850px) {
+  .sidebar { padding-top: max(10px, env(safe-area-inset-top, 0px)); padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+  .mobile-menu { min-width: 44px; min-height: 44px; }
+  .shell main { padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px)); }
+  .topbar { height: auto; min-height: 56px; flex-wrap: wrap; padding-block: 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .header-actions { flex-wrap: wrap; }
+  .product-home-link { display: inline-flex; align-items: center; min-height: 44px; }
+}
+
+@media (max-width: 650px) {
+  .shell main { padding-top: 22px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .shell h1 { font-size: clamp(30px, 8vw, 40px); overflow-wrap: anywhere; }
+  .shell h2, .shell h3 { overflow-wrap: anywhere; }
+  .topbar .crumb { display: none; }
+  .header-actions { width: 100%; justify-content: space-between; gap: 4px 8px; }
+  .locale { margin-left: auto; }
+  .locale select { max-width: 132px; }
+  .demo-pill { min-height: 36px; }
+  .page-intro { gap: 16px; }
+  .page-intro > div { min-width: 0; width: 100%; }
+  .page-intro > button { width: 100%; }
+  .banner-content { max-width: 100%; }
+  .banner-content p { flex-wrap: wrap; font-size: 12px; }
+  .event-banner h2 { font-size: clamp(32px, 9vw, 42px); }
+  .metric-label { overflow-wrap: anywhere; }
+  .metric-value { font-size: 28px; }
+  .metrics > button { padding-inline: 8px; }
+  .source-row { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 6px 10px; padding-block: 14px; }
+  .source-icon { grid-row: 1 / 3; align-self: start; margin-top: 2px; }
+  .source-name { grid-column: 2; }
+  .source-name strong { font-size: 14px; line-height: 1.5; }
+  .source-name small { font-size: 11px; }
+  .source-status { grid-column: 2; justify-self: start; max-width: 100%; }
+  .filterbar { align-items: stretch; }
+  .filterbar .search { flex-basis: 100%; min-width: 0; }
+  .filterbar > select { flex: 1; min-width: 0; }
+  .field-pair > *, .form label { min-width: 0; }
+  .form input, .form textarea, .form select { min-width: 0; }
+  .form textarea { min-height: 120px; }
+  .form .actions { width: 100%; align-items: stretch; }
+  .form .actions > button { flex: 1 1 140px; }
+  .examples { flex-direction: column; align-items: stretch; }
+  .examples button { justify-content: space-between; }
+  .section-head, .modal-head { flex-wrap: wrap; }
+  .modal-head { align-items: start; flex-wrap: nowrap; }
+  .modal-head h2 { min-width: 0; font-size: 20px; }
+  .modal-head .icon-button { flex: none; }
+  dialog { width: calc(100% - 24px); max-height: calc(100dvh - 24px); padding: 18px; padding-bottom: max(18px, env(safe-area-inset-bottom, 0px)); }
+  body:has(dialog[open]) { overflow: hidden; }
+  .trace ol, .trace ul { padding-left: 20px; }
+  .trace li, .ticket h3, .ticket p, .audit-entry { overflow-wrap: anywhere; }
+  .evaluation > summary { font-size: 16px; }
+}

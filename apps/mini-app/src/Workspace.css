@@ -1,0 +1,286 @@
+/* The dashboard theme is scoped so the public product page keeps its own direction. */
+:root:has(.shell) {
+  color-scheme: dark;
+  color: #eeece8;
+  background: #cbb995;
+  --ink: #eeece8;
+  --paper: #292925;
+  --background: #292925;
+  --foreground: #eeece8;
+  --surface: #363632;
+  --surface-muted: #41413b;
+  --border: #55554d;
+  --text-secondary: #c1bfb5;
+  --text-muted: #aaa89e;
+  --glacier: #c8b8e9;
+  --info: #a6cbb7;
+  --success: #a6cbb7;
+  --warning: #edb27e;
+  --danger: #f09393;
+  --button-primary-background: #c8b8e9;
+  --button-primary-text: #2c2637;
+  --radius-control: 6px;
+  --control-height-md: 38px;
+  --control-height-lg: 42px;
+  --text-sm: 13px;
+}
+
+body:has(.shell) {
+  background: #cbb995 url('/zen-sand.svg') center / cover fixed;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body:has(.shell) :focus-visible {
+  outline: 2px solid var(--glacier);
+  outline-offset: 3px;
+}
+
+.shell {
+  width: min(1440px, calc(100% - 96px));
+  margin: 56px auto;
+  min-height: calc(100dvh - 112px);
+  grid-template-columns: 210px minmax(0, 1fr);
+  background: rgb(48 47 42 / 83%);
+  border: 1px solid rgb(241 230 211 / 27%);
+  border-radius: 15px;
+  box-shadow: 0 24px 80px rgb(43 36 24 / 24%), inset 0 1px 0 rgb(255 255 255 / 5%);
+  isolation: isolate;
+}
+
+.shell .sidebar {
+  top: 56px;
+  height: calc(100dvh - 112px);
+  min-height: 520px;
+  padding: 24px 14px 18px;
+  border-radius: 14px 0 0 14px;
+  border-right: 1px solid rgb(255 255 255 / 9%);
+  background: rgb(113 102 81 / 30%);
+  color: var(--ink);
+}
+
+.shell .brand-row { padding: 0 10px; }
+.shell .brand { font-size: 21px; letter-spacing: -.8px; gap: 8px; font-weight: 550; }
+.shell .brand svg { height: 22px; width: 22px; }
+.shell .space-switch {
+  margin: 30px 0 22px;
+  padding: 9px 7px;
+  border-color: rgb(255 255 255 / 12%);
+  background: rgb(255 255 255 / 3%);
+  color: var(--ink);
+  border-radius: 6px;
+}
+.shell .space-switch small, .shell .account small { color: #c2bdb0; font-size: 10px; }
+.shell .space-switch strong, .shell .account strong { font-size: 11px; font-weight: 500; }
+.shell .org-icon { width: 28px; height: 28px; background: rgb(200 184 233 / 12%); color: var(--glacier); }
+.shell nav { gap: 4px; }
+.shell nav button {
+  position: relative;
+  min-height: 37px;
+  padding: 8px 10px;
+  gap: 10px;
+  border-radius: 5px;
+  color: #d3cec3;
+  font-size: 12px;
+  font-weight: 450;
+  transition: background 140ms ease, color 140ms ease;
+}
+.shell nav button svg { width: 16px; height: 16px; opacity: .8; }
+.shell nav button.selected { background: rgb(25 24 23 / 34%); color: #faf6ef; font-weight: 500; }
+.shell nav button.selected::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 10px;
+  bottom: 10px;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--glacier);
+}
+.shell nav button:not(.selected):hover { background: rgb(255 255 255 / 7%); color: #fff; }
+.shell nav button:last-child { margin-top: 18px; }
+.shell .account { border-color: rgb(255 255 255 / 11%); padding: 16px 7px 0; }
+.shell .account-icon { width: 29px; height: 29px; color: var(--glacier); background: rgb(200 184 233 / 10%); }
+
+.shell .main-column {
+  background: rgb(36 37 34 / 68%);
+  border-radius: 0 14px 14px 0;
+  min-height: calc(100dvh - 114px);
+}
+.shell .topbar {
+  min-height: 54px;
+  height: 54px;
+  padding: 0 25px;
+  border-bottom-color: rgb(255 255 255 / 9%);
+}
+.shell .crumb { font-size: 11px; gap: 8px; color: #b4b1a8; }
+.shell .crumb b { color: var(--ink); font-weight: 500; }
+.shell .header-actions { gap: 18px; }
+.shell .product-home-link { color: #bdb9ae; font-size: 10px; }
+.shell .locale { color: #c4c0b5; }
+.shell .locale select { color: #ded9ce; font-size: 11px; }
+.shell .demo-pill { color: var(--glacier); border-color: #67606e; font-size: 10px; padding: 4px 8px; border-radius: 5px; }
+.shell main { max-width: none; padding: 26px 25px 38px; }
+.shell h1 { font-size: clamp(24px, 2.2vw, 32px); letter-spacing: -.045em; line-height: 1.2; font-weight: 500; }
+.shell h2 { font-size: 16px; letter-spacing: -.025em; font-weight: 500; }
+.shell h3 { font-size: 14px; font-weight: 500; }
+.shell .page-intro { margin-bottom: 22px; align-items: center; }
+.shell .page-intro p { font-size: 12px; margin-top: 7px; color: #b5b2a8; }
+
+.shell .event-banner {
+  min-height: 108px;
+  border: 1px solid rgb(255 255 255 / 11%);
+  border-radius: 7px;
+  background: rgb(255 255 255 / 2%);
+  color: var(--ink);
+}
+.shell .banner-content { padding: 16px 20px; max-width: 88%; }
+.shell .event-banner h2 { font-size: clamp(21px, 2.2vw, 30px); font-weight: 450; letter-spacing: -.04em; margin: 7px 0; }
+.shell .banner-status { color: #b8d0bd; border: 0; padding: 0; background: transparent; font-size: 10px; }
+.shell .banner-content p { font-size: 11px; color: #bbb7ad; }
+.shell .landscape { opacity: .15; width: 47%; }
+.shell .metrics { gap: 12px; margin: 15px 0 25px; }
+.shell .metrics > button {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 17px 18px 14px;
+  min-height: 106px;
+  border: 1px solid rgb(255 255 255 / 13%);
+  border-radius: 7px;
+  background: rgb(255 255 255 / 3%);
+  transition: background 150ms ease, border-color 150ms ease;
+}
+.shell .metrics > button:hover:not(:disabled) { background: rgb(255 255 255 / 6%); border-color: #777066; }
+.shell .metric-value { width: 100%; margin: 0 0 13px; font-size: 34px; line-height: 1; font-weight: 400; font-variant-numeric: tabular-nums; color: var(--glacier); }
+.shell .metric-value svg { width: 14px; color: #b7b2a8; opacity: .6; }
+.shell .metric-label { color: #bcb8ad; font-size: 11px; gap: 7px; }
+.shell .metric-label svg { width: 14px; height: 14px; opacity: .65; }
+.shell .metrics > button:last-child .metric-value { color: #edb27e; }
+.shell .overview-grid { grid-template-columns: minmax(0, 1.8fr) minmax(220px, 1fr); gap: 16px; }
+
+.shell .panel, .shell .try-panel {
+  padding: 20px;
+  border-radius: 7px;
+  border-color: rgb(255 255 255 / 12%);
+  background: rgb(255 255 255 / 2%);
+}
+.shell .section-head { min-height: 26px; margin-bottom: 12px; }
+.shell .text-button { font-size: 11px; font-weight: 500; color: #d4c8ed; }
+.shell .source-row { min-height: 61px; padding: 12px 0; gap: 11px; border-top-color: rgb(255 255 255 / 9%); }
+.shell .source-name strong { font-size: 12px; font-weight: 450; color: #e8e4dc; line-height: 1.5; }
+.shell .source-name small { font-size: 10px; color: #aaa69b; }
+.shell .source-icon { width: 30px; height: 30px; border-radius: 5px; }
+.shell .source-icon svg { width: 16px; height: 16px; }
+.shell .source-icon.faq { background: rgb(200 184 233 / 10%); color: #d1c1ed; }
+.shell .source-icon.document { background: rgb(221 195 150 / 10%); color: #d5c4a5; }
+.shell .try-panel { background: rgb(200 184 233 / 5%); }
+.shell .try-icon { width: 33px; height: 33px; background: rgb(200 184 233 / 9%); border-color: rgb(200 184 233 / 20%); color: var(--glacier); }
+.shell .try-panel h2 { font-size: 24px; margin: 17px 0 10px; }
+.shell .try-panel p { font-size: 12px; color: #c0baaf; }
+.shell .try-panel button { border-color: var(--border); background: var(--surface); }
+
+.shell input, .shell textarea, .shell select, body:has(.shell) dialog input, body:has(.shell) dialog textarea, body:has(.shell) dialog select {
+  border-color: #5d5c53;
+  border-radius: 6px;
+  background: rgb(29 30 27 / 45%);
+  color: #ebe7de;
+  font-size: 13px;
+  min-height: 38px;
+}
+.shell input::placeholder, .shell textarea::placeholder, body:has(.shell) dialog input::placeholder { color: #aaa69b; }
+.shell input[type=checkbox], body:has(.shell) dialog input[type=checkbox] { accent-color: var(--glacier); min-height: 0; }
+.shell select option, body:has(.shell) dialog select option { color: var(--ink); background: #34342f; }
+.shell .search { background: rgb(29 30 27 / 28%); border-color: #55554c; border-radius: 6px; color: #bfb5d1; }
+.shell .search input { background: transparent; }
+.shell .form label:not(.check), body:has(.shell) dialog .form label:not(.check) { font-size: 12px; color: #d3cec3; font-weight: 450; }
+.shell .examples button { border-radius: 5px; color: #d9d0e6; border-color: #58534f; font-size: 11px; }
+.shell .examples button:hover { background: rgb(200 184 233 / 7%); }
+.shell .response { font-size: 16px; line-height: 1.7; color: #eee9df; }
+.shell .citation { background: rgb(166 203 183 / 5%); border: 1px solid rgb(166 203 183 / 15%); }
+.shell .notice { background: rgb(237 178 126 / 8%); color: #e3d0b9; border-color: #c6a781; }
+.shell .icon-button, body:has(.shell) dialog .icon-button { background: rgb(255 255 255 / 3%); border-color: #58574f; }
+.shell .icon-button:hover, body:has(.shell) dialog .icon-button:hover { background: rgb(255 255 255 / 8%); }
+.shell .settings-stack { max-width: 900px; }
+.shell .settings-stack p, .shell .empty, .shell .muted, .shell .history p { font-size: 12px; }
+.shell .evaluation > summary { font-size: 14px; font-weight: 500; }
+.shell .analytics-list { font-variant-numeric: tabular-nums; font-size: 12px; }
+.shell .ticket { border-top-color: rgb(255 255 255 / 11%); }
+.shell .skip { top: -150px; background: #37342e; color: #fff; }
+.shell .skip:focus { top: 10px; }
+body:has(.shell) dialog {
+  border-radius: 11px;
+  color: var(--ink);
+  background: #32332e;
+  border-color: #666257;
+  box-shadow: 0 24px 100px rgb(0 0 0 / 45%);
+}
+body:has(.shell) dialog::backdrop { background: rgb(18 19 16 / 72%); backdrop-filter: blur(5px); }
+body:has(.shell) dialog h2 { font-size: 19px; font-weight: 500; }
+body:has(.shell) dialog .notice { background: rgb(237 178 126 / 8%); color: #e3d0b9; }
+
+@media (max-width: 1150px) and (min-width: 851px) {
+  .shell { width: calc(100% - 40px); margin: 28px auto; grid-template-columns: 190px minmax(0, 1fr); min-height: calc(100dvh - 56px); }
+  .shell .sidebar { top: 28px; height: calc(100dvh - 56px); padding-inline: 12px; }
+  .shell .main-column { min-height: calc(100dvh - 58px); }
+  .shell main, .shell .topbar { padding-inline: 20px; }
+  .shell .overview-grid { grid-template-columns: minmax(0, 1fr); }
+  .shell .try-panel { display: grid; grid-template-columns: 34px 1fr auto; align-items: center; gap: 0 14px; }
+  .shell .try-panel h2 { margin: 0; font-size: 20px; }
+  .shell .try-panel p { grid-column: 2; max-width: none; margin: 8px 0 0; }
+  .shell .try-panel button { grid-column: 3; grid-row: 1 / 3; margin: 0; }
+}
+
+@media (max-width: 850px) {
+  body:has(.shell) { background-attachment: scroll; }
+  .shell { display: block; width: calc(100% - 28px); margin: 14px auto; min-height: calc(100dvh - 28px); border-radius: 12px; }
+  .shell .sidebar { position: relative; top: auto; min-height: 0; height: auto; padding: 11px 18px; border-radius: 11px 11px 0 0; border-right: 0; border-bottom: 1px solid rgb(255 255 255 / 10%); }
+  .shell .brand-row { padding: 0; }
+  .shell .brand { font-size: 21px; }
+  .shell .mobile-menu { color: #e6dfd2; }
+  .shell .expanded .side-body { max-height: calc(100dvh - 110px); overflow-y: auto; }
+  .shell .space-switch { margin: 16px 0; }
+  .shell nav button { min-height: 44px; font-size: 13px; }
+  .shell nav button.selected::before { left: -9px; }
+  .shell .account { margin-top: 18px; }
+  .shell .main-column { border-radius: 0 0 11px 11px; min-height: calc(100dvh - 96px); }
+  .shell .topbar { height: auto; min-height: 48px; padding: 7px 18px; }
+  .shell main { padding: 22px 18px 30px; }
+  .shell .page-intro { margin-bottom: 20px; }
+  .shell .page-intro p { font-size: 12px; }
+  .shell .panel, .shell .try-panel { padding: 17px; }
+  .shell .overview-grid { grid-template-columns: minmax(0, 1fr); }
+  .shell .metric-value { font-size: 30px; }
+  .shell .metrics > button { padding: 14px 12px; min-height: 98px; }
+}
+
+@media (max-width: 650px) {
+  .shell { width: calc(100% - 18px); margin: 9px auto; }
+  .shell .topbar { padding-inline: 15px; }
+  .shell main { padding: 20px 15px 30px; }
+  .shell h1 { font-size: 27px; }
+  .shell .page-intro { align-items: start; gap: 14px; }
+  .shell .page-intro > button { width: auto; }
+  .shell .page-intro p { line-height: 1.7; }
+  .shell .metrics { gap: 7px; }
+  .shell .metrics > button { padding: 12px 10px; min-height: 102px; }
+  .shell .metric-label { font-size: 10px; gap: 4px; }
+  .shell .metric-label svg { display: none; }
+  .shell .metric-value { font-size: 28px; }
+  .shell .metric-value svg { display: none; }
+  .shell .banner-content { max-width: 100%; padding: 15px 17px; }
+  .shell .event-banner h2 { font-size: 23px; }
+  .shell .panel h2, .shell .section-head h2 { font-size: 16px; }
+  .shell .source-row { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 5px 10px; }
+  .shell .source-name strong { font-size: 12px; }
+  .shell .source-icon { width: 28px; height: 28px; }
+  .shell .form input:not([type=checkbox]), .shell .form textarea, .shell .form select,
+  body:has(.shell) dialog input:not([type=checkbox]), body:has(.shell) dialog textarea, body:has(.shell) dialog select { font-size: 16px; min-height: 44px; }
+  .shell .form label:not(.check), body:has(.shell) dialog .form label:not(.check) { font-size: 12px; }
+  .shell .examples button { min-height: 40px; font-size: 12px; padding: 8px 10px; }
+  .shell .response { font-size: 15px; }
+  body:has(.shell) dialog { padding: 20px; }
+}
+
+@media (pointer: coarse) {
+  .shell .icon-button, .shell .text-button, .shell .examples button { min-height: 44px; }
+}

@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "question": "тіркелу кайда сучка",
+      "ms": 303,
+      "passed": true,
+      "result": {
+        "requestId": "210ee5d1-31e3-4e6f-9343-843b31b3526a",
+        "status": "completed",
+        "decision": {
+          "steps": [
+            {
+              "stage": "exact_faq",
+              "reason": "matched",
+              "candidates": [
+                {
+                  "kind": "faq",
+                  "title": "Тіркелу қайда өтеді?",
+                  "section": null,
+                  "sourceId": "ca54b416-b5b0-48cd-ad24-0beb6f8294a6",
+                  "versionId": "5d3699cf-b34c-4607-8b25-c13282d80d3b"
+                }
+              ]
+            }
+          ],
+          "usage": {
+            "costMicros": 0,
+            "paidOperations": 0
+          },
+          "answer": "Тіркелу негізгі залдың фойесінде сағат 09:00-10:00 аралығында өтеді.",
+          "outcome": "approved_faq",
+          "sources": [
+            {
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null,
+              "sourceId": "ca54b416-b5b0-48cd-ad24-0beb6f8294a6",
+              "versionId": "5d3699cf-b34c-4607-8b25-c13282d80d3b"
+            }
+          ],
+          "traceId": "3eeacd14-4545-4d94-9002-851ee68973f4",
+          "delivery": {
+            "queuedAt": "2026-11-08T17:53:46.308Z",
+            "requestId": "210ee5d1-31e3-4e6f-9343-843b31b3526a",
+            "startedAt": "2026-11-08T17:53:46.384Z",
+            "queueWaitMs": 76,
+            "answerReadyAt": "2026-11-08T17:53:46.457Z",
+            "workerDurationMs": 68
+          },
+          "language": "kk",
+          "durationMs": 13,
+          "reasonCode": "exact_faq"
+        }
+      }
+    },
+    {
+      "question": "tirkelu qaida bolady blya",
+      "ms": 148,
+      "passed": true,
+      "result": {
+        "requestId": "0c8888d8-6e35-4d29-a9ec-bf2e18f68e4b",
+        "status": "completed",
+        "decision": {
+          "steps": [
+            {
+              "stage": "exact_faq",
+              "reason": "matched",
+              "candidates": [
+                {
+                  "kind": "faq",
+                  "title": "Тіркелу қайда өтеді?",
+                  "section": null,
+                  "sourceId": "ca54b416-b5b0-48cd-ad24-0beb6f8294a6",
+                  "versionId": "5d3699cf-b34c-4607-8b25-c13282d80d3b"
+                }
+              ]
+            }
+          ],
+          "usage": {
+            "costMicros": 0,
+            "paidOperations": 0
+          },
+          "answer": "Тіркелу негізгі залдың фойесінде сағат 09:00-10:00 аралығында өтеді.",
+          "outcome": "approved_faq",
+          "sources": [
+            {
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null,
+              "sourceId": "ca54b416-b5b0-48cd-ad24-0beb6f8294a6",
+              "versionId": "5d3699cf-b34c-4607-8b25-c13282d80d3b"
+            }
+          ],
+          "traceId": "e738914c-b949-469f-9f0d-2f5b97044189",
+          "delivery": {
+            "queuedAt": "2026-11-08T17:53:46.610Z",
+            "requestId": "0c8888d8-6e35-4d29-a9ec-bf2e18f68e4b",
+            "startedAt": "2026-11-08T17:53:46.655Z",
+            "queueWaitMs": 45,
+            "answerReadyAt": "2026-11-08T17:53:46.701Z",
+            "workerDurationMs": 45
+          },
+          "language": "kk",
+          "durationMs": 4,
+          "reasonCode": "exact_faq"
+        }
+      }
+    },
+    {
+      "question": "а во ск бля",
+      "ms": 150,
+      "passed": true,
+      "result": {
+        "requestId": "586da225-d68d-4b8c-b544-c83d0e9a2383",
+        "status": "completed",
+        "decision": {
+          "steps": [
+            {
+              "stage": "exact_faq",
+              "reason": "miss",
+              "candidates": []
+            },
+            {
+              "stage": "context_faq",
+              "reason": "approved_topic_and_time",
+              "candidates": [
+                {
+                  "kind": "faq",
+                  "title": "Где проходит регистрация?",
+                  "section": null,
+                  "sourceId": "5291fe80-42a9-473f-8507-3e1b5113cc04",
+                  "versionId": "702874b1-f629-47be-acf1-3b8a36e955f4"
+                }
+              ]
+            }
+          ],
+          "usage": {
+            "costMicros": 0,
+            "paidOperations": 0
+          },
+          "answer": "Регистрация проходит с 09:00 до 10:00 в фойе главного зала.",
+          "outcome": "approved_faq",
+          "sources": [
+            {
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null,
+              "sourceId": "5291fe80-42a9-473f-8507-3e1b5113cc04",
+              "versionId": "702874b1-f629-47be-acf1-3b8a36e955f4"
+            }
+          ],
+          "traceId": "46d0e47a-e7a9-4ac1-89e1-eee1b633dba2",
+          "delivery": {
+            "queuedAt": "2026-11-08T17:53:46.767Z",
+            "requestId": "586da225-d68d-4b8c-b544-c83d0e9a2383",
+            "startedAt": "2026-11-08T17:53:46.805Z",
+            "queueWaitMs": 38,
+            "answerReadyAt": "2026-11-08T17:53:46.834Z",
+            "workerDurationMs": 26
+          },
+          "language": "ru",
+          "durationMs": 4,
+          "reasonCode": "context_faq"
+        }
+      }
+    }
+  ]
+}

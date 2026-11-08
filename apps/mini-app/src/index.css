@@ -1,4 +1,191 @@
-/* Neutral technical scaffold; product layout and branding await separate approval. */
-:root { font-family: system-ui, sans-serif; line-height: 1.6; color-scheme: light dark; }
-body { margin: 0; }
-h1 { font-size: 2rem; }
+:root {
+  font-family: var(--font-body);
+  color: #26183e;
+  background: #f3eee4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #26183e;
+  --glacier: #b8d5e8;
+  --paper: #f3eee4;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --surface: #faf7ef;
+  --surface-muted: #e8e4dc;
+  --border: #d5cfc7;
+  --text-secondary: #625a6a;
+  --text-muted: #766c7d;
+  --info: #3b6480;
+  --success: var(--info);
+  --danger: #663b4a;
+  --font-body: 'Montserrat Variable', Montserrat, system-ui, sans-serif;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --radius-control: 8px;
+  --radius-pill: 999px;
+  --control-height-sm: 36px;
+  --control-height-md: 42px;
+  --control-height-lg: 48px;
+  --duration-fast: 120ms;
+  --duration-standard: 180ms;
+  --duration-instant: 1ms;
+  --ease-standard: ease-out;
+  --leading-body: 1.45;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 300px;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+button,
+select,
+summary {
+  cursor: pointer;
+}
+button {
+  background: none;
+  border: 0;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+a {
+  color: inherit;
+}
+:focus-visible {
+  outline: 3px solid #537e9a;
+  outline-offset: 3px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+h1,
+.event-banner h2,
+.try-panel h2 {
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+h1 {
+  font-size: clamp(35px, 3.35vw, 54px);
+  letter-spacing: -0.048em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 20px;
+  letter-spacing: -0.035em;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 16px;
+  line-height: 1.45;
+}
+p {
+  line-height: 1.58;
+}
+button svg,
+h2 svg,
+h3 svg,
+label svg {
+  flex: none;
+}
+svg {
+  stroke-width: 1.65;
+}
+small {
+  font-size: 12px;
+}
+fieldset {
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+input,
+textarea,
+select {
+  max-width: 100%;
+  border: 1px solid #bdb6c0;
+  border-radius: 7px;
+  background: var(--surface);
+  padding: 10px 12px;
+  font-size: 14px;
+  min-height: 42px;
+}
+textarea {
+  resize: vertical;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #756f7a;
+}
+code {
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+dialog {
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  width: min(600px, calc(100vw - 26px));
+  max-height: 88dvh;
+  padding: 26px;
+  overscroll-behavior: contain;
+}
+dialog::backdrop {
+  background: rgb(26 17 39 / 58%);
+}
+details {
+  border-top: 1px solid var(--border);
+  padding: 12px 0;
+  font-size: 14px;
+}
+summary {
+  font-weight: 550;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+details[open] summary {
+  margin-bottom: 10px;
+}
+.skip {
+  position: fixed;
+  left: 10px;
+  top: -90px;
+  z-index: 9;
+  padding: 10px;
+  background: var(--paper);
+}
+.skip:focus {
+  top: 10px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

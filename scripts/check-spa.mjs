@@ -9,8 +9,8 @@ async function inspect(directory) {
     if (!/\.(js|html|css|map)$/.test(item.name)) continue;
     files += 1;
     const content = await readFile(path, 'utf8');
-    assert.ok(!/DATABASE_URL|REDIS_URL|S3_SECRET_ACCESS_KEY|MANAGER_BOT_TOKEN|OBSERVE_APP_SECRET|CREDENTIALS_MASTER_KEY|JWT_SIGNING_KEY|postgres(?:ql)?:\/\//i.test(content), `Server configuration in SPA asset ${item.name}`);
-    for (const key of ['S3_SECRET_ACCESS_KEY', 'MANAGER_BOT_TOKEN', 'JWT_SIGNING_KEY', 'CREDENTIALS_MASTER_KEY']) {
+    assert.ok(!/DATABASE_URL|REDIS_URL|RABBITMQ_URL|RABBITMQ_DEFAULT_(?:USER|PASS)|S3_SECRET_ACCESS_KEY|MANAGER_BOT_TOKEN|OBSERVE_APP_SECRET|CREDENTIALS_MASTER_KEY|JWT_SIGNING_KEY|AI_PLATFORM_KEY|BOT_ENCRYPTION_KEY|PDF_WORKER_TOKEN|postgres(?:ql)?:\/\/|amqps?:\/\//i.test(content), `Server configuration in SPA asset ${item.name}`);
+    for (const key of ['RABBITMQ_DEFAULT_PASS', 'S3_SECRET_ACCESS_KEY', 'MANAGER_BOT_TOKEN', 'JWT_SIGNING_KEY', 'CREDENTIALS_MASTER_KEY', 'AI_PLATFORM_KEY', 'BOT_ENCRYPTION_KEY', 'PDF_WORKER_TOKEN']) {
       if (process.env[key]) assert.ok(!content.includes(process.env[key]), `Secret value in SPA asset ${item.name}`);
     }
   }

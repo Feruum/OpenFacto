@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "comparison": "A_to_Q",
+  "armsMeaning": {
+    "A": "Original combined prompt, default effort omitted, immediate dispatch disabled",
+    "Q": "Same original prompt/default effort; immediate dispatch enabled"
+  },
+  "plannedPerArm": 21,
+  "complete": false,
+  "winner": null,
+  "twentyPercentCriterion": {
+    "judgment": null,
+    "reason": "Observed browser reductions are descriptive, not an automatic 20% acceptance verdict. Confirm completeness, runtime comparability, source quality and delivery-clock limitations."
+  },
+  "caveats": [
+    "Nearest-rank percentiles are computed independently from actual samples; stage p95 values are never added.",
+    "Residual = send-to-render minus queueWait minus workerDuration per request, not a pure network/polling delay. Queue timestamps and process duration clocks have different boundaries; negative residuals are retained.",
+    "answerReadyAt/workerDuration precede final result persistence; browser end is after React commit, not confirmed screen paint.",
+    "Invalid or unverified runtime rows remain in audit and recorded spending, but are excluded from comparable latency metrics.",
+    "Source review is independent coding-agent review unless its provenance explicitly states otherwise; no human labeling is inferred. Unreviewed quality is unknown."
+  ],
+  "files": [],
+  "missing": {
+    "A": [
+      "case-01/1",
+      "case-01/2",
+      "case-01/3",
+      "case-04/1",
+      "case-04/2",
+      "case-04/3",
+      "case-12/1",
+      "case-12/2",
+      "case-12/3",
+      "case-15/1",
+      "case-15/2",
+      "case-15/3",
+      "case-21/1",
+      "case-21/2",
+      "case-21/3",
+      "case-34/1",
+      "case-34/2",
+      "case-34/3",
+      "case-37/1",
+      "case-37/2",
+      "case-37/3"
+    ],
+    "Q": [
+      "case-01/1",
+      "case-01/2",
+      "case-01/3",
+      "case-04/1",
+      "case-04/2",
+      "case-04/3",
+      "case-12/1",
+      "case-12/2",
+      "case-12/3",
+      "case-15/1",
+      "case-15/2",
+      "case-15/3",
+      "case-21/1",
+      "case-21/2",
+      "case-21/3",
+      "case-34/1",
+      "case-34/2",
+      "case-34/3",
+      "case-37/1",
+      "case-37/2",
+      "case-37/3"
+    ]
+  },
+  "arms": {
+    "A": {
+      "recorded": 0,
+      "planned": 21,
+      "eligible": 0,
+      "excluded": 0,
+      "completed": 0,
+      "requestsWithErrors": 0,
+      "individuallyReviewed": 0,
+      "reviewedPass": 0,
+      "reviewedFail": 0,
+      "unreviewed": 0,
+      "metrics": {
+        "sendToRenderMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "queueWaitMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "engineMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "workerDurationMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "residualMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "sendToRenderMinusEngineMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "getCount": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        }
+      },
+      "negativeResiduals": [],
+      "getRoundTripMs": {
+        "count": 0,
+        "p50": null,
+        "p95": null,
+        "mean": null
+      },
+      "allRecordedActualCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "eligibleActualCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "allRecordedLedgerCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "errors": []
+    },
+    "Q": {
+      "recorded": 0,
+      "planned": 21,
+      "eligible": 0,
+      "excluded": 0,
+      "completed": 0,
+      "requestsWithErrors": 0,
+      "individuallyReviewed": 0,
+      "reviewedPass": 0,
+      "reviewedFail": 0,
+      "unreviewed": 0,
+      "metrics": {
+        "sendToRenderMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "queueWaitMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "engineMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "workerDurationMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "residualMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "sendToRenderMinusEngineMs": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        },
+        "getCount": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null,
+          "missing": 0
+        }
+      },
+      "negativeResiduals": [],
+      "getRoundTripMs": {
+        "count": 0,
+        "p50": null,
+        "p95": null,
+        "mean": null
+      },
+      "allRecordedActualCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "eligibleActualCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "allRecordedLedgerCost": {
+        "requests": 0,
+        "knownRequests": 0,
+        "unknownRequests": 0,
+        "knownSubtotalMicros": 0,
+        "totalMicros": 0,
+        "meanFullRequestMicros": null
+      },
+      "errors": []
+    }
+  },
+  "pairs": {
+    "matchedCaseRepeat": 0,
+    "comparable": 0,
+    "excluded": [],
+    "allMatched": {
+      "sendToRenderMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "queueWaitMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "engineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "workerDurationMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "residualMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "sendToRenderMinusEngineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "getCount": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      }
+    },
+    "independentlyReviewedPairs": 0,
+    "correctDecisionIntersection": {
+      "sendToRenderMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "queueWaitMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "engineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "workerDurationMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "residualMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "sendToRenderMinusEngineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "getCount": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      }
+    },
+    "usefulCorrectAnswerIntersection": {
+      "sendToRenderMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "queueWaitMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "engineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "workerDurationMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "residualMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "sendToRenderMinusEngineMs": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      },
+      "getCount": {
+        "eligiblePairs": 0,
+        "measuredPairs": 0,
+        "missingPairs": 0,
+        "A": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "Q": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "differenceQMinusA": {
+          "count": 0,
+          "p50": null,
+          "p95": null,
+          "mean": null
+        },
+        "p50ReductionPercent": null,
+        "p95ReductionPercent": null,
+        "meanReductionPercent": null
+      }
+    },
+    "newReviewedQualityFailures": [],
+    "reviewedQualityImprovements": []
+  },
+  "review": {
+    "reviewer": null,
+    "reviewedAt": null,
+    "unmatchedTraceIds": []
+  },
+  "auditRows": [],
+  "missingFiles": [
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\live-browser-A-1.json",
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\live-browser-A-2.json",
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\live-browser-A-3.json",
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\queue-enabled\\live-browser-A-1.json",
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\queue-enabled\\live-browser-A-2.json",
+    "C:\\Users\\Ferumm\\projects\\OpenFacto\\output\\latency\\queue-enabled\\live-browser-A-3.json"
+  ]
+}

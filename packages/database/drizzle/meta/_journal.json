@@ -8,6 +8,83 @@
       "when": 1794009600000,
       "tag": "0000_foundation",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794009600001,
+      "tag": "0001_product",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794009600002,
+      "tag": "0002_ingestion",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1794009600003,
+      "tag": "0003_operations",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1794009600004,
+      "tag": "0004_evaluations",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1794009600005,
+      "tag": "0005_archived_usage",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1794009600006,
+      "tag": "0006_telegram_delivery",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1794009600007,
+      "tag": "0007_pdf_diagnostics",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1794009600008,
+      "tag": "0008_playground_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1794009600009,
+      "tag": "0009_faq_embeddings",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1794077633337,
+      "tag": "0010_async_playground",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1794077906199,
+      "tag": "0011_queue_dispatches",
+      "breakpoints": true
     }
   ]
 }

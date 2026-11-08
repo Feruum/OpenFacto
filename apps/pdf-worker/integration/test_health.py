@@ -1,13 +1,16 @@
 import json
+import os
 import threading
 import unittest
 from http.client import HTTPConnection
 from http.server import ThreadingHTTPServer
+from unittest.mock import patch
 
 from openfacto_pdf.__main__ import Handler
 
 
 class HealthIntegrationTests(unittest.TestCase):
+    @patch.dict(os.environ, {"PDF_WORKER_TOKEN": ""})
     def test_real_http_lifecycle_and_unimplemented_job_boundary(self):
         server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
         thread = threading.Thread(target=server.serve_forever)

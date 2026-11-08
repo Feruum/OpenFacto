@@ -1,9 +1,11 @@
 import io
 import json
+import os
 import sys
 import unittest
 from http.client import HTTPResponse
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from openfacto_pdf.__main__ import Handler  # noqa: E402
@@ -31,6 +33,7 @@ def request(method, path):
 
 
 class HttpBoundaryTests(unittest.TestCase):
+    @patch.dict(os.environ, {"PDF_WORKER_TOKEN": ""})
     def test_health_routes_serialize_real_http_without_claiming_pdf_capabilities(self):
         for path in ("/health/live", "/health/ready"):
             with self.subTest(path=path):

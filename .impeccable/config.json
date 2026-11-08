@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-11-07T15:59:49.808Z",
+        "reason": "Codex: false positive; the current stylesheet uses Segoe UI/system-ui and contains no Inter font declaration."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "apps/mini-app/src/App.css"
+        ],
+        "createdAt": "2026-11-07T18:34:21.273Z",
+        "reason": "Assistant decision: existing .notice border marks the role=alert error notice in ui.tsx, not a decorative card accent. Preserve this established error treatment; no finding value was supplied, so scope this exception to App.css."
+      }
+    ]
+  }
+}

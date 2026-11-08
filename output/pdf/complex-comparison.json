@@ -1,0 +1,37 @@
+{
+  "baseline": {
+    "n": 30,
+    "p50": 14664,
+    "p95": 21122,
+    "calls": 81,
+    "passed": 29
+  },
+  "optimized": {
+    "n": 30,
+    "p50": 10946,
+    "p95": 22971,
+    "calls": 58,
+    "passed": 29
+  },
+  "baselinePdf": {
+    "n": 10,
+    "p50": 16376,
+    "p95": 21122,
+    "calls": 30,
+    "passed": 10
+  },
+  "optimizedPdf": {
+    "n": 10,
+    "p50": 10946,
+    "p95": 22971,
+    "calls": 20,
+    "passed": 10
+  },
+  "rechecks": {
+    "n": 6,
+    "p50": 13907,
+    "p95": 16821,
+    "calls": 10,
+    "passed": 6
+  }
+}

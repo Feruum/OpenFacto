@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 8582,
+    "outcome": "grounded_answer",
+    "reasonCode": "document_evidence",
+    "answer": "В финал выйдут 8 команд. На каждую команду дадут 5 минут на демонстрацию и 3 минуты на вопросы.",
+    "language": "ru",
+    "traceId": "d66c80d6-1d4f-4e0d-aaab-3382f654027d",
+    "sources": [
+      {
+        "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+        "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+        "kind": "document",
+        "title": "QADAM AI HACK 2026 - Программа и расписание",
+        "page": 4,
+        "quote": "14:30-15:00 Жюри выбирает по две команды от каждого трека: 8 финалистов.\n\n15:00-16:30 Финал: главный зал, по 5 минут демонстрации + 3 минуты вопросов."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 211,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+            "versionId": "55d64363-deef-4512-8c65-2d0316a86f90",
+            "kind": "faq",
+            "title": "Какой призовой фонд?",
+            "section": null
+          },
+          {
+            "sourceId": "4ebedf1f-8c47-4d99-adb2-6b21cc157043",
+            "versionId": "420476e1-acec-41dc-bc9a-1153a676abb3",
+            "kind": "faq",
+            "title": "Когда сдавать проект?",
+            "section": null
+          },
+          {
+            "sourceId": "5ecbd388-f91f-48ce-a127-31a4563713c2",
+            "versionId": "b29e464b-7ca2-4fc4-b584-e6910fad6314",
+            "kind": "faq",
+            "title": "Когда начинается мероприятие?",
+            "section": null
+          },
+          {
+            "sourceId": "97533db3-ba51-4f69-ac4e-b995b42d4a07",
+            "versionId": "6978ad05-0574-41ef-ac6f-99d617a85b64",
+            "kind": "faq",
+            "title": "Сколько человек должно быть в команде?",
+            "section": null
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 2
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+            "versionId": "019d9878-0661-409b-a504-9da635be5c4f",
+            "kind": "faq",
+            "title": "Какой минимальный возраст?",
+            "section": null
+          },
+          {
+            "sourceId": "b8085642-dfa7-4955-8ac2-343e30e37bc8",
+            "versionId": "196d0bf9-1314-42ff-8068-5dd9a68029bb",
+            "kind": "faq",
+            "title": "Сколько стоит участие?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 6330,
+        "costMicros": 22
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "document",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 2017,
+        "costMicros": 16
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 38
+    }
+  }
+}

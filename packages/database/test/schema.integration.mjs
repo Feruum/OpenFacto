@@ -3,6 +3,28 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { eq } from 'drizzle-orm';
 import { createDatabase, events, organizations } from '../dist/index.js';
+
+test('deleting event content preserves anonymous daily usage for settled and uncertain charges', async () => {
+  assert.ok(process.env.DATABASE_URL);
+  const db = createDatabase(process.env.DATABASE_URL);
+  const rollback = new Error('roll back aggregate fixture');
+  try {
+    await assert.rejects(db.client.begin(async tx => {
+      const [org] = await tx`INSERT INTO organizations(name) VALUES('archive fixture') RETURNING id`;
+      const [event] = await tx`INSERT INTO events(organization_id,name) VALUES(${org.id},'fixture') RETURNING id`;
+      const day = '2070-05-31';
+      const [before] = await tx`SELECT amount_micros FROM ai_daily_archived WHERE day=${day} AND funding='platform'`;
+      await tx`INSERT INTO ai_operations(id,organization_id,event_id,day,funding,status,reserved_micros,cost_micros,result)
+        VALUES (${randomUUID()},${org.id},${event.id},${day},'platform','settled',100,37,'{}'),
+          (${randomUUID()},${org.id},${event.id},${day},'platform','uncertain',80,null,null)`;
+      await tx`DELETE FROM organizations WHERE id=${org.id}`;
+      const [after] = await tx`SELECT * FROM ai_daily_archived WHERE day=${day} AND funding='platform'`;
+      assert.deepEqual(Object.keys(after).sort(), ['amount_micros','day','funding']);
+      assert.equal(Number(after.amount_micros) - Number(before?.amount_micros ?? 0), 117);
+      throw rollback;
+    }), error => error === rollback);
+  } finally { await db.close(); }
+});
 test('migrated schema enforces identity, membership and tenant foreign keys', async () => {
   assert.ok(process.env.DATABASE_URL, 'DATABASE_URL is required; integration tests never silently skip');
   const database = createDatabase(process.env.DATABASE_URL);

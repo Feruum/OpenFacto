@@ -1,0 +1,18 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "59f90b00-9313-4f73-a5c8-eae5f4fbf7be",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "And when does it close?",
+  "conversation": [
+    {
+      "question": "Where is registration?",
+      "answer": "Registration is in the foyer on 20 November, from 09:00 to 10:00."
+    }
+  ]
+}

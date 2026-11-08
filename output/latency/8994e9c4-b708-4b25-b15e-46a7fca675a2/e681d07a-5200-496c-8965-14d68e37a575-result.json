@@ -1,0 +1,240 @@
+{
+  "decision": {
+    "durationMs": 7697,
+    "outcome": "handoff",
+    "reasonCode": "insufficient_evidence",
+    "answer": "Вопрос требует ответа модератора.",
+    "language": "ru",
+    "traceId": "e681d07a-5200-496c-8965-14d68e37a575",
+    "sources": [],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 178,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+            "versionId": "55d64363-deef-4512-8c65-2d0316a86f90",
+            "kind": "faq",
+            "title": "Какой призовой фонд?",
+            "section": null
+          },
+          {
+            "sourceId": "bd400bd8-ce8f-4bcf-9033-bd0b359a3442",
+            "versionId": "ec562b5d-8b85-4b85-a3a0-59fc6fd3be00",
+            "kind": "faq",
+            "title": "Какой пароль Wi-Fi?",
+            "section": null
+          },
+          {
+            "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+            "versionId": "019d9878-0661-409b-a504-9da635be5c4f",
+            "kind": "faq",
+            "title": "Какой минимальный возраст?",
+            "section": null
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 1
+          },
+          {
+            "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+            "versionId": "b6682832-0546-4240-91c1-83d14960b50e",
+            "kind": "faq",
+            "title": "До какого числа подать заявку?",
+            "section": null
+          },
+          {
+            "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+            "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+            "kind": "faq",
+            "title": "Где проходит регистрация?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          },
+          {
+            "sourceId": "263f6b79-fddb-4d69-b5e3-25cdb1da9fb7",
+            "versionId": "45d8b4bc-cc40-4315-af79-e9c36b1b796d",
+            "kind": "faq",
+            "title": "Какие есть треки?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3710,
+        "costMicros": 20
+      },
+      {
+        "stage": "retrieval_expansion",
+        "reason": "missing_evidence",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 232,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "723a0ae2-16e3-4694-9a18-d77abfeadf47",
+            "versionId": "bd08cb45-af69-468a-bb99-dd046caa91e2",
+            "kind": "faq",
+            "title": "Что такое QADAM AI HACK 2026?",
+            "section": null
+          },
+          {
+            "sourceId": "297732b9-b2a5-4032-890b-8910f6b0b0a6",
+            "versionId": "55d64363-deef-4512-8c65-2d0316a86f90",
+            "kind": "faq",
+            "title": "Какой призовой фонд?",
+            "section": null
+          },
+          {
+            "sourceId": "bd400bd8-ce8f-4bcf-9033-bd0b359a3442",
+            "versionId": "ec562b5d-8b85-4b85-a3a0-59fc6fd3be00",
+            "kind": "faq",
+            "title": "Какой пароль Wi-Fi?",
+            "section": null
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 2
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 1
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 1
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "c2285a79-a14c-4cdd-a86b-772297ccf7fd",
+            "versionId": "019d9878-0661-409b-a504-9da635be5c4f",
+            "kind": "faq",
+            "title": "Какой минимальный возраст?",
+            "section": null
+          },
+          {
+            "sourceId": "e0a1dca5-513f-4574-9830-8aee7031d2dc",
+            "versionId": "9f0eb325-da3b-42be-b592-11a8f95175a4",
+            "kind": "faq",
+            "title": "Где находится площадка?",
+            "section": null
+          },
+          {
+            "sourceId": "be7dbf72-0f2f-49a2-b2c6-5a4272416fb9",
+            "versionId": "b6682832-0546-4240-91c1-83d14960b50e",
+            "kind": "faq",
+            "title": "До какого числа подать заявку?",
+            "section": null
+          },
+          {
+            "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+            "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+            "kind": "faq",
+            "title": "Где проходит регистрация?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 3556,
+        "costMicros": 22
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "insufficient",
+        "candidates": []
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 42
+    }
+  }
+}

@@ -20,6 +20,7 @@ class WorkerTests(unittest.TestCase):
         result = subprocess.run(
             [sys.executable, "-m", "openfacto_pdf", "--check"],
             cwd=Path(__file__).resolve().parents[1],
+            env={**os.environ, "PDF_WORKER_TOKEN": ""},
             capture_output=True,
             text=True,
             check=True,

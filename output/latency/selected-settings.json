@@ -1,0 +1,16 @@
+{
+  "changedAt": "2026-11-08T00:12:04.577Z",
+  "reason": "Keep original prompt/default effort after quality regressions; enable measured queue delivery improvement.",
+  "previous": {
+    "AI_CHAT_MODEL": "gpt-6-luna",
+    "AI_REASONING_EFFORT": "low",
+    "AI_COMPACT_OUTPUT": "1",
+    "AI_IMMEDIATE_DISPATCH": null
+  },
+  "selected": {
+    "AI_CHAT_MODEL": "gpt-6-luna",
+    "AI_REASONING_EFFORT": "",
+    "AI_COMPACT_OUTPUT": "0",
+    "AI_IMMEDIATE_DISPATCH": "1"
+  }
+}

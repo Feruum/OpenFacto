@@ -1,7 +1,9 @@
 import { spawn } from 'node:child_process';
+import { createRequire } from 'node:module';
 let runtime;
 let output = '';
-const compiler = spawn('tsc', ['-p', 'tsconfig.json', '--watch', '--preserveWatchOutput'], { stdio: ['inherit', 'pipe', 'inherit'] });
+const compilerPath = createRequire(import.meta.url).resolve('typescript/bin/tsc');
+const compiler = spawn(process.execPath, [compilerPath, '-p', 'tsconfig.json', '--watch', '--preserveWatchOutput'], { stdio: ['inherit', 'pipe', 'inherit'] });
 compiler.stdout.on('data', (data) => {
   process.stdout.write(data);
   output = (output + data.toString()).slice(-2048);

@@ -1,0 +1,18 @@
+{
+  "organizationId": "62d35e37-de62-4a19-8988-7682602a3461",
+  "eventId": "4254f5fa-69c1-4127-93e5-b60817954da5",
+  "traceId": "a8df35d0-5581-45ca-b949-ddc4385d4d52",
+  "mode": "evaluation",
+  "activated": true,
+  "language": "ru",
+  "languageSelection": "auto",
+  "faqOnly": false,
+  "handoffEnabled": true,
+  "question": "А во сколько заканчивается?",
+  "conversation": [
+    {
+      "question": "Где проходит регистрация?",
+      "answer": "Регистрация 20 ноября с 09:00 до 10:00 в фойе."
+    }
+  ]
+}

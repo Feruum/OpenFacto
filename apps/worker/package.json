@@ -3,19 +3,48 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "exports": {
+    "./wake": {
+      "types": "./dist/business-wake.d.ts",
+      "import": "./dist/business-wake.js"
+    },
+    "./runtime": {
+      "types": "./dist/runtime.d.ts",
+      "import": "./dist/runtime.js"
+    },
+    "./evaluations": {
+      "types": "./dist/evaluations.d.ts",
+      "import": "./dist/evaluations.js"
+    },
+    "./answers": {
+      "types": "./dist/answers.d.ts",
+      "import": "./dist/answers.js"
+    },
+    "./ingestion": {
+      "types": "./dist/ingestion.d.ts",
+      "import": "./dist/ingestion.js"
+    },
+    "./playground-jobs": {
+      "import": "./dist/playground-jobs.js",
+      "types": "./dist/playground-jobs.d.ts"
+    }
+  },
   "scripts": {
-    "dev": "node ../../scripts/dev-node.mjs",
+    "dev": "tsc -p tsconfig.json --watch --preserveWatchOutput",
     "build": "tsc -p tsconfig.json",
-    "start": "node --env-file-if-exists=../../.env dist/main.js",
     "lint": "oxlint src test",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
-    "test:integration": "node --env-file-if-exists=../../.env --test test/worker.integration.mjs"
+    "test:integration": "node --env-file-if-exists=../../.env --test --test-concurrency=1 test/answer-flow.integration.mjs test/answer-cache.integration.mjs test/combined-planning.integration.mjs test/provider-validation.integration.mjs test/ingestion-faq.integration.mjs test/shared-queue.integration.mjs"
   },
   "dependencies": {
+    "@openfacto/answer-engine": "workspace:*",
+    "@openfacto/database": "workspace:*",
+    "@aws-sdk/client-s3": "3.1163.0",
+    "postgres": "3.4.7",
     "@openfacto/config": "workspace:*",
     "@openfacto/logger": "workspace:*",
-    "bullmq": "5.61.2"
+    "@openfacto/queue": "workspace:*"
   },
   "devDependencies": {
     "@openfacto/typescript-config": "workspace:*"

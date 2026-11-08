@@ -13,10 +13,10 @@ class TestController { @Get('error') error() { throw new Error('SECRET'); } }
 describe('HTTP boundary (mock dependencies)', () => {
   let app: INestApplication;
   afterEach(async () => { await app?.close(); });
-  async function setup(failed?: 'postgres' | 'redis') {
+  async function setup(failed?: 'postgres' | 'rabbitmq') {
     const check = (name: string) => async () => { if (failed === name) throw new Error('SECRET'); };
     const fixture = await Test.createTestingModule({ controllers: [HealthController, TestController], providers: [HealthService,
-      { provide: DEPENDENCY_CHECKS, useValue: { postgres: check('postgres'), redis: check('redis') } }] }).compile();
+      { provide: DEPENDENCY_CHECKS, useValue: { postgres: check('postgres'), rabbitmq: check('rabbitmq') } }] }).compile();
     app = fixture.createNestApplication({ logger: false });
     await configureHttp(app, 'http://localhost:5173', createLogger('test', 'error', () => {}));
     return request(app.getHttpServer());
@@ -24,10 +24,10 @@ describe('HTTP boundary (mock dependencies)', () => {
   it('exposes liveness and readiness without the business prefix', async () => {
     const http = await setup();
     await http.get('/health/live').expect(200, { status: 'ok' });
-    await http.get('/health/ready').expect(200, { status: 'ok', dependencies: { postgres: 'up', redis: 'up' } });
+    await http.get('/health/ready').expect(200, { status: 'ok', dependencies: { postgres: 'up', rabbitmq: 'up' } });
     await http.get('/api/v1/health/live').expect(404);
   });
-  it.each(['postgres', 'redis'] as const)('keeps liveness while %s is unavailable', async (name) => {
+  it.each(['postgres', 'rabbitmq'] as const)('keeps liveness while %s is unavailable', async (name) => {
     const http = await setup(name);
     await http.get('/health/live').expect(200);
     const response = await http.get('/health/ready').expect(503);
@@ -45,5 +45,10 @@ describe('HTTP boundary (mock dependencies)', () => {
     const http = await setup();
     const response = await http.get('/health/live').set('Origin', 'http://localhost:5173').expect(200);
     expect(response.headers['access-control-allow-origin']).toBe('http://localhost:5173');
+  });
+  it('applies the small JSON body limit outside the dedicated PDF upload route', async () => {
+    const http = await setup();
+    const result = await http.post('/api/v1/test').send({value:'x'.repeat(105_000)}).expect(413);
+    expect(result.body.code).toBe('VALIDATION_ERROR');
   });
 });

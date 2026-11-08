@@ -1,0 +1,11 @@
+{
+  "model": "gpt-6-luna",
+  "endpoint": "https://api.wikivibe.dev/v1/chat/completions",
+  "currency": "USD",
+  "verified": true,
+  "verifiedAt": "2026-11-07T22:24:03.626Z",
+  "source": "WikiVibe public model catalog, confirmed for current key by authenticated /v1/usage delta on2calls:7421input+206output, actualUSD0.0000338 vs predicted0.000033804; output/pdf/luna-probe-low.json",
+  "inputMicrosPer1K": 4,
+  "cachedInputMicrosPer1K": 0.4,
+  "outputMicrosPer1K": 20
+}

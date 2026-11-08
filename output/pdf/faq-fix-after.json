@@ -1,0 +1,1482 @@
+[
+  {
+    "index": 0,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 12,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "50dace0d-2173-4b4f-9e56-eff01fb4a9d3",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 1,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 13,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "9452d45a-ebd1-41a2-8115-df3d2495cd15",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 10,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "7a27b755-0e36-453c-9c68-f3a18f24fb2b",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 3,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 6,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "b9a152af-26d1-4d84-b739-49bc93a687f5",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 4,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 5,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "0a6b8960-6d4b-42b2-aa4d-b82faf5af8fa",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 5,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "fa7c6d07-6950-42f5-bd5e-4490b3cefe77",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 6,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "740bd87f-f94d-441b-8238-df9626c4ca2f",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 7,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "cc58cc12-b185-4ad3-b4cc-1c00f8ee7216",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 8,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 5,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "5ea39926-1e2c-4abe-9b68-ca544d69bd4d",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 9,
+    "lang": "kk",
+    "topic": "тіркел",
+    "q": "тіркелу кайда сучка",
+    "kind": "answer",
+    "question": "тіркелу кайда сучка",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "exact_faq",
+      "answer": "QADAM AI HACK 2026 тіркелуі 20 қараша күні 09:00-10:00 аралығында негізгі залдың фойесінде, бірінші қабатта өтеді. Алматы уақыты, UTC+5. Бұл - ойдан шығарылған оқу іс-шарасы.",
+      "language": "kk",
+      "traceId": "da281cc4-c728-4cf5-a66e-bd21ca21d007",
+      "sources": [
+        {
+          "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+          "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+          "kind": "faq",
+          "title": "Тіркелу қайда өтеді?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "matched",
+          "candidates": [
+            {
+              "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+              "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+              "kind": "faq",
+              "title": "Тіркелу қайда өтеді?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 10,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 2,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "b49fec87-1ef9-4c50-b22f-02e6e32a13d2",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 11,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "5ac6b40d-1070-4580-8127-3c0a3bca4288",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 12,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "f565ce1c-70e2-44be-a506-f84cd613cace",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 13,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "6d0f2d66-71b9-4ff4-81b9-96cae289ee45",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 14,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "5b0eaece-6c76-4ca0-b881-61d059e7dcea",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 15,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 2,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "14b168f4-27ef-4154-8a5e-8b23575688d7",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 16,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "8a12587c-f4de-498d-b394-cee7fba02d17",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 17,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "a1d7dda2-c6c1-4e34-83a9-e110424c743d",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 18,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 1,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "0dd16af9-89c5-4d51-8287-d1a60012c759",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 19,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "clarify",
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "clarification": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 2,
+      "outcome": "clarify",
+      "reasonCode": "ambiguous_question",
+      "answer": "Уточните, пожалуйста, какой срок, раздел или условие вас интересует?",
+      "language": "ru",
+      "traceId": "4b321861-f258-4dc6-b76c-c73591b62dec",
+      "sources": [],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 20,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 5,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "7b48ce38-fb9f-47bf-bcb1-9a9e54310357",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 21,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "dcfbcdc2-ba85-4d8f-bced-f3053f9a568e",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 22,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "24dddeff-dbf2-49c9-a5d3-ee02c50fdbfe",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 23,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 4,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "92fb5432-773b-4784-9d35-e092ac0ba9e3",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 24,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "3dfdada0-f9f5-427e-bd8e-b00acaa73cd3",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 25,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "7461e20e-bcdb-41bc-a28e-4f0f44eb13de",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 26,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "9fd9c320-cd15-4487-a26c-ee4a7cd6e880",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 27,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "8a2cdc98-a67a-4f48-b5f5-eefbf349e1d7",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 28,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "ec5390a1-a08f-40ad-bc59-3b07cfae686e",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  },
+  {
+    "index": 29,
+    "q": "а во ск бля",
+    "lang": "ru",
+    "kind": "answer",
+    "topic": "регистрац",
+    "conversation": [
+      {
+        "question": "Где проходит регистрация?",
+        "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала."
+      }
+    ],
+    "question": "а во ск бля",
+    "checks": {
+      "language": true,
+      "available": true,
+      "answered": true,
+      "sources": true,
+      "registration": true
+    },
+    "passed": true,
+    "decision": {
+      "durationMs": 3,
+      "outcome": "approved_faq",
+      "reasonCode": "context_faq",
+      "answer": "Регистрация QADAM AI HACK 2026 проходит 20 ноября с 09:00 до 10:00 в фойе главного зала на первом этаже вымышленного Qadam Campus. Вход A со стороны внутреннего двора. Время Алматы, UTC+5. Это учебный пример мероприятия.",
+      "language": "ru",
+      "traceId": "5fc6dcc7-54a4-4fbd-8c73-db94f37103c2",
+      "sources": [
+        {
+          "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+          "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+          "kind": "faq",
+          "title": "Где проходит регистрация?",
+          "section": null
+        }
+      ],
+      "steps": [
+        {
+          "stage": "exact_faq",
+          "reason": "miss",
+          "candidates": []
+        },
+        {
+          "stage": "context_faq",
+          "reason": "approved_topic_and_time",
+          "candidates": [
+            {
+              "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+              "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+              "kind": "faq",
+              "title": "Где проходит регистрация?",
+              "section": null
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "paidOperations": 0,
+        "costMicros": 0
+      }
+    }
+  }
+]

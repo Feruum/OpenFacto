@@ -1,0 +1,147 @@
+{
+  "decision": {
+    "durationMs": 13015,
+    "outcome": "grounded_answer",
+    "reasonCode": "translated_faq",
+    "answer": "Менторға Mentor Hub-та, екінші қабаттағы координатор арқылы жазылыңыз. Консультация 15 минутқа созылады; командада бір уақытта бір ғана белсенді жазылым болуы мүмкін. Қайта жазылуға алдыңғы консультация аяқталғаннан кейін болады.",
+    "language": "kk",
+    "traceId": "756de11e-4d42-4cc2-bf3b-bf3f021d2ae9",
+    "sources": [
+      {
+        "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+        "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+        "kind": "faq",
+        "title": "Как записаться к ментору?",
+        "section": null,
+        "quote": "Запишитесь у координатора в Mentor Hub на втором этаже. Консультация длится 15 минут; одновременно у команды может быть одна активная запись. Повторная запись доступна после предыдущей консультации."
+      }
+    ],
+    "steps": [
+      {
+        "stage": "exact_faq",
+        "reason": "miss",
+        "candidates": []
+      },
+      {
+        "stage": "retrieval",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 183,
+        "costMicros": 0
+      },
+      {
+        "stage": "retrieval",
+        "reason": "ranked",
+        "candidates": [
+          {
+            "sourceId": "c91851bf-71a5-4eb7-9dd4-22fc74e71fdc",
+            "versionId": "7cd032bf-b7e7-4d4f-a55f-ba4d5f4b734f",
+            "kind": "faq",
+            "title": "Тіркелу қайда өтеді?",
+            "section": null
+          },
+          {
+            "sourceId": "404d9854-e271-4b41-a4da-e9da6805a8c8",
+            "versionId": "81875d13-9901-4f77-a6c7-6d2129aaa6ce",
+            "kind": "faq",
+            "title": "Как записаться к ментору?",
+            "section": null
+          },
+          {
+            "sourceId": "65a95977-bc5b-449b-b47e-79cd8026d807",
+            "versionId": "dbf7066e-8ce2-4747-8fe1-230b52a8aec3",
+            "kind": "faq",
+            "title": "Командада қанша адам болуы керек?",
+            "section": null
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 3
+          },
+          {
+            "sourceId": "2b84c5e9-c6cc-4bcd-9e5c-9fa53e58d81e",
+            "versionId": "815d8c58-4573-440f-8d8d-b87db2f33d35",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Памятка участника",
+            "page": 3
+          },
+          {
+            "sourceId": "09b226e7-53bc-43cd-842d-0785b59e4f83",
+            "versionId": "704bab2f-08e0-45ba-90e5-6ee378d02eae",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Программа и расписание",
+            "page": 4
+          },
+          {
+            "sourceId": "577d0405-1c0a-4b8e-8ba2-1cfef4e8e583",
+            "versionId": "bd13451a-5d55-437c-9656-4a3c20487521",
+            "kind": "document",
+            "title": "QADAM AI HACK 2026 - Регламент и критерии",
+            "page": 3
+          },
+          {
+            "sourceId": "a071e597-7d73-4bf9-9b6b-20b1419dc9ad",
+            "versionId": "18324008-be8d-42bc-80ce-efa92249c19e",
+            "kind": "faq",
+            "title": "Как получить помощь организатора?",
+            "section": null
+          },
+          {
+            "sourceId": "fc3c1f90-d1e1-4d5a-b43b-a9d140dd008b",
+            "versionId": "74c55f60-a618-4faa-8017-bf9d69ebb8af",
+            "kind": "faq",
+            "title": "Где проходит регистрация?",
+            "section": null
+          },
+          {
+            "sourceId": "06c2e236-23d8-478d-9016-2e040e53fa80",
+            "versionId": "d61f0d3f-e198-498d-b088-e83fb8d75a30",
+            "kind": "faq",
+            "title": "Можно ли использовать ChatGPT и другие AI-инструменты?",
+            "section": null
+          },
+          {
+            "sourceId": "07c45a8d-b417-4cb0-b4c2-2cb41ac597c1",
+            "versionId": "95a2edca-c4e6-4feb-843e-fa29826c193f",
+            "kind": "faq",
+            "title": "Можно работать ночью?",
+            "section": null
+          },
+          {
+            "sourceId": "080c0ae1-e6cb-420b-97af-5f7b44840d8c",
+            "versionId": "e4fe5165-73fa-4030-b18e-89fd59bfacd7",
+            "kind": "faq",
+            "title": "Как получить бейдж?",
+            "section": null
+          }
+        ]
+      },
+      {
+        "stage": "selection",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 4184,
+        "costMicros": 22
+      },
+      {
+        "stage": "evidence_gate",
+        "reason": "faq",
+        "candidates": []
+      },
+      {
+        "stage": "verification",
+        "reason": "completed",
+        "candidates": [],
+        "durationMs": 8624,
+        "costMicros": 17
+      }
+    ],
+    "usage": {
+      "paidOperations": 2,
+      "costMicros": 39
+    }
+  }
+}
