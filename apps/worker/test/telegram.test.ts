@@ -13,14 +13,16 @@ describe('Telegram activation and delivery boundaries', () => {
   it.each(['лолка где рега?', 'трололол где рега?', 'лол123 где рега?', 'где рега?', 'привет всем'])('ignores unrelated chatter and name substrings: %s', text => {
     expect(activation(message(text), { ...bot, aliases: ['лол'] })).toBeNull();
   });
-  it('hides simple FAQ citations and retains compact document references', () => {
+  it('hides FAQ titles and retains compact document references and answer links', () => {
     const ref = { sourceId: 's', versionId: 'v', kind: 'faq' as const, title: 'Где проходит регистрация?' };
     expect(formatTelegramAnswer({ outcome:'approved_faq',answer: 'В фойе.', language: 'ru', sources: [ref, ref] })).toBe('В фойе.');
     expect(formatTelegramAnswer({ outcome:'grounded_answer',answer: '17:45-ке дейін.', language: 'kk', sources: [{ ...ref, kind:'document',title:'Регламент',page: 4 }] }))
       .toBe('17:45-ке дейін.\n\nДереккөз: Регламент · 4-бет');
     expect(formatTelegramAnswer({ outcome:'grounded_answer',answer: 'Until 17:45.', language: 'en', sources: [{ ...ref,kind:'document',title:'Rules', page: 4 }] })).toContain('Source: Rules · p. 4');
     expect(formatTelegramAnswer({ outcome:'clarify',answer: 'Уточните вопрос.', language: 'ru', sources: [ref] })).toBe('Уточните вопрос.');
-    expect(formatTelegramAnswer({ outcome:'approved_faq',answer: 'До 12:00.', language:'ru',sources:[{...ref,title:'Когда сдавать проект?'}]})).toContain('Источник: FAQ — Когда сдавать проект?');
+    expect(formatTelegramAnswer({ outcome:'approved_faq',answer: 'До 12:00.', language:'ru',sources:[{...ref,title:'Когда сдавать проект?'}]})).toBe('До 12:00.');
+    const registration='Подайте заявку: https://businesscup.zimran.io/en/apply';
+    expect(formatTelegramAnswer({ outcome:'approved_faq',answer:registration,language:'ru',sources:[{...ref,title:'Как зарегистрировать команду?'}]})).toBe(registration);
   });
   it('matches only a complete alias, the actual bot, an allowed group and the configured mode', () => {
     expect(activation(message('Зима, дедлайн?'), bot)).toBe('дедлайн');

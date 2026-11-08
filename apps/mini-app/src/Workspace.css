@@ -2,7 +2,7 @@
 :root:has(.shell) {
   color-scheme: dark;
   color: #eeece8;
-  background: #cbb995;
+  background: #292925;
   --ink: #eeece8;
   --paper: #292925;
   --background: #292925;
@@ -26,7 +26,7 @@
 }
 
 body:has(.shell) {
-  background: #cbb995 url('/zen-sand.svg') center / cover fixed;
+  background: #292925;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -37,30 +37,31 @@ body:has(.shell) :focus-visible {
 }
 
 .shell {
-  width: min(1440px, calc(100% - 96px));
-  margin: 56px auto;
-  min-height: calc(100dvh - 112px);
+  width: 100%;
+  margin: 0;
+  min-height: 100dvh;
   grid-template-columns: 210px minmax(0, 1fr);
-  background: rgb(48 47 42 / 83%);
-  border: 1px solid rgb(241 230 211 / 27%);
-  border-radius: 15px;
-  box-shadow: 0 24px 80px rgb(43 36 24 / 24%), inset 0 1px 0 rgb(255 255 255 / 5%);
+  background: #292925;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   isolation: isolate;
 }
 
 .shell .sidebar {
-  top: 56px;
-  height: calc(100dvh - 112px);
-  min-height: 520px;
+  top: 0;
+  height: 100dvh;
+  min-height: 0;
   padding: 24px 14px 18px;
-  border-radius: 14px 0 0 14px;
+  border-radius: 0;
   border-right: 1px solid rgb(255 255 255 / 9%);
-  background: rgb(113 102 81 / 30%);
+  background: #32322e;
   color: var(--ink);
 }
 
 .shell .brand-row { padding: 0 10px; }
 .shell .brand { font-size: 21px; letter-spacing: -.8px; gap: 8px; font-weight: 550; }
+.shell a.brand { color: inherit; text-decoration: none; }
 .shell .brand svg { height: 22px; width: 22px; }
 .shell .space-switch {
   margin: 30px 0 22px;
@@ -103,9 +104,9 @@ body:has(.shell) :focus-visible {
 .shell .account-icon { width: 29px; height: 29px; color: var(--glacier); background: rgb(200 184 233 / 10%); }
 
 .shell .main-column {
-  background: rgb(36 37 34 / 68%);
-  border-radius: 0 14px 14px 0;
-  min-height: calc(100dvh - 114px);
+  background: #292925;
+  border-radius: 0;
+  min-height: 100dvh;
 }
 .shell .topbar {
   min-height: 54px;
@@ -114,6 +115,8 @@ body:has(.shell) :focus-visible {
   border-bottom-color: rgb(255 255 255 / 9%);
 }
 .shell .crumb { font-size: 11px; gap: 8px; color: #b4b1a8; }
+.shell .crumb a { display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; min-height: 38px; }
+.shell .crumb a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 .shell .crumb b { color: var(--ink); font-weight: 500; }
 .shell .header-actions { gap: 18px; }
 .shell .product-home-link { color: #bdb9ae; font-size: 10px; }
@@ -219,9 +222,8 @@ body:has(.shell) dialog h2 { font-size: 19px; font-weight: 500; }
 body:has(.shell) dialog .notice { background: rgb(237 178 126 / 8%); color: #e3d0b9; }
 
 @media (max-width: 1150px) and (min-width: 851px) {
-  .shell { width: calc(100% - 40px); margin: 28px auto; grid-template-columns: 190px minmax(0, 1fr); min-height: calc(100dvh - 56px); }
-  .shell .sidebar { top: 28px; height: calc(100dvh - 56px); padding-inline: 12px; }
-  .shell .main-column { min-height: calc(100dvh - 58px); }
+  .shell { grid-template-columns: 190px minmax(0, 1fr); }
+  .shell .sidebar { padding-inline: 12px; }
   .shell main, .shell .topbar { padding-inline: 20px; }
   .shell .overview-grid { grid-template-columns: minmax(0, 1fr); }
   .shell .try-panel { display: grid; grid-template-columns: 34px 1fr auto; align-items: center; gap: 0 14px; }
@@ -231,9 +233,8 @@ body:has(.shell) dialog .notice { background: rgb(237 178 126 / 8%); color: #e3d
 }
 
 @media (max-width: 850px) {
-  body:has(.shell) { background-attachment: scroll; }
-  .shell { display: block; width: calc(100% - 28px); margin: 14px auto; min-height: calc(100dvh - 28px); border-radius: 12px; }
-  .shell .sidebar { position: relative; top: auto; min-height: 0; height: auto; padding: 11px 18px; border-radius: 11px 11px 0 0; border-right: 0; border-bottom: 1px solid rgb(255 255 255 / 10%); }
+  .shell { display: block; }
+  .shell .sidebar { position: relative; top: auto; min-height: 0; height: auto; padding: 11px 18px; border-right: 0; border-bottom: 1px solid rgb(255 255 255 / 10%); }
   .shell .brand-row { padding: 0; }
   .shell .brand { font-size: 21px; }
   .shell .mobile-menu { color: #e6dfd2; }
@@ -242,7 +243,7 @@ body:has(.shell) dialog .notice { background: rgb(237 178 126 / 8%); color: #e3d
   .shell nav button { min-height: 44px; font-size: 13px; }
   .shell nav button.selected::before { left: -9px; }
   .shell .account { margin-top: 18px; }
-  .shell .main-column { border-radius: 0 0 11px 11px; min-height: calc(100dvh - 96px); }
+  .shell .main-column { min-height: calc(100dvh - 56px); }
   .shell .topbar { height: auto; min-height: 48px; padding: 7px 18px; }
   .shell main { padding: 22px 18px 30px; }
   .shell .page-intro { margin-bottom: 20px; }
@@ -254,7 +255,6 @@ body:has(.shell) dialog .notice { background: rgb(237 178 126 / 8%); color: #e3d
 }
 
 @media (max-width: 650px) {
-  .shell { width: calc(100% - 18px); margin: 9px auto; }
   .shell .topbar { padding-inline: 15px; }
   .shell main { padding: 20px 15px 30px; }
   .shell h1 { font-size: 27px; }

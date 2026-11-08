@@ -1,0 +1,487 @@
+[
+  {
+    "P": null,
+    "c": [
+      "",
+      "en"
+    ],
+    "q": "",
+    "i": false,
+    "f": [
+      [
+        [
+          "",
+          {
+            "children": [
+              [
+                "locale",
+                "en",
+                "d",
+                [
+                  "api"
+                ]
+              ],
+              {
+                "children": [
+                  "__PAGE__",
+                  {},
+                  "$undefined",
+                  "$undefined",
+                  4608
+                ]
+              },
+              "$undefined",
+              "$undefined",
+              4624
+            ]
+          },
+          "$undefined",
+          "$undefined",
+          4624
+        ],
+        [
+          [
+            "$",
+            "$1",
+            "c",
+            {
+              "children": [
+                null,
+                [
+                  "$",
+                  "$L2",
+                  null,
+                  {
+                    "parallelRouterKey": "children",
+                    "error": "$undefined",
+                    "errorStyles": "$undefined",
+                    "errorScripts": "$undefined",
+                    "template": [
+                      "$",
+                      "$L3",
+                      null,
+                      {}
+                    ],
+                    "templateStyles": "$undefined",
+                    "templateScripts": "$undefined",
+                    "notFound": [
+                      [
+                        [
+                          "$",
+                          "title",
+                          null,
+                          {
+                            "children": "404: This page could not be found."
+                          }
+                        ],
+                        [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "style": {
+                              "fontFamily": "system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"",
+                              "height": "100vh",
+                              "textAlign": "center",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "alignItems": "center",
+                              "justifyContent": "center"
+                            },
+                            "children": [
+                              "$",
+                              "div",
+                              null,
+                              {
+                                "children": [
+                                  [
+                                    "$",
+                                    "style",
+                                    null,
+                                    {
+                                      "dangerouslySetInnerHTML": {
+                                        "__html": "body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    "$",
+                                    "h1",
+                                    null,
+                                    {
+                                      "className": "next-error-h1",
+                                      "style": {
+                                        "display": "inline-block",
+                                        "margin": "0 20px 0 0",
+                                        "padding": "0 23px 0 0",
+                                        "fontSize": 24,
+                                        "fontWeight": 500,
+                                        "verticalAlign": "top",
+                                        "lineHeight": "49px"
+                                      },
+                                      "children": 404
+                                    }
+                                  ],
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "style": {
+                                        "display": "inline-block"
+                                      },
+                                      "children": [
+                                        "$",
+                                        "h2",
+                                        null,
+                                        {
+                                          "style": {
+                                            "fontSize": 14,
+                                            "fontWeight": 400,
+                                            "lineHeight": "49px",
+                                            "margin": 0
+                                          },
+                                          "children": "This page could not be found."
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      ],
+                      []
+                    ],
+                    "forbidden": "$undefined",
+                    "unauthorized": "$undefined"
+                  }
+                ]
+              ]
+            }
+          ],
+          {
+            "children": [
+              [
+                "$",
+                "$1",
+                "c",
+                {
+                  "children": [
+                    [
+                      [
+                        "$",
+                        "link",
+                        "0",
+                        {
+                          "rel": "stylesheet",
+                          "href": "/_next/static/immutable/chunks/0ohx_rvzvyh74.css",
+                          "precedence": "next",
+                          "crossOrigin": "$undefined",
+                          "nonce": "$undefined"
+                        }
+                      ],
+                      [
+                        "$",
+                        "script",
+                        "script-0",
+                        {
+                          "src": "/_next/static/immutable/chunks/2z1n0zdpc4pct.js",
+                          "async": true,
+                          "nonce": "$undefined"
+                        }
+                      ],
+                      [
+                        "$",
+                        "script",
+                        "script-1",
+                        {
+                          "src": "/_next/static/immutable/chunks/192r7f74wsz7j.js",
+                          "async": true,
+                          "nonce": "$undefined"
+                        }
+                      ]
+                    ],
+                    "$L4"
+                  ]
+                }
+              ],
+              {
+                "children": [
+                  [
+                    "$",
+                    "$1",
+                    "c",
+                    {
+                      "children": [
+                        "$L5",
+                        [
+                          [
+                            "$",
+                            "script",
+                            "script-0",
+                            {
+                              "src": "/_next/static/immutable/chunks/3y30nw-u13ztf.js",
+                              "async": true,
+                              "nonce": "$undefined"
+                            }
+                          ]
+                        ],
+                        [
+                          "$",
+                          "$L6",
+                          null,
+                          {
+                            "children": [
+                              "$",
+                              "$7",
+                              null,
+                              {
+                                "name": "Next.MetadataOutlet",
+                                "children": "$@8"
+                              }
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  {},
+                  null,
+                  false,
+                  null
+                ]
+              },
+              null,
+              false,
+              null
+            ]
+          },
+          null,
+          false,
+          "$9"
+        ],
+        [
+          "$",
+          "$1",
+          "h",
+          {
+            "children": [
+              null,
+              [
+                "$",
+                "$La",
+                null,
+                {
+                  "children": "$Lb"
+                }
+              ],
+              [
+                "$",
+                "div",
+                null,
+                {
+                  "hidden": true,
+                  "children": [
+                    "$",
+                    "$Lc",
+                    null,
+                    {
+                      "children": [
+                        "$",
+                        "$7",
+                        null,
+                        {
+                          "name": "Next.Metadata",
+                          "children": "$Ld"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              null
+            ]
+          }
+        ],
+        false
+      ]
+    ],
+    "m": "$undefined",
+    "G": [
+      "$e",
+      []
+    ],
+    "S": true,
+    "h": null,
+    "r": "$undefined",
+    "s": "$undefined",
+    "a": "$undefined",
+    "l": "$undefined",
+    "p": "$undefined",
+    "d": "$undefined"
+  },
+  {
+    "q": "Already have a team?",
+    "a": "BRING THEM"
+  },
+  {
+    "q": "Want to build solo?",
+    "a": "GO FOR IT",
+    "mobileQ": "Want to go solo?"
+  },
+  {
+    "q": "Looking for teammates?",
+    "a": "WE’LL HELP WITH MATCHING",
+    "mobileA": "WE’LL FIND A MATCH"
+  },
+  {
+    "q": "Who can apply?",
+    "a": "Business Cup 2.0 is open to Bachelor’s and Master’s students."
+  },
+  {
+    "q": "Do I need to be a developer?",
+    "a": "No.\n\nYou don’t need to come from a specific background or have a specific role. Different skills can contribute to building a strong product."
+  },
+  {
+    "q": "Do I need a team to apply?",
+    "a": "No.\n\nYou can apply:\n\n• with an existing team\n• solo\n• looking for a team"
+  },
+  {
+    "q": "How big can my team be?",
+    "a": "Teams can have 1–3 people.\n\nYou can participate solo, as a pair or as a team of three."
+  },
+  {
+    "q": "Can my teammates be from different universities?",
+    "a": "Yes.\n\nCross-university teams are welcome."
+  },
+  {
+    "q": "What if I don’t have a team?",
+    "a": "Apply anyway.\n\nIf you’re selected and looking for teammates, we’ll help with team matching before the hackathon."
+  },
+  {
+    "q": "Can I participate solo?",
+    "a": "Yes.\n\nYou can build on your own or request team matching."
+  },
+  {
+    "q": "When do applications close?",
+    "a": "Applications close on November 9, 2026.\n\nSpots are limited, so we recommend applying early."
+  },
+  {
+    "q": "How do I apply?",
+    "a": "Complete the application form and tell us how you want to participate:\n\n• with an existing team\n• solo\n• looking for a team"
+  },
+  {
+    "q": "What happens after I apply?",
+    "a": "We’ll review your application and let you know if you’ve been selected for Business Cup 2.0.\n\nSelected participants will receive an official invitation with the next steps."
+  },
+  {
+    "q": "How does selection work?",
+    "a": "Applications are reviewed on a rolling basis.\n\nYou don’t need to wait until the application deadline to hear from us."
+  },
+  {
+    "q": "When will I know if I’m in?",
+    "a": "Invitations are sent on a rolling basis as applications are reviewed."
+  },
+  {
+    "q": "How many teams will participate?",
+    "a": "Up to 100 teams will be invited to Business Cup 2.0."
+  },
+  {
+    "q": "If I already have a team, does everyone need to apply?",
+    "a": "Yes.\n\nRegistration is individual, so every team member needs to submit an application and indicate their team status in the form."
+  },
+  {
+    "q": "When and where is Business Cup 2.0?",
+    "a": "November 14–15, 2026\n\nNazarbayev University\nAstana, Kazakhstan"
+  },
+  {
+    "q": "Is Business Cup 2.0 online or offline?",
+    "a": "Fully offline.\n\nYou’ll need to be at Nazarbayev University in Astana for the hackathon."
+  },
+  {
+    "q": "How long is the hackathon?",
+    "a": "Business Cup 2.0 takes place over one weekend.\n\nThe actual build window is 24 hours — from the moment the case drops on Saturday until submissions close on Sunday."
+  },
+  {
+    "q": "What does Saturday look like?",
+    "a": "NOVEMBER 14\n\n10:00 — Check-in & Welcome Pack Pickup\n11:00–12:00 — Opening & Case Briefing\n12:00 — CASE DROP\n\nYour 24 hours start here."
+  },
+  {
+    "q": "What does Sunday look like?",
+    "a": "NOVEMBER 15\n\n12:00 — SUBMISSION DEADLINE\n12:00–15:00 — Jury Review & Top 10 Selection\n15:00–15:30 — Finalists Announcement\n15:30–16:30 — Finalists Check-in & Pitch Prep\n16:30–18:00 — TOP 10 LIVE PITCHES\n18:00–18:30 — Jury Deliberation\n18:30–19:00 — Awards Ceremony & Closing\n\nEach finalist gets:\n5 min pitch + 2 min Q&A\n\n₸5,000,000 is on the line."
+  },
+  {
+    "q": "Do we actually have 24 hours to build?",
+    "a": "Yes.\n\nThe case drops at 12:00 on November 14, and submissions close at 12:00 on November 15.\n\nHow your team organizes those 24 hours is up to you."
+  },
+  {
+    "q": "Do I need to prepare anything before the hackathon?",
+    "a": "You won’t receive the case in advance.\n\nCome ready to build."
+  },
+  {
+    "q": "What exactly will we build?",
+    "a": "Nice try.\n\nThe case drops on November 14.\n\nWhat we can tell you now: you’ll need to turn the challenge into a working digital product within 24 hours."
+  },
+  {
+    "q": "Will we know the case in advance?",
+    "a": "No.\n\nEveryone gets the case at the hackathon.\n\nThe clock starts from there."
+  },
+  {
+    "q": "Do we need to build a working product?",
+    "a": "Yes.\n\nBusiness Cup 2.0 goes beyond ideas and slides. By the submission deadline, your team needs to have a working digital product."
+  },
+  {
+    "q": "Is this a case competition or a hackathon?",
+    "a": "Business Cup 2.0 brings both together.\n\nYou get a case to solve — but instead of stopping at analysis and a presentation, you have 24 hours to turn your solution into a product."
+  },
+  {
+    "q": "What do we need to submit?",
+    "a": "A working digital product and the materials required for the final evaluation.\n\nDetailed submission requirements will be shared with participants before the hackathon."
+  },
+  {
+    "q": "How does the final work?",
+    "a": "After submissions close, the jury reviews the products and selects the Top 10 teams.\n\nThose teams advance to the live final."
+  },
+  {
+    "q": "How much time do finalists get?",
+    "a": "Each finalist gets:\n\n5 minutes to pitch\n\n2 minutes for jury Q&A"
+  },
+  {
+    "q": "Who will be on the jury?",
+    "a": "The jury will include Zimran leaders and product operators.\n\nThe final lineup will be announced separately."
+  },
+  {
+    "q": "How will the products be judged?",
+    "a": "The jury will evaluate both the working product and the final pitch.\n\nDetailed judging criteria will be shared with participants before the hackathon."
+  },
+  {
+    "q": "What is the prize pool?",
+    "a": "₸5,000,000\n\nThe total prize pool for Business Cup 2.0 is ₸5 million."
+  },
+  {
+    "q": "How many teams will win?",
+    "a": "There will be 1st, 2nd and 3rd place winners."
+  },
+  {
+    "q": "How will the ₸5,000,000 be split?",
+    "a": "The final prize distribution will be announced separately."
+  },
+  {
+    "q": "Is Business Cup 2.0 a hiring program?",
+    "a": "No.\n\nBusiness Cup 2.0 is a hackathon, not a hiring process."
+  },
+  {
+    "q": "Can Business Cup lead to opportunities at Zimran?",
+    "a": "Yes.\n\nStrong participants may be considered for relevant future opportunities at Zimran.\n\nParticipation itself does not guarantee employment."
+  },
+  {
+    "q": "What happens after Business Cup?",
+    "a": "For most participants, Business Cup ends after the final on November 15.\n\nFor standout participants, the conversation with Zimran may continue beyond the hackathon."
+  },
+  {
+    "q": "I still have a question. Who can I contact?",
+    "a": "tech@zimran.io"
+  }
+]

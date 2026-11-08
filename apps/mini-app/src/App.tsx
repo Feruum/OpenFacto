@@ -176,10 +176,10 @@ function App() {
     />
   )
   const brand = (
-    <div className="brand">
+    <a className="brand" href="/welcome" aria-label="Openfacto">
       <Mark />
       <span>Openfacto</span>
-    </div>
+    </a>
   )
   return (
     <div className="shell">
@@ -239,13 +239,16 @@ function App() {
       <div className="main-column">
         <header className="topbar">
           <div className="crumb">
-            <Building2 size={15} />
-            <span>{t('workspace')}</span>
+            <a href="/?view=overview" onClick={(e) => {
+              if (e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
+                e.preventDefault()
+                navigate('overview')
+              }
+            }}><Building2 size={15} /><span>{t('workspace')}</span></a>
             <ChevronRight size={13} />
             <b>{currentTitle}</b>
           </div>
           <div className="header-actions">
-            <a className="product-home-link" href="/welcome">{locale === 'kk' ? 'Өнім туралы' : locale === 'en' ? 'About Openfacto' : 'О продукте'} ↗</a>
             {session === null && (
               <button className="demo-pill" onClick={() => navigate('settings')}>
                 <i />

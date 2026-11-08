@@ -1,0 +1,12 @@
+burabay-okzhetpes-photo.jpg
+
+Original photograph by Dots foto, 14 July 2018:
+https://commons.wikimedia.org/wiki/File:Окжетпес_Бурабай.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The photograph is stored unmodified. The hero plots its geometry and luminance
+as a live point field in the OpenFacto aubergine / glacier / milk palette.
+Cloud sprites and a local blue reveal mask are rendered separately.
+The rendered visual adaptation is provided under CC BY-SA 4.0.
+This image license does not change the software's license.

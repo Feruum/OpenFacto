@@ -96,9 +96,8 @@ export function formatTelegramAnswer(result: Pick<Decision, 'answer' | 'language
     kk: { heading: 'Дереккөз:', page: (n: number) => `${n}-бет` },
     en: { heading: 'Source:', page: (n: number) => `p. ${n}` },
   }[result.language];
-  const important=/срок|дедлайн|сдава|команд|возраст|приз|критери|регламент|мерзім|тапсыр|жүлде|deadline|prize|criteria|rules/iu;
-  const displayed=result.sources.filter(s=>s.kind==='document'||important.test(s.title));
-  const citations = [...new Set(displayed.map(s => (s.kind==='faq'?'FAQ — ':'')+s.title + (s.page ? ' · ' + labels.page(s.page) : '')))];
+  const displayed=result.sources.filter(s=>s.kind==='document');
+  const citations = [...new Set(displayed.map(s => s.title + (s.page ? ' · ' + labels.page(s.page) : '')))];
   return result.answer + (citations.length ? '\n\n' + labels.heading + ' ' + citations.join('; ') : '');
 }
 
